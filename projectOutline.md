@@ -4,11 +4,11 @@
 
 ##Mandatory:
 
---Priority 0 :  Comments (guest and user) - Rate
---Priority 1: Instagram pictures (API)
---Priority 2: Weather
---Priority 3: ratings
---Priority 4: Get Dribbble design that you want page to look like(can use two if needed) Adopt structure, and be as 					close to it as possible.
+-Priority 0 :  Comments (guest and user) - Rate
+-Priority 1: Instagram pictures (API)
+-Priority 2: Weather
+-Priority 3: ratings
+-Priority 4: Get Dribbble design that you want page to look like(can use two if needed) Adopt structure, and be as 					close to it as possible.
 
 
 
