@@ -30,13 +30,15 @@ CREATE TABLE trail (
     length INT DEFAULT NULL,
     elevation_gain INT DEFAULT NULL,
     hashtag VARCHAR(255) NOT NULL,
-    is_featured TINYINT DEFAULT 0
+    is_featured TINYINT DEFAULT 0,
+    site_rating INT DEFAULT NULL
 );
 CREATE TABLE comment (
     comment_id int AUTO_INCREMENT PRIMARY KEY,
     trail_id int NOT NULL,
     user_id int NOT NULL,
-    comment_description TEXT DEFAULT NULL
+    comment_description TEXT DEFAULT NULL,
+    user_rating INT DEFAULT NULL
 );
 CREATE TABLE image (
 	image_id INT auto_increment PRIMARY KEY,
