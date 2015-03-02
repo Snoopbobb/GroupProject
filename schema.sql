@@ -29,7 +29,8 @@ CREATE TABLE trail (
     image_id INT DEFAULT NULL,
     length INT DEFAULT NULL,
     elevation_gain INT DEFAULT NULL,
-    hashtag VARCHAR(255) NOT NULL
+    hashtag VARCHAR(255) NOT NULL,
+    is_featured TINYINT DEFAULT 0
 );
 CREATE TABLE comment (
     comment_id int AUTO_INCREMENT PRIMARY KEY,
