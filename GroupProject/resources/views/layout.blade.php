@@ -5,9 +5,9 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="instafeed.js"></script>
-	<script src="main.js"></script>
-	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
+	<script src="{{ URL::asset('javascript/main.js') }}"></script>
+	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 </head>
 <body>
 	<div class="hero">
@@ -30,8 +30,6 @@
 							<div>3headertext3</div>
 							<div>3other txt3</div>
 						</div>
-						@section('breakouts')
-						@endsection
 					</div>
 					<span class="user-options">
 						small logo 
@@ -40,13 +38,15 @@
 				</nav>
 			</header>
 		</div>
+		@section('featured')
+		@endsection
 	</div>
 	
 	<main>
 		<div class="tagline">
 
 		@section('tagline')
-		@endsection
+		@show
 
 		</div>
 		<div class="browse-section">

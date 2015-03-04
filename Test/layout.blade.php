@@ -7,9 +7,7 @@
 	<script src="main.js"></script>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
-	<div class="hero">
+<div class="hero">
 		<div class="photo">
 			<header>
 				<nav>
@@ -46,37 +44,10 @@
 			<span>3featured3</span>
 			<span class="focus">
 				4featured4
+				<div>jhjk</div>
+				<div>jhjk</div>
+				<div>jhjk</div>
 			</span>
 			<span>5featured5</span>
 		</div>
 	</div>
-		<main>
-			<div class="tagline">this is a random tag line woooooooooo</div>
-			<div class="browse-section">
-				<div>
-					<span class="search">
-						<input type="text" placeholder="Search...">
-					</span>
-				</div>
-				
-			</div>
-		</main>
-		<footer>
-			<span class="logo-footer">
-				logo
-			</span>
-			<span class="about">
-				<a href="/">About Us</a>
-				<a href="/">FAQ</a>
-			</span>
-			<span class="social-logos">
-				<span>
-					logo
-				</span>
-				<span>
-					logo
-				</span>
-			</span>
-		</footer>
-</body>
-</html>
