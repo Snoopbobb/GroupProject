@@ -1,28 +1,25 @@
 @extends('layout')
 <div>
 @section('tagline')
-This is the Profile Page
-<div>Profile image</div>
-
 @stop
 </div>
 
 @section('main_content')
 <div class="profile-content">
 	<div>
-		<div>
+		<div class="inputs">
 		<form action=""></form>
 		First Name:<input type="text" name="first_name" value="first_name">
 		</div>
-		<div>
+		<div class="inputs">
 		Last Name:<input type="text" name="first_name" value="last_name">
 		</div>
-		<div>
+		<div class="inputs">
 		Email:<input type="text" name="first_name" value="email">
 		</div>
-		<div>Username: <span>user_name</span>
+		<div class="inputs">Username: <span>user_name</span>
 		</div>
-		<div>Gender: 
+		<div class="inputs">Gender: 
 			<select name="gender">
 				<option>Female</option>
 				<option>Male</option>
@@ -30,7 +27,9 @@ This is the Profile Page
 		</div>
 	</div>
 	<div class="profile-photo">
-		this photo will be on right side .profile-content > div will float left
+		<div>
+		this photo will be on right side 
+		</div>
 	</div>
 </div>
 

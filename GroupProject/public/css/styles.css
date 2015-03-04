@@ -72,6 +72,10 @@ nav {
 	background-size: cover;
 }
 
+/*****************************
+featured CSS
+*****************************/
+
 .featured {
 	background-color: rgba(0,0,0,0,0);
 	position: absolute;
@@ -117,6 +121,11 @@ main > div {
 	text-align: center;
 }
 
+
+/*****************************
+Tagline CSS
+*****************************/
+
 .tagline {
 	text-align: center;
 	position: relative;
@@ -156,10 +165,46 @@ main > div {
     text-align: center;
 }
 
+/*****************************
+main_content CSS
+*****************************/
+
 .browse-section {
-	height: 500px;
+	min-height: 500px;
 	background-color: #ddd;
 }
+
+.profile-content {
+	background-color: red;
+	min-height: 300px;
+	padding: 5px;
+}
+
+.profile-content::after {
+	content: '';
+	display: block;
+	clear: both
+}
+
+.profile-content > div:first-child {
+	background-color: yellow;
+	float: left;
+	width: 600px;
+	min-height: 400px
+}
+
+.profile-content .inputs {
+	background-color: purple;
+	height: 50px;
+	width: 100px
+}
+
+
+
+
+/*****************************
+Footer CSS
+*****************************/
 
 footer {
 	height: 100px;
