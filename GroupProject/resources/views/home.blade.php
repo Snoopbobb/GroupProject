@@ -1,7 +1,6 @@
 @extends('layout')
 
 
-
 @section('featured')
 <div class="featured">
 	<span>
@@ -37,20 +36,32 @@
 			</div>
 		</div>
 	</span>
+	<span class="focus">
+		<div>
+			<div class="thumbnail">4featured4</div>
+			<div class="info">
+				<h1>The supps</h1>
+				<div>**Weather**</div>
+				<div>*some other random data</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio. Consectetur cum in officia sapiente repudiandae dolores, architecto doloribus perferendis, natus cupiditate ipsum!</p>
+			</div>
+		</div>
+	</span>
+	<span>5featured5</span>
 </div>
-@endsection
-
-@section('tagline')
-<div>Helloo</div>
 @stop
 
-@section('main_content')
-<div>
-This is home
+@section('tagline')
+	<h3>this is a random tag line woooooooooo</h3>
 	<div>
-		<span class="search">
+		<span>Browse</span>
+		<span class="selected">Search</span>
+	</div>
+@stop
+@section('main_content')
+	<div>
+		<span class="search chosen">
 			<input type="text" placeholder="Search...">
 		</span>
 	</div>
-</div>
-@endsection
+@stop
