@@ -280,7 +280,7 @@ Tiles
 	bottom: 20px;
 	left: 20px;
 	height: 300px;
-	width: 800px;
+	width: 700px;
 }
 .tile_3 {
 	background-color: yellow;
@@ -288,7 +288,7 @@ Tiles
 	top: 20px;
 	left: 380px;
 	height: 195px;
-	width: 800px;
+	width: 700px;
 }
 .tile_4 {
 	background-color: yellow;
@@ -296,13 +296,13 @@ Tiles
 	top: 225px;
 	left: 380px;
 	height: 195px;
-	width: 440px;
+	width: 340px;
 }
 .tile_5 {
 	background-color: yellow;
 	position: absolute;
 	top: 225px;
-	left: 830px;
+	left: 730px;
 	height: 505px;
 	width: 350px;
 }
@@ -310,7 +310,7 @@ Tiles
 	background-color: yellow;
 	position: absolute;
 	top: 20px;
-	left: 1190px;
+	left: 1090px;
 	height: 400px;
 	width: 390px;
 }
@@ -318,7 +318,7 @@ Tiles
 	background-color: yellow;
 	position: absolute;
 	top: 430px;
-	left: 1190px;
+	left: 1090px;
 	height: 300px;
 	width: 390px;
 }
