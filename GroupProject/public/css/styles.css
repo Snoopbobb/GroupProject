@@ -1,0 +1,151 @@
+nav {
+	background-color: rgba(20,20,20,0);
+	text-align: center;
+	height: 100px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	font-size: 36pt;
+	background-color: #777;
+}
+
+.options  {
+	text-align: center;
+	padding-top: 30px;
+	background-color: rgba(0,0,0,0,0);
+	height: 100px;
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	color: #bbb;
+}
+
+.options:hover {
+	background-color: rgba(255,255,255,.1);
+}
+
+.options div {
+	padding: 5px;
+}
+
+.options div:first-child {
+	border-bottom: 1px solid #bbb;
+	margin: 5px;
+	padding: 5px;
+}
+
+.user-options {
+	font-size: 26pt;
+	background-color: #777;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+
+.hero {
+	height: 750px;
+	position: relative;
+}
+
+.photo {
+	height: 600px;
+	background-image: url('SuppHDR.jpg');
+	background-size: cover;
+}
+
+.featured {
+	background-color: rgba(0,0,0,0,0);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+.featured span {
+	background-color: magenta;
+	height: 150px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.info {
+	display: none;
+}
+
+.info div {
+	padding: 22px;
+	border-bottom: 1px solid #bbb;
+}
+
+.focus > div{
+	transform: translateY(-200px);
+}
+
+/*.focus::after {
+	content: '';
+	clear: both;
+	display: block;
+}*/
+
+.focus .info {
+	display: block;
+}
+
+.focus .thumbnail {
+	display: none;
+}
+
+main > div {
+	text-align: center;
+}
+
+.tagline {
+	text-align: center;
+	position: relative;
+}
+
+.tagline > div {
+	position: absolute;
+	bottom: 0;
+}
+
+.search input[type=text] {
+	margin-top: 15px;
+	border: 1px solid #eee;
+	border-radius: 20px;
+    height: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.browse-section {
+	height: 500px;
+	background-color: #ddd;
+}
+
+footer {
+	height: 100px;
+	text-align: center;	
+	position: relative;
+}
+
+.logo-footer {
+	position: absolute;
+	left: 10px;
+	bottom: 30px;
+	font-size: 36pt;
+	background-color: #777;
+}
+
+.social-logos {
+	position: absolute;
+	right: 10px;
+	bottom: 30px;
+}

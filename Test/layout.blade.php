@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="instafeed.js"></script>
 	<script src="main.js"></script>
-	<link rel="stylesheet" href="/public/css/styles.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-	<div class="hero">
+<div class="hero">
 		<div class="photo">
 			<header>
 				<nav>
 					<span class="logo">
-						<a href="/">Logo</a>
+						logo
 					</span>
 					<div>
 						<div class="options">
@@ -30,8 +27,7 @@
 							<div>3headertext3</div>
 							<div>3other txt3</div>
 						</div>
-						@section('breakouts')
-						@endsection
+
 					</div>
 					<span class="user-options">
 						small logo 
@@ -39,41 +35,19 @@
 					</span>
 				</nav>
 			</header>
+
+		</div>
+		<div id="instafeed"></div>
+		<div class="featured">
+			<span>1featured1</span>
+			<span>2featured2</span>
+			<span>3featured3</span>
+			<span class="focus">
+				4featured4
+				<div>jhjk</div>
+				<div>jhjk</div>
+				<div>jhjk</div>
+			</span>
+			<span>5featured5</span>
 		</div>
 	</div>
-	
-	<main>
-		<div class="tagline">
-
-		@section('tagline')
-		@endsection
-
-		</div>
-		<div class="browse-section">
-			
-		@yield('main_content')
-
-		</div>
-
-	</main>
-
-	<footer>
-		<span class="logo-footer">
-			logo
-		</span>
-		<span class="about">
-			<a href="/">About Us</a>
-			<a href="/">FAQ</a>
-		</span>
-		<span class="social-logos">
-			<span>
-				logo
-			</span>
-			<span>
-				logo
-			</span>
-		</span>
-	</footer>
-
-</body>
-</html>
