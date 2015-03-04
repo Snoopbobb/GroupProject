@@ -61,6 +61,10 @@ nav {
 	background-size: cover;
 }
 
+/*****************************
+featured CSS
+*****************************/
+
 .featured {
 	background-color: rgba(0,0,0,0,0);
 	position: absolute;
@@ -106,6 +110,11 @@ main > div {
 	text-align: center;
 }
 
+
+/*****************************
+Tagline CSS
+*****************************/
+
 .tagline {
 	text-align: center;
 	position: relative;
@@ -145,10 +154,19 @@ main > div {
     text-align: center;
 }
 
+/*****************************
+main_content CSS
+*****************************/
+
 .browse-section {
 	height: 500px;
 	background-color: #ddd;
 }
+
+
+/*****************************
+Footer CSS
+*****************************/
 
 footer {
 	height: 100px;

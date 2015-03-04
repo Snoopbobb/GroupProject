@@ -1,9 +1,6 @@
 @extends('layout')
 <div>
 @section('tagline')
-This is the Profile Page
-<div>Profile image</div>
-
 @stop
 </div>
 
