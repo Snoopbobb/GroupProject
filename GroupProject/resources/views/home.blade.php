@@ -54,14 +54,17 @@
 @section('tagline')
 	<h3>this is a random tag line woooooooooo</h3>
 	<div>
-		<span>Browse</span>
-		<span class="selected">Search</span>
+		<span class="selected">Browse</span>
+		<span>Search</span>
 	</div>
 @stop
 @section('main_content')
 	<div>
-		<span class="search chosen">
+		<span class="search">
 			<input type="text" placeholder="Search...">
 		</span>
+	</div>
+	<div class="browse-tiles">
+		
 	</div>
 @stop
