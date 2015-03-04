@@ -310,15 +310,15 @@ Tiles
 	background-color: yellow;
 	position: absolute;
 	top: 20px;
-	right: 20px;
+	left: 1190px;
 	height: 400px;
 	width: 390px;
 }
 .tile_7 {
 	background-color: yellow;
 	position: absolute;
-	bottom: 20px;
-	right: 20px;
+	top: 430px;
+	left: 1190px;
 	height: 300px;
 	width: 390px;
 }
