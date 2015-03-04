@@ -33,8 +33,8 @@
 						</div>
 					</div>
 					<span class="user-options">
-						<i class="fa fa-sign-in"></i>
-						<i class="fa fa-cogs"></i> 
+						<a href="/login"><i href="" class="fa fa-sign-in"></i></a>
+						<a href="/profile"><i class="fa fa-cogs"> </i></a>
 					</span>
 				</nav>
 			</header>
