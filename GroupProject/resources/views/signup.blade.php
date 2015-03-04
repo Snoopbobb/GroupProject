@@ -1,3 +1,51 @@
 @extends('layout')
+<div>
+@section('tagline')
+Join our Community!
+@stop
+</div>
 
-@section('')
+@section('main_content')
+<div class="profile-content">
+	<div>
+		<form>
+			<div class="signup">
+				<div class="inputs">
+					First Name:<input type="text" name="first_name" placeholder="first_name">
+				</div>
+				<div class="inputs">
+					Last Name:<input type="text" name="first_name" placeholder="last_name">
+				</div>
+				<div class="inputs">
+					Email:<input type="text" name="first_name" placeholder="email">
+				</div>
+				<div class="inputs">
+					Username: <input type="text" name="username" placeholder="username">
+				</div>
+				<div class="inputs">
+					Gender: 
+					<select name="gender">
+						<option>Gender</option>
+						<option>Female</option>
+						<option>Male</option>
+					</select>
+				</div>
+				<div class="inputs">
+					Password: <input type="text" name="password" placeholder="password">
+				</div>
+			</div>
+			<div class="signup-button">
+				<button>Sign up!</button>
+			</div>
+		</form>
+	</div>
+	<div class="profile-photo">
+		<div>
+		<div class="image">
+		this photo will be on right side 
+		</div>
+		</div>
+	</div>
+</div>
+
+@stop
