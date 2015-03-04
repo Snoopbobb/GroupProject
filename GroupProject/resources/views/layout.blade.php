@@ -8,6 +8,7 @@
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
+	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
 </head>
 <body>
 	<div class="hero">
@@ -32,8 +33,8 @@
 						</div>
 					</div>
 					<span class="user-options">
-						small logo 
-						small logo 
+						<i class="fa fa-sign-in"></i>
+						<i class="fa fa-cogs"></i> 
 					</span>
 				</nav>
 			</header>
@@ -67,12 +68,9 @@
 			<a href="/">FAQ</a>
 		</span>
 		<span class="social-logos">
-			<span>
-				logo
-			</span>
-			<span>
-				logo
-			</span>
+			<i class="fa fa-instagram fa-3x"></i>
+			<i class="fa fa-facebook-official fa-3x"></i>
+			<i class="fa fa-twitter fa-3x"></i>
 		</span>
 	</footer>
 
