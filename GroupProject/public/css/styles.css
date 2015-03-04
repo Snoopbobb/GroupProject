@@ -184,8 +184,9 @@ main_content CSS
 
 .profile-content .inputs {
 	background-color: purple;
-	height: 50px;
-	width: 100px
+	height: 60px;
+	width: 200px;
+	margin: 2px;
 }
 
 
