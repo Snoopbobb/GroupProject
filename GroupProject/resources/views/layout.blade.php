@@ -7,7 +7,7 @@
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="instafeed.js"></script>
 	<script src="main.js"></script>
-	<link rel="stylesheet" href="/public/css/styles.css">
+	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 </head>
 <body>
 	<div class="hero">
