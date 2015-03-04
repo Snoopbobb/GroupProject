@@ -51,6 +51,7 @@ Goes Right - walk through the website:
 
 
 Goes Wrong - error messages/ redirection:
+
 	1. Sign up page
 		- redirection to page
 		- highlight invalid forms
