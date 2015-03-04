@@ -38,19 +38,21 @@
 					</span>
 				</nav>
 			</header>
+			<div class="title">
+				@section('title')
+				@show
+			</div>
 		</div>
-		@section('featured')
-		@show
 
 	</div>
-	
+	<div class="blah">
+		@section('featured')
+		@show
+	</div>
 	<main>
-		<div class="tagline">
 
 		@section('tagline')
 		@show
-
-		</div>
 		<div class="browse-section">
 			
 		@yield('main_content')

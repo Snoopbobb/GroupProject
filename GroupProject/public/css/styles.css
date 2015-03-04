@@ -73,7 +73,7 @@ nav {
 }
 
 .hero {
-	height: 700px;
+	height: 550px;
 	position: relative;
 }
 
@@ -81,6 +81,13 @@ nav {
 	height: 550px;
 	background-image: url('images/SuppHDR.jpg');
 	background-size: cover;
+}
+
+.title {
+
+	position: absolute;
+	left: 10%;
+	top: 60%;
 }
 
 /*****************************
@@ -111,6 +118,14 @@ footer {
 	right: 50px;
 	bottom: 30px;
 }
+.blah {
+	position: relative;
+	display: block;
+}
+
+main {
+	position: relative;
+}
 
 /*====================================================================================================================
 /*========================================================= Home Page CSS ============================================
@@ -122,12 +137,13 @@ featured
 
 .featured {
 	background-color: rgba(0,0,0,0,0);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
 }
 
+.blah::after {
+	content: '';
+	display: block;
+	clear: both;
+}
 
 .featured span {
 	background-color: magenta;

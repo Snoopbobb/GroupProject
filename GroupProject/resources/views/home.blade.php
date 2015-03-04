@@ -52,11 +52,13 @@
 @stop
 
 @section('tagline')
+<div class="tagline">
 	<h3>this is a random tag line woooooooooo</h3>
 	<div>
 		<span class="selected">Browse</span>
 		<span>Search</span>
 	</div>
+</div>
 @stop
 @section('main_content')
 	<div>
@@ -72,5 +74,4 @@
 		<div class="tile_5">kjjkhkjdsf</div>
 		<div class="tile_6">kjjkhkjdsf</div>
 		<div class="tile_7">kjjkhkjdsf</div>
-
 @stop
