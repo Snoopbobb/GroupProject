@@ -217,8 +217,8 @@ Browse and Main Content
 	min-height: 450px;
 	background-color: #ddd;
 	position: relative;
+	overflow: hidden
 }
-
 .profile-content {
 	background-color: red;
 	min-height: 500px;
