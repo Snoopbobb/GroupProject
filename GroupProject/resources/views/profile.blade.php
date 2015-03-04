@@ -1,13 +1,17 @@
 @extends('layout')
-
+<div>
 @section('tagline')
 This is the Profile Page
+<div>Profile image</div>
+
 @stop
+</div>
 
 @section('main_content')
 <div class="profile-content">
 	<div>
 		<div>
+		<form action=""></form>
 		First Name:<input type="text" name="first_name" value="first_name">
 		</div>
 		<div>
