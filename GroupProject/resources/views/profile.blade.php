@@ -5,7 +5,7 @@
 </div>
 
 @section('main_content')
-<div class="profile-content">
+<div class="main-content">
 	<div>
 		<div class="inputs">
 		<form action=""></form>

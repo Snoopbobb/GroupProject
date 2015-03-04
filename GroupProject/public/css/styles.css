@@ -236,23 +236,28 @@ Browse and Main Content
 	position: relative;
 
 }
-.profile-content {
+
+
+/*****************************
+profile page
+*****************************/
+.main-content {
 	background-color: red;
 	min-height: 500px;
 	padding: 5px;
 	text-align: center;
 	position: absolute;
-	transform: translateY(-60%);
+	transform: translateY(-15%);
 	margin-left: 50;
 }
 
-.profile-content::after {
+.main-content::after {
 	content: '';
 	display: block;
 	clear: both
 }
 
-.profile-content > div:first-child {
+.main-content > div:first-child {
 	background-color: yellow;
 	float: left;
 	width: 600px;
@@ -260,13 +265,13 @@ Browse and Main Content
 	min-height: 400px;
 }
 
-.profile-content .inputs {
+.main-content .inputs {
 	background-color: purple;
 	height: 60px;
 	width: 300px;
-	margin: 2px;
-	margin:0 auto;
-	text-align: left; 
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 10px;
 }
 
 .profile-photo {
@@ -282,7 +287,22 @@ Browse and Main Content
 	width: 90px;
 	height: 100px;
 	margin: 0 auto;
+	transform: translateY(100%);
 }
+
+/*****************************
+Signup Page
+*****************************/
+/*.signup {
+	background-color: white;
+	width: 700px;
+	min-height: 400px;
+	margin-left: 600px;
+	margin-top: 40;
+}*/
+
+
+
 
 /*****************************
 Tiles

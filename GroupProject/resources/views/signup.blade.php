@@ -6,7 +6,7 @@ Join our Community!
 </div>
 
 @section('main_content')
-<div class="profile-content">
+<div class="main-content">
 	<div>
 		<form>
 			<div class="signup">
