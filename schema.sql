@@ -17,7 +17,7 @@ CREATE TABLE mountain (
     description TEXT DEFAULT NULL,
     image_id INT NOT NULL,
     crossroads VARCHAR(255) NOT NULL,
-    GPS VARCHAR(255) DEFAULT NULL,
+    gps VARCHAR(255) DEFAULT NULL,
     elevation INT DEFAULT NULL
 );
 CREATE TABLE trail (
@@ -25,7 +25,7 @@ CREATE TABLE trail (
     mountain_id INT NOT NULL,
     name VARCHAR(255) NOT NULL,
     description TEXT DEFAULT NULL,
-    GPS VARCHAR(255) DEFAULT NULL,
+    gps VARCHAR(255) DEFAULT NULL,
     image_id INT DEFAULT NULL,
     length INT DEFAULT NULL,
     elevation_gain INT DEFAULT NULL,
@@ -44,6 +44,11 @@ CREATE TABLE image (
 	image_id INT auto_increment PRIMARY KEY,
 	image_path VARCHAR(255) DEFAULT NULL
 );
+CREATE TABLE trail_image (
+    image_id INT PRIMARY KEY,
+    trail_id INT,
+    primary TINYINT DEFAULT 0
+)
 CREATE TABLE weather (
     weather_id INT AUTO_INCREMENT PRIMARY KEY,
     week_number INT,
@@ -67,15 +72,15 @@ INSERT INTO user (first_name, last_name, username, password, email, gender)
 INSERT INTO user (first_name, last_name, username, password, email, gender)
     VALUES ('Scott', 'Kessinger', 'Scottie2Hottie', 'password', 'S@K.com', 'male');
 
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Beardsley Mountiain', 'More of a boulder pile than conventional mountiain just north of the 101 on Cave Creek. Home to more rock climbers than hikers', 1, 'Cave Creek Blvd & Loop 101', '560', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Camelback', 'A small but steep mountain in the heart of Scottsdale. very busy most weekend days', 2, 'Tatum & McDonald', '2706', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Dreamy Draw / Piestewa Peak Park', 'A very large park with dozens of trails. Almost as many bikers as hikers, and one of the best views in all of Phoenix', 3, 'Northern and SR-51', '2612', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Lookout Mountain Preserve', 'A small park and mountain in the north valley. watch out for bees in the summer.', 4, "N 16th St. & E Greenway PKWY", '2054', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Mcdowell Mountain Preserve', 'A description', 5, 'E Shea Blvd & Mcdowell Mountain Rd.', '4057', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('North Mountain', 'A description', 6, '7th St. & Thunderbird Rd.', '2104', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('South Mountain', 'A description', 7, 'S 48th St. & S Pointe Pkwy', '2660', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Shaw Butte', 'A description', 8, 'Central Ave. & Thunderbird Rd.', '2149', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, GPS) VALUES ('Shadow Mountain', 'A description', 9, 'Thunderbird & 32nd St.', '1928', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Beardsley Mountiain', 'More of a boulder pile than conventional mountiain just north of the 101 on Cave Creek. Home to more rock climbers than hikers', 1, 'Cave Creek Blvd & Loop 101', '560', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Camelback', 'A small but steep mountain in the heart of Scottsdale. very busy most weekend days', 2, 'Tatum & McDonald', '2706', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Dreamy Draw / Piestewa Peak Park', 'A very large park with dozens of trails. Almost as many bikers as hikers, and one of the best views in all of Phoenix', 3, 'Northern and SR-51', '2612', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Lookout Mountain Preserve', 'A small park and mountain in the north valley. watch out for bees in the summer.', 4, "N 16th St. & E Greenway PKWY", '2054', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Mcdowell Mountain Preserve', 'A description', 5, 'E Shea Blvd & Mcdowell Mountain Rd.', '4057', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('North Mountain', 'A description', 6, '7th St. & Thunderbird Rd.', '2104', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('South Mountain', 'A description', 7, 'S 48th St. & S Pointe Pkwy', '2660', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shaw Butte', 'A description', 8, 'Central Ave. & Thunderbird Rd.', '2149', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shadow Mountain', 'A description', 9, 'Thunderbird & 32nd St.', '1928', '');
 
 
 
