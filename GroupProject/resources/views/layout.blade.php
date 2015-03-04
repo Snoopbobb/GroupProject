@@ -20,8 +20,8 @@
 					</span>
 					<div>
 						<div class="options">
-							<div>headertext</div>
-							<div>other txt</div>
+							<div>Browse All</div>
+							<div>See All The Mountains</div>
 						</div>
 						<div class="options">
 							<div>2headertext2</div>

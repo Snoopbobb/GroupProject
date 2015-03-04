@@ -23,7 +23,7 @@ nav {
 
 .options  {
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 5px;
 	background-color: rgba(0,0,0,0,0);
 	height: 100px;
 	width: 200px;
@@ -37,13 +37,20 @@ nav {
 }
 
 .options div {
-	padding: 5px;
+	padding: 10px;
 }
 
 .options div:first-child {
 	border-bottom: 1px solid #bbb;
 	margin: 5px;
-	padding: 5px;
+	/*padding: 5px;*/
+	color: orange;
+	font-size: 18px;
+}
+
+.options div:last-child {
+	margin: 5px;
+	font-size: 12px;
 }
 
 .user-options {
@@ -51,7 +58,7 @@ nav {
 	color: white;
 	position: absolute;
 	right: 50px;
-	top: 40px;
+	top: 30px;
 }
 
 .hero {
