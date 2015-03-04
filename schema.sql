@@ -47,8 +47,8 @@ CREATE TABLE image (
 CREATE TABLE trail_image (
     image_id INT PRIMARY KEY,
     trail_id INT,
-    is_primary TINYINT DEFAULT 0
-)
+    `primary` TINYINT DEFAULT 0
+);
 CREATE TABLE weather (
     weather_id INT AUTO_INCREMENT PRIMARY KEY,
     week_number INT,

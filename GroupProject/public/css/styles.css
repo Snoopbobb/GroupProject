@@ -222,6 +222,8 @@ Browse and Main Content
 	background-color: red;
 	min-height: 300px;
 	padding: 5px;
+	position: relative;
+	text-align: center;
 }
 
 .profile-content::after {
@@ -240,8 +242,24 @@ Browse and Main Content
 .profile-content .inputs {
 	background-color: purple;
 	height: 60px;
-	width: 200px;
+	width: 300px;
 	margin: 2px;
+	margin:0 auto;
+	text-align: left; 
+}
+
+.profile-photo {
+	background-color: white;
+	width: 700px;
+	min-height: 400px;
+	margin-left: 600px;
+}
+
+.profile-photo > div{
+	background-color: green;
+	width: 90px;
+	height: 100px;
+	margin: 0 auto;
 }
 
 /*****************************
