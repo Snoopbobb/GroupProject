@@ -123,6 +123,12 @@ footer {
 	display: block;
 }
 
+.blah::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 main {
 	position: relative;
 }
@@ -139,11 +145,6 @@ featured
 	background-color: rgba(0,0,0,0,0);
 }
 
-.blah::after {
-	content: '';
-	display: block;
-	clear: both;
-}
 
 .featured span {
 	background-color: magenta;
@@ -159,7 +160,7 @@ featured
 }
 
 .info div {
-	padding: 15px;
+	padding: 25px;
 	border-bottom: 1px solid #bbb;
 }
 
