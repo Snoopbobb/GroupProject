@@ -28,7 +28,9 @@
 	</div>
 	<div class="profile-photo">
 		<div>
+		<div class="image">
 		this photo will be on right side 
+		</div>
 		</div>
 	</div>
 </div>
