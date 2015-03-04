@@ -1,8 +1,7 @@
 <?php
 
-Route::get('/', 'HomeController@index');
+Route::get('/', function(){
+	return view('home');
+});
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+

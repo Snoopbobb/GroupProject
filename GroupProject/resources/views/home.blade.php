@@ -1,17 +1,30 @@
-@extends('app')
+@extends('layout')
 
-@section('content')
-<div class="container">
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="panel panel-default">
-				<div class="panel-heading">Home</div>
 
-				<div class="panel-body">
-					You are logged in!
-				</div>
-			</div>
+
+@section('breakouts')
+		<div class="featured">
+			<span>1featured1</span>
+			<span>2featured2</span>
+			<span>3featured3</span>
+			<span class="focus">
+				4featured4
+				<div>jhjk</div>
+				<div>jhjk</div>
+				<div>jhjk</div>
+			</span>
+			<span>5featured5</span>
 		</div>
-	</div>
-</div>
 @endsection
+
+@section('tagline')
+<div>Helloo</div>
+@endsection
+
+@section('main_content')
+<div>This is home</div>
+@endsection
+
+
+
+
