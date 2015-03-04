@@ -30,8 +30,6 @@
 							<div>3headertext3</div>
 							<div>3other txt3</div>
 						</div>
-						@section('breakouts')
-						@endsection
 					</div>
 					<span class="user-options">
 						small logo 
@@ -40,13 +38,15 @@
 				</nav>
 			</header>
 		</div>
+		@section('featured')
+		@endsection
 	</div>
 	
 	<main>
 		<div class="tagline">
 
 		@section('tagline')
-		@endsection
+		@show
 
 		</div>
 		<div class="browse-section">

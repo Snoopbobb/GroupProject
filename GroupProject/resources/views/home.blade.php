@@ -2,7 +2,7 @@
 
 
 
-@section('breakouts')
+@section('featured')
 		<div class="featured">
 			<span>1featured1</span>
 			<span>2featured2</span>
@@ -19,7 +19,7 @@
 
 @section('tagline')
 <div>Helloo</div>
-@endsection
+@stop
 
 @section('main_content')
 <div>This is home</div>
