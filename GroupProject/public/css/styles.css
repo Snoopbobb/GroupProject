@@ -214,10 +214,10 @@ Browse and Main Content
 *****************************/
 
 .browse-section {
-	min-height: 450px;
+	min-height: 750px;
 	background-color: #ddd;
 	position: relative;
-	overflow: hidden
+
 }
 .profile-content {
 	background-color: red;
