@@ -5,8 +5,8 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="instafeed.js"></script>
-	<script src="main.js"></script>
+	<script type="text/javascript" src="{{ URL::asset('resources/assets/instafeed.min.js'); }}"></script>
+	<script src="{{ URL::asset('resources/assets/main.js'); }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 </head>
 <body>
