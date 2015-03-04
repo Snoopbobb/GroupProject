@@ -73,12 +73,12 @@ nav {
 }
 
 .hero {
-	height: 750px;
+	height: 700px;
 	position: relative;
 }
 
 .photo {
-	height: 600px;
+	height: 550px;
 	background-image: url('images/SuppHDR.jpg');
 	background-size: cover;
 }
@@ -143,7 +143,7 @@ featured
 }
 
 .info div {
-	padding: 25px;
+	padding: 15px;
 	border-bottom: 1px solid #bbb;
 }
 
@@ -151,6 +151,7 @@ featured
 	background-color: red;
 	position: absolute;
 	bottom: 0;
+	height: 250%;
 }
 
 .focus .info {

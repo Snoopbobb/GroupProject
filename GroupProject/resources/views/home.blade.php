@@ -43,7 +43,7 @@
 				<h1>The supps</h1>
 				<div>**Weather**</div>
 				<div>*some other random data</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio. Consectetur cum in officia sapiente repudiandae dolores, architecto doloribus perferendis, natus cupiditate ipsum!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio.</p>
 			</div>
 		</div>
 	</span>
