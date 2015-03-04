@@ -39,7 +39,8 @@
 			</header>
 		</div>
 		@section('featured')
-		@endsection
+		@show
+
 	</div>
 	
 	<main>
