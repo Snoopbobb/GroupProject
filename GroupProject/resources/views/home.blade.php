@@ -64,7 +64,13 @@
 			<input type="text" placeholder="Search...">
 		</span>
 	</div>
-	<div class="browse-tiles">
-		
-	</div>
+
+		<div class="tile_1">kjjkhkjdsf</div>
+		<div class="tile_2">kjjkhkjdsf</div>
+		<div class="tile_3">kjjkhkjdsf</div>
+		<div class="tile_4">kjjkhkjdsf</div>
+		<div class="tile_5">kjjkhkjdsf</div>
+		<div class="tile_6">kjjkhkjdsf</div>
+		<div class="tile_7">kjjkhkjdsf</div>
+
 @stop

@@ -213,8 +213,9 @@ Browse and Main Content
 *****************************/
 
 .browse-section {
-	min-height: 500px;
+	min-height: 750px;
 	background-color: #ddd;
+	position: relative;
 }
 
 .profile-content {
@@ -241,6 +242,67 @@ Browse and Main Content
 	height: 60px;
 	width: 200px;
 	margin: 2px;
+}
+
+/*****************************
+Tiles
+*****************************/
+
+.tile_1 {
+	background-color: yellow;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 400px;
+	width: 350px;
+}
+.tile_2 {
+	background-color: yellow;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	height: 300px;
+	width: 800px;
+}
+.tile_3 {
+	background-color: yellow;
+	position: absolute;
+	top: 20px;
+	left: 380px;
+	height: 195px;
+	width: 800px;
+}
+.tile_4 {
+	background-color: yellow;
+	position: absolute;
+	top: 225px;
+	left: 380px;
+	height: 195px;
+	width: 440px;
+}
+.tile_5 {
+	background-color: yellow;
+	position: absolute;
+	top: 225px;
+	left: 830px;
+	height: 505px;
+	width: 350px;
+}
+.tile_6 {
+	background-color: yellow;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 400px;
+	width: 390px;
+}
+.tile_7 {
+	background-color: yellow;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	height: 300px;
+	width: 390px;
 }
 
 /*======================================================================================================================
