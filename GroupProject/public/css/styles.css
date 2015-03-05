@@ -297,14 +297,13 @@ Signup Page
 	background-color: yellow;
 	float: left;
 	width: 600px;
-	margin-top: 40px;
 	min-height: 400px
 }
 
 .signup-button {
 	background-color: white;
 	width: 700px;
-	min-height: 400px;
+	min-height: 420px;
 	margin-left: 600px;
 	margin-top: 40px
 }
