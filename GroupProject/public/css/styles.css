@@ -254,7 +254,7 @@ profile page
 	text-align: center;
 	position: absolute;
 	transform: translateY(-15%);
-	margin-left: 50;
+	margin-left: 50px;
 }
 
 .main-content::after {
@@ -299,13 +299,29 @@ profile page
 /*****************************
 Signup Page
 *****************************/
-/*.signup {
+.main-content form > div:first-child {
+	background-color: yellow;
+	float: left;
+	width: 600px;
+	min-height: 400px
+}
+
+.signup-button {
 	background-color: white;
 	width: 700px;
-	min-height: 400px;
+	min-height: 420px;
 	margin-left: 600px;
-	margin-top: 40;
-}*/
+	margin-top: 40px
+}
+
+.signup-button > button {
+	background-color: green;
+	width: 90px;
+	height: 100px;
+	margin: 0 auto;
+	transform: translateY(100%)
+
+}
 
 
 
