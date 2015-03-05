@@ -189,6 +189,17 @@ main > div {
 	text-align: center;
 }
 
+
+/******
+Featured in signup page
+******/
+
+.alert-danger {
+	background-color: purple;
+}
+
+
+
 /*****************************
 Tagline and Search
 *****************************/
