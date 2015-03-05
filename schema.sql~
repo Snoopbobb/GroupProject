@@ -9,9 +9,6 @@ CREATE TABLE user (
     password VARCHAR(64) NOT NULL,
     email VARCHAR(255) NOT NULL,
     gender VARCHAR(50) NOT NULL,
-    remember_token varchar(255),
-    created_at datetime,
-    updated_at datetime,
     image_id INT DEFAULT NULL
 );
 CREATE TABLE mountain (

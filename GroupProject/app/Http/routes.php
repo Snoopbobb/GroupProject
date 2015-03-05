@@ -4,13 +4,18 @@ Route::get('/', function(){
 	return view('home');
 });
 
+Route::get('/home', function(){
+	return redirect('/');
+});
+
 Route::get('/profile', function(){
 	return view('profile');
 });
 
-Route::get('/signup', function(){
-	return view('signup');
-});
+// Route::get('/signup', function(){
+// 	return view('signup');
+// });
+
 
 //Mountains
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
