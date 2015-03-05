@@ -10,6 +10,10 @@ i {
 	margin-right:10px;
 }
 
+.displayNone {
+	display: none;
+}
+
 /***************************************
 Header and Navbar
 ****************************************/
@@ -216,13 +220,13 @@ Tagline and Search
 	border-bottom: 3px solid orange;
 }
 
-.search {
+/*.search {
 	display: none;
-}
+}*/
 
-.search.chosen {
+/*.search.chosen {
 	display: block;
-}
+}*/
 
 .search input[type=text] {
 	margin-top: 15px;

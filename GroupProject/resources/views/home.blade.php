@@ -70,11 +70,11 @@
 @stop
 @section('main_content')
 	<div>
-		<span class="search">
+		<span class="search displayNone">
 			<input type="text" placeholder="Search...">
 		</span>
 	</div>
-
+	<div class="tiles">
 		<div class="tile_1">kjjkhkjdsf</div>
 		<div class="tile_2">kjjkhkjdsf</div>
 		<div class="tile_3">kjjkhkjdsf</div>
@@ -82,4 +82,5 @@
 		<div class="tile_5">kjjkhkjdsf</div>
 		<div class="tile_6">kjjkhkjdsf</div>
 		<div class="tile_7">kjjkhkjdsf</div>
+	</div>
 @stop

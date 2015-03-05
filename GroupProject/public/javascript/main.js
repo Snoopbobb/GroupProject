@@ -13,5 +13,16 @@ $(document).ready(function() {
 		$(this).addClass('focus');
 	});
 
+	$('.tagline span').on('click', function(){
+		$('.selected').removeClass('selected');
+		$(this).addClass('selected');
+		if ($(this).text() == 'Search') {
+			$('.search').removeClass('displayNone');
+			$('.tiles').addClass('displayNone');
+		} else {
+			$('.search').addClass('displayNone');
+			$('.tiles').removeClass('displayNone');
+		}
+	});
 
 });
