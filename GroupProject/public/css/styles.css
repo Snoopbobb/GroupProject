@@ -295,6 +295,14 @@ profile page
 	margin-top: 10px;
 }
 
+.main-content .inputs input {
+	margin-left: 100px; 
+}
+
+.save-or-cancel .non-label-text{
+	text-indent: 7%;
+}
+
 .profile-photo {
 	background-color: white;
 	width: 700px;
@@ -310,6 +318,7 @@ profile page
 	margin: 0 auto;
 	transform: translateY(100%);
 }
+
 
 /*****************************
 Signup Page
