@@ -1,5 +1,10 @@
 @extends('layout')
 
+@section('title')
+<h1>Signup With Us!</h1>
+<div>Please fill out these forms to signup!</div>
+@stop
+
 @section('tagline')
 <div></div>
 @stop

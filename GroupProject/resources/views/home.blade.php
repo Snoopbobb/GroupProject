@@ -1,5 +1,10 @@
 @extends('layout')
 
+@section('title')
+<h1>Home Page</h1>
+<div>this is a home page yo</div>
+@stop
+
 
 @section('featured')
 <div class="featured">

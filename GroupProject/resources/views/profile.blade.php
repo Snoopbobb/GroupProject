@@ -1,4 +1,10 @@
 @extends('layout')
+
+@section('title')
+<h1>View / Edit Profile</h1>
+<div>Here is your profile info!</div>
+@stop
+
 <div>
 @section('tagline')
 @stop

@@ -21,3 +21,9 @@ Route::get('/Mountains/{mountain_id}', 'MountainController@getMountain($mountain
 // Route::get('/Trails/{mountain_id}', 'TrailController@getAll($mountain_id)');
 Route::get('/Trails/', 'TrailController@getAll');
 Route::get('/Trails/{mountain_id}/{trail_id}', 'TrailController@getTrail($mountain_id, $trail_id)');
+
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
