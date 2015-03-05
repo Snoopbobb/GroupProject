@@ -12,6 +12,7 @@ Route::get('/signup', function(){
 	return view('signup');
 });
 
+
 //Mountains
 Route::get('/Mountains', 'MountainController@getAll');
 Route::get('/Mountains/{mountain_id}', 'MountainController@getMountain($mountain_id)');
