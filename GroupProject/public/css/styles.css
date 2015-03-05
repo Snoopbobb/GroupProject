@@ -295,6 +295,10 @@ profile page
 	margin-top: 10px;
 }
 
+.main-content .inputs:last-child {
+	margin-bottom: 10px;
+}
+
 .profile-photo {
 	background-color: white;
 	width: 700px;
@@ -329,7 +333,7 @@ Signup Page
 	margin-top: 40px
 }
 
-.signup-button > button {
+.signup-button button {
 	background-color: green;
 	width: 90px;
 	height: 100px;
