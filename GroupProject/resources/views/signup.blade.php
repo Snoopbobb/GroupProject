@@ -1,9 +1,9 @@
 @extends('layout')
-<div>
+
 @section('tagline')
-Join our Community!
+<div></div>
 @stop
-</div>
+
 
 @section('main_content')
 <div class="main-content">
