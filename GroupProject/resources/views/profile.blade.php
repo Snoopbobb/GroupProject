@@ -15,29 +15,29 @@
 	<form action="">
 		<div>
 				<div class="inputs">
-					<span="label">First Name: </span>
+					<label>First Name: </label>
 					<input type="text" name="first_name" value="first_name">
 				</div>
 				<div class="inputs">
-					<span="label">Last Name: </span>
+					<label>Last Name: </label>
 					<input type="text" name="first_name" value="last_name">
 				</div>
 				<div class="inputs">
-					<span="label">Email: </span>
+					<label>Email: </label>
 					<input type="text" name="first_name" value="email">
 				</div>
 				<div class="inputs">
-					<span="label">Username:</span> <span="non-label-text">user_name</span>
+					<label>Username:</label> <label><span class="non-label-text">user_name</span></label>
 				</div>
-				<div class="inputs">Gender: 
+				<div class="inputs"><label>Gender: </label>
 					<select name="gender">
 						<option>Female</option>
 						<option>Male</option>
 					</select>
 				</div>
-				<div="save-or-cancel">
+				<div class="save-or-cancel">
 					<button>Save Changes</button>
-					<span="non-label-text"><a href="/profile/">Cancel</a></span>
+					<span class="non-label-text"><a href="/profile/">Cancel</a></span>
 				</div>
 		</div>
 	</form>

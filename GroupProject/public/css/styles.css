@@ -295,12 +295,32 @@ profile page
 	margin-top: 10px;
 }
 
-.main-content .inputs input {
-	margin-left: 100px; 
+label {
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	width: 90px;
+	margin-top:inherit;
 }
 
-.save-or-cancel .non-label-text{
-	text-indent: 7%;
+.main-content .inputs input, select {
+	margin-top:inherit; 
+}
+
+.save-or-cancel {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.main-content button {
+	float:left;
+	margin-left: 2em;
+}
+
+.non-label-text {
+	font-weight: bold;
+	margin-top: inherit;
 }
 
 .main-content .inputs:last-child {
