@@ -267,6 +267,7 @@ main {
 	min-height: 750px;
 	background-color: #ddd;
 	position: relative;
+	text-align: center;
 
 }
 
@@ -434,6 +435,99 @@ Tiles
 }
 
 /*======================================================================================================================
-/*================================================ Mountains and Trails  =================================
+/*================================================ Mountains and Trails  ===============================================
 /*======================================================================================================================*/
 
+.trail_tiles {
+	margin-left: auto;
+}
+
+.trail_tile_1 {
+	background-color: teal;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	height: 300px;
+	width: 250px;
+}
+
+.trail_tile_2 {
+	background-color: teal;
+	position: absolute;
+	left: 20px;
+	top: 330px;
+	height: 250px;
+	width: 250px;
+}
+
+.trail_tile_3 {
+	background-color: teal;
+	position: absolute;
+	left: 280px;
+	top: 20px;
+	height: 200px;
+	width: 250px;
+}
+
+.trail_tile_4 {
+	background-color: teal;
+	position: absolute;
+	left: 280px;
+	top: 230px;
+	height: 350px;
+	width: 250px;
+}
+
+.trail_tile_5 {
+	background-color: teal;
+	position: absolute;
+	left: 540px;
+	top: 20px;
+	height: 300px;
+	width: 200px;
+}
+
+.trail_tile_6 {
+	background-color: teal;
+	position: absolute;
+	left: 540px;
+	top: 330px;
+	height: 250px;
+	width: 200px;
+}
+
+.trail_tile_7 {
+	background-color: teal;
+	position: absolute;
+	left: 750px;
+	top: 20px;
+	height: 200px;
+	width: 410px;
+}
+
+.trail_tile_8 {
+	background-color: teal;
+	position: absolute;
+	left: 750px;
+	top: 230px;
+	height: 350px;
+	width: 200px;
+}
+
+.trail_tile_9 {
+	background-color: teal;
+	position: absolute;
+	left: 960px;
+	top: 230px;
+	height: 170px;
+	width: 200px;
+}
+
+.trail_tile_10 {
+	background-color: teal;
+	position: absolute;
+	left: 960px;
+	top: 410px;
+	height: 170px;
+	width: 200px;
+}
