@@ -32,7 +32,7 @@
 	<span>
 		<div>
 			<div class="thumbnail">
-				<h3>The Mountains</h3>
+				<h3>The Stuff & Things</h3>
 			</div>
 			<div class="info">
 				<h1>The stuff things</h1>
@@ -45,7 +45,7 @@
 	<span class="focus">
 		<div>
 			<div class="thumbnail">
-				<h3>The Mountains</h3>
+				<h3>The Supps</h3>
 			</div>
 			<div class="info">
 				<h1>The supps</h1>
@@ -75,12 +75,12 @@
 		</span>
 	</div>
 	<div class="tiles">
-		<div class="tile_1">kjjkhkjdsf</div>
-		<div class="tile_2">kjjkhkjdsf</div>
-		<div class="tile_3">kjjkhkjdsf</div>
-		<div class="tile_4">kjjkhkjdsf</div>
-		<div class="tile_5">kjjkhkjdsf</div>
-		<div class="tile_6">kjjkhkjdsf</div>
-		<div class="tile_7">kjjkhkjdsf</div>
+		<a href="/Mountains/2"><div class="tile_1">CamelBack</div></a>
+		<a href="/Mountains/6"><div class="tile_2">North Mountain</div></a>
+		<a href="/Mountains/7"><div class="tile_3">South Moutain</div></a>
+		<a href="/Mountains/5"><div class="tile_4">McDowell Mountains</div></a>
+		<a href="/Mountains/9"><div class="tile_5">Shadow Mountain</div></a>
+		<a href="/Mountains/4"><div class="tile_6">Lookout Mountain</div></a>
+		<a href="/Mountains/3"><div class="tile_7">Dreamy Draw / Piestewa Peak</div></a>
 	</div>
 @stop

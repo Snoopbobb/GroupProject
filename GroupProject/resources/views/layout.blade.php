@@ -19,7 +19,7 @@
 						<a href="/">Logo</a>
 					</span>
 					<div>
-						<div class="options">
+						<div class="options browse">
 							<div>Browse All</div>
 							<div>See All The Mountains</div>
 						</div>
@@ -33,6 +33,7 @@
 						</div>
 					</div>
 					<span class="user-options">
+						<a href="/signup"><i class="fa fa-pencil-square-o"></i></a>
 						<a href="/login"><i href="" class="fa fa-sign-in"></i></a>
 						<a href="/profile"><i class="fa fa-cogs"> </i></a>
 					</span>

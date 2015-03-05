@@ -8,10 +8,30 @@ $(document).ready(function() {
 		});
 	feed.run();
 
+	//================================================================
+	// Header
+	//================================================================
+
+	$('.options.browse').on('click', function() {
+		if (top.location.pathname === '/') {
+			$("html, body").animate({ scrollTop: 715 }, "slow");
+		} else {
+			window.location.href = "/Mountains";
+		}
+	});
+
+	//================================================================
+	// Featured
+	//================================================================
+
 	$('.featured span').on('click', function(){
 		$('.focus').removeClass('focus');
 		$(this).addClass('focus');
 	});
+
+	//================================================================
+	// Browse Homepage
+	//================================================================
 
 	$('.tagline span').on('click', function(){
 		$('.selected').removeClass('selected');
@@ -24,5 +44,6 @@ $(document).ready(function() {
 			$('.tiles').removeClass('displayNone');
 		}
 	});
+
 
 });

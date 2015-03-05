@@ -13,6 +13,11 @@ i {
 .displayNone {
 	display: none;
 }
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
 
 /***************************************
 Header and Navbar

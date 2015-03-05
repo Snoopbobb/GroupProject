@@ -12,15 +12,7 @@ Route::get('/signup', function(){
 	return view('signup');
 });
 
-
-
 //Mountains
-// Route::get('/Camelback', 'MountainController@Camelback');
-// Route::get('/NorthMountain', 'MountainController@NorthMountain');
-// Route::get('/SouthMountain', 'MountainController@SouthMountain');
-// Route::get('/McdowellMountains', 'MountainController@McdowellMountains');
-// Route::get('/ShadowMountain', 'MountainController@ShadowMountain');
-// Route::get('/LookoutMountain', 'MountainController@LookoutMountain');
 Route::get('/Mountains', 'MountainController@getAll');
 Route::get('/Mountains/{mountain_id}', 'MountainController@getMountain($mountain_id)');
 
