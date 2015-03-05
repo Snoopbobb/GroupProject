@@ -293,13 +293,30 @@ profile page
 /*****************************
 Signup Page
 *****************************/
-/*.signup {
+.main-content form > div:first-child {
+	background-color: yellow;
+	float: left;
+	width: 600px;
+	margin-top: 40px;
+	min-height: 400px
+}
+
+.signup-button {
 	background-color: white;
 	width: 700px;
 	min-height: 400px;
 	margin-left: 600px;
-	margin-top: 40;
-}*/
+	margin-top: 40px
+}
+
+.signup-button > button {
+	background-color: green;
+	width: 90px;
+	height: 100px;
+	margin: 0 auto;
+	transform: translateY(100%)
+
+}
 
 
 

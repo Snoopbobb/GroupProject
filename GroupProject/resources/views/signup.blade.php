@@ -7,9 +7,8 @@ Join our Community!
 
 @section('main_content')
 <div class="main-content">
-	<div>
 		<form>
-			<div class="signup">
+			<div>
 				<div class="inputs">
 					First Name:<input type="text" name="first_name" placeholder="first_name">
 				</div>
@@ -39,13 +38,6 @@ Join our Community!
 			</div>
 		</form>
 	</div>
-	<div class="profile-photo">
-		<div>
-		<div class="image">
-		this photo will be on right side 
-		</div>
-		</div>
-	</div>
-</div>
+	
 
 @stop
