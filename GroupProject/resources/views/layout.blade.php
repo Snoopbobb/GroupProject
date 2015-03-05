@@ -33,7 +33,7 @@
 						</div>
 					</div>
 					<span class="user-options">
-						<a href="/signup"><i class="fa fa-pencil-square-o"></i></a>
+						<a href="/auth/register"><i class="fa fa-pencil-square-o"></i></a>
 						<a href="/auth/login"><i href="" class="fa fa-sign-in"></i></a>
 						<a href="/profile"><i class="fa fa-cogs"> </i></a>
 					</span>
