@@ -29,7 +29,7 @@
 						</div>
 						<div class="options ">
 							<div>3headertext3</div>
-							<div>3other txt3</div>
+							<div><a href="{{ url('/auth/logout') }}">3other txt3</a></div>
 						</div>
 					</div>
 					<span class="user-options">
