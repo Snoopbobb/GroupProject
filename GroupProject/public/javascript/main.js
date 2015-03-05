@@ -7,4 +7,11 @@ $(document).ready(function() {
 			template: '<img src={{image}}>'
 		});
 	feed.run();
+
+	$('.featured span').on('click', function(){
+		$('.focus').removeClass('focus');
+		$(this).addClass('focus');
+	});
+
+
 });

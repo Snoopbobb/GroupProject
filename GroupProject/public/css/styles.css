@@ -95,6 +95,7 @@ Footer CSS
 *****************************/
 
 footer {
+	background-color: orange;
 	height: 100px;
 	text-align: center;	
 	position: relative;
@@ -145,7 +146,6 @@ featured
 	background-color: rgba(0,0,0,0,0);
 }
 
-
 .featured span {
 	background-color: magenta;
 	height: 150px;
@@ -162,6 +162,12 @@ featured
 .info div {
 	padding: 25px;
 	border-bottom: 1px solid #bbb;
+}
+
+.thumbnail {
+	position: absolute;
+	bottom: 50%;
+	left: 25%;
 }
 
 .focus > div{
@@ -188,6 +194,7 @@ Tagline and Search
 *****************************/
 
 .tagline {
+	background-color: blue;
 	text-align: center;
 	position: relative;
 	min-height: 80px;
@@ -236,7 +243,6 @@ Browse and Main Content
 	position: relative;
 
 }
-
 
 /*****************************
 profile page

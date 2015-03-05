@@ -5,7 +5,9 @@
 <div class="featured">
 	<span>
 		<div>
-			<div class="thumbnail">1featured1</div>
+			<div class="thumbnail">
+				<h3>The Mountains</h3>
+			</div>
 			<div class="info">
 				<h1>The mountains</h1>
 				<div>**Weather**</div>
@@ -16,7 +18,9 @@
 	</span>
 	<span>
 		<div>
-			<div class="thumbnail">2featured2</div>
+			<div class="thumbnail">
+				<h3>The Other Place</h3>
+			</div>
 			<div class="info">
 				<h1>The other place</h1>
 				<div>**Weather**</div>
@@ -27,7 +31,9 @@
 	</span>
 	<span>
 		<div>
-			<div class="thumbnail">3featured3</div>
+			<div class="thumbnail">
+				<h3>The Mountains</h3>
+			</div>
 			<div class="info">
 				<h1>The stuff things</h1>
 				<div>**Weather**</div>
@@ -38,7 +44,9 @@
 	</span>
 	<span class="focus">
 		<div>
-			<div class="thumbnail">4featured4</div>
+			<div class="thumbnail">
+				<h3>The Mountains</h3>
+			</div>
 			<div class="info">
 				<h1>The supps</h1>
 				<div>**Weather**</div>
