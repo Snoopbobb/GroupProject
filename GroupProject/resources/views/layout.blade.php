@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
@@ -34,7 +34,7 @@
 					</div>
 					<span class="user-options">
 						<a href="/signup"><i class="fa fa-pencil-square-o"></i></a>
-						<a href="/login"><i href="" class="fa fa-sign-in"></i></a>
+						<a href="/auth/login"><i href="" class="fa fa-sign-in"></i></a>
 						<a href="/profile"><i class="fa fa-cogs"> </i></a>
 					</span>
 				</nav>
@@ -64,7 +64,7 @@
 
 	<footer>
 		<span class="logo-footer">
-			logo
+			<a href="/">logo</a>
 		</span>
 		<span class="about">
 			<a href="/">About Us</a>
