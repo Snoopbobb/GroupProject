@@ -16,7 +16,7 @@ $(document).ready(function() {
 		if (top.location.pathname === '/') {
 			$("html, body").animate({ scrollTop: 715 }, "slow");
 		} else {
-			window.location.href = "/Mountains";
+			window.location.href = "/";
 		}
 	});
 
@@ -44,6 +44,8 @@ $(document).ready(function() {
 			$('.tiles').removeClass('displayNone');
 		}
 	});
+
+	if () {};
 
 
 });

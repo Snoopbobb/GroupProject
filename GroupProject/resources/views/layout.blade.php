@@ -23,19 +23,19 @@
 							<div>Browse All</div>
 							<div>See All The Mountains</div>
 						</div>
-						<div class="options">
-							<div>2headertext2</div>
-							<div>2other txt2</div>
+						<div class="options suggest">
+							<div>Suggest A Trail</div>
+							<div>Send Us What You Wanna See</div>
 						</div>
-						<div class="options">
+						<div class="options ">
 							<div>3headertext3</div>
 							<div>3other txt3</div>
 						</div>
 					</div>
 					<span class="user-options">
-						<a href="/auth/register"><i class="fa fa-pencil-square-o"></i></a>
-						<a href="/auth/login"><i href="" class="fa fa-sign-in"></i></a>
-						<a href="/profile"><i class="fa fa-cogs"> </i></a>
+						<a href="/auth/register" title="Signup"><i class="fa fa-pencil-square-o"></i></a>
+						<a href="/auth/login" title="Login"><i href="" class="fa fa-sign-in"></i></a>
+						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs"> </i></a>
 					</span>
 				</nav>
 			</header>
