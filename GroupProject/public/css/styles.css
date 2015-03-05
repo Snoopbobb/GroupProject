@@ -346,7 +346,8 @@ Tiles
 *****************************/
 
 .tile_1 {
-	background-color: yellow;
+	background-image: url('images/Camelback/Sunset_tile.jpg');
+	background-size: cover;
 	position: absolute;
 	top: 20px;
 	left: 20px;
@@ -354,7 +355,8 @@ Tiles
 	width: 350px;
 }
 .tile_2 {
-	background-color: yellow;
+	background-image: url('images/McDowellMountains/McDowell_tile.jpg');
+	background-size: cover;
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
@@ -362,7 +364,8 @@ Tiles
 	width: 700px;
 }
 .tile_3 {
-	background-color: yellow;
+	background-image: url('images/SouthMountain/SouthMTN_tile.jpg');
+	background-size: cover;
 	position: absolute;
 	top: 20px;
 	left: 380px;
@@ -370,7 +373,8 @@ Tiles
 	width: 700px;
 }
 .tile_4 {
-	background-color: yellow;
+	background-image: url('images/NorthMountain/NorthMTN_tile.jpg');
+	background-size: cover;
 	position: absolute;
 	top: 225px;
 	left: 380px;
@@ -378,7 +382,8 @@ Tiles
 	width: 340px;
 }
 .tile_5 {
-	background-color: yellow;
+	background-image: url('images/Camelback/Sunset.jpg');
+	background-size: cover;
 	position: absolute;
 	top: 225px;
 	left: 730px;
@@ -386,7 +391,8 @@ Tiles
 	width: 350px;
 }
 .tile_6 {
-	background-color: yellow;
+	background-image: url('images/ShadowMountain/ShadowMTN_tile.jpg');
+	background-size: cover;
 	position: absolute;
 	top: 20px;
 	left: 1090px;
@@ -394,7 +400,8 @@ Tiles
 	width: 390px;
 }
 .tile_7 {
-	background-color: yellow;
+	background-image: url('images/DreamyDraw/PiestewaPeak_tile.jpg');
+	background-size: cover;
 	position: absolute;
 	top: 430px;
 	left: 1090px;
