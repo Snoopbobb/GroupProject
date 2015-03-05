@@ -30,7 +30,7 @@ $(document).ready(function() {
 	});
 
 	//================================================================
-	// Browse Homepage
+	// Browse and Searches
 	//================================================================
 
 	$('.tagline span').on('click', function(){
@@ -39,13 +39,19 @@ $(document).ready(function() {
 		if ($(this).text() == 'Search') {
 			$('.search').removeClass('displayNone');
 			$('.tiles').addClass('displayNone');
-		} else {
+		} else if ($(this).text() == 'Browse') {
 			$('.search').addClass('displayNone');
 			$('.tiles').removeClass('displayNone');
+		} else if ($(this).text() == 'See All') {
+			$('.trail_tiles').addClass('displayNone');
+			$('.seeAll').removeClass('displayNone');
+		} else if ($(this).text() == 'Top 10') {
+			$('.seeAll').addClass('displayNone');
+			$('.trail_tiles').removeClass('displayNone');		
 		}
 	});
 
-	if () {};
+
 
 
 });

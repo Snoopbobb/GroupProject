@@ -12,6 +12,7 @@ Route::get('/profile', function(){
 	return view('profile');
 });
 
+
 // Route::get('/signup', function(){
 // 	return view('signup');
 // });
