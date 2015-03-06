@@ -363,6 +363,14 @@ Signup Page
 
 }
 
+.head-error {
+	background-color: yellow;
+}
+
+.main-error {
+	background-color: orange;
+}
+
 
 
 
