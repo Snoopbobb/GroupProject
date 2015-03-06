@@ -19,6 +19,9 @@ $(document).ready(function() {
 			window.location.href = "/";
 		}
 	});
+	$('.options.suggest').on('click', function() {
+		window.location.href = "/suggest";
+	});
 
 	//================================================================
 	// Featured
@@ -50,6 +53,6 @@ $(document).ready(function() {
 			$('.trail_tiles').removeClass('displayNone');		
 		}
 	});
-	
+
 
 });
