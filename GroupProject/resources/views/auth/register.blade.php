@@ -3,8 +3,8 @@
 	@section('main_content')
 		<div class="main-content">
 				@if(count($errors) > 0)
-					<span>Whoops!</span>
-					<div>There were some problems with your input.</div>
+					<span class="head-error">Whoops!</span>
+					<div class="main-error">There were some problems with your input.</div>
 				@endif
 			<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/register') }}">
 				<div>
