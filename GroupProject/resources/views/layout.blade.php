@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="hero">
-		<div class="photo">
+		<div class="photo" style="background-image: url(<?php if(isset($imageURL)){echo $imageURL;}{echo '/css/images/Sup2HDR.jpg';} ?>)">
 			<header>
 				<nav>
 					<span class="logo">
@@ -35,7 +35,7 @@
 					<span class="user-options">
 						@if(Auth::guest())
 						<a href="/auth/register" title="Signup"><i class="fa fa-pencil-square-o"></i></a>
-						<a href="/auth/login" title="Login"><i href="" class="fa fa-sign-in"></i></a>
+						<a href="/auth/login" title="Login"><i class="fa fa-sign-in"></i></a>
 						@else
 						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs"> </i></a>
 						<div><a href="{{ url('/auth/logout') }}">Logout</a></div>

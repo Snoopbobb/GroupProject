@@ -88,7 +88,7 @@ nav {
 
 .photo {
 	height: 550px;
-	background-image: url('images/Sup2HDR.jpg');
+	/*background-image: url('images/Sup2HDR.jpg'); */
 	background-size: cover;
 }
 

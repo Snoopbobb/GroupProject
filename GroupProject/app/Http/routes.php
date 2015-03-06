@@ -1,6 +1,7 @@
 <?php
 
 Route::get('/', function(){
+	// $imageURL = 'css/images/Sup2HDR.jpg';
 	return view('home');
 });
 
