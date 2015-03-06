@@ -1,10 +1,16 @@
 @extends('layout')
 
 	@section('main_content')
+	<?php $my_errors = []; ?>
 		<div class="main-content">
 				@if(count($errors) > 0)
-					<span>Whoops!</span>
-					<div>There were some problems with your input.</div>
+					<span class="head-error">Whoops!</span>
+					<div class="main-error">There were some problems with your input.</div>
+					 <?php
+						foreach($errors->keys() as $key) {
+							$my_errors[$key] = $errors->get($key)[0];
+						}
+					?>
 				@endif
 			<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/register') }}">
 				<div>
@@ -15,9 +21,9 @@
 						<div class="col-md-6">
 							<input type="text" class="form-control" name="first_name" value="{{ old('first_name') }}"> 
 
-							@if(count($errors) > 0 && $errors->getBag('default')->has('first_name'))
-
-							{{$errors->getBag('default')->get('first_name')[0]}}
+							@if(isset($my_errors['first_name']))
+							
+								{{$my_errors['first_name']}}
 
 							@endif
 

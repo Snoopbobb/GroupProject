@@ -79,14 +79,24 @@ INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) V
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Camelback', 'A small but steep mountain in the heart of Scottsdale. very busy most weekend days', 2, 'Tatum & McDonald', '2706', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Dreamy Draw / Piestewa Peak Park', 'A very large park with dozens of trails. Almost as many bikers as hikers, and one of the best views in all of Phoenix', 3, 'Northern and SR-51', '2612', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Lookout Mountain Preserve', 'A small park and mountain in the north valley. watch out for bees in the summer.', 4, "N 16th St. & E Greenway PKWY", '2054', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Mcdowell Mountain Preserve', 'A description', 5, 'E Shea Blvd & Mcdowell Mountain Rd.', '4057', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('North Mountain', 'A description', 6, '7th St. & Thunderbird Rd.', '2104', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('South Mountain', 'A description', 7, 'S 48th St. & S Pointe Pkwy', '2660', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shaw Butte', 'A description', 8, 'Central Ave. & Thunderbird Rd.', '2149', '');
-INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shadow Mountain', 'A description', 9, 'Thunderbird & 32nd St.', '1928', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Mcdowell Mountain Preserve', 'A long range of mountains in Norht Scottsdale that has tons of long hikes, tons of steep hike, and both!', 5, 'E Shea Blvd & Mcdowell Mountain Rd.', '4057', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('North Mountain', 'a small but central mountain that offers an amazing view of north Phoenix', 6, '7th St. & Thunderbird Rd.', '2104', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('South Mountain', 'This is another very long park that has lots and lots of long hikes, as well as a bunch of mountain biking trails.', 7, 'S 48th St. & S Pointe Pkwy', '2660', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shaw Butte', 'Another of the "Big Seven" that is inside Narth Mountain Park', 8, 'Central Ave. & Thunderbird Rd.', '2149', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shadow Mountain', 'A small but steep littl mountain in paradise valley that has one of the very best summit views of the city.', 9, 'Thunderbird & 32nd St.', '1928', '');
 
 
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (2, 10, 'Echo Canyon Trail', 'One of the most traveled trails in the state, Echo Canyon trail is a solid hike with an even more solid view', '12144', '1300', '#EchoCanyonHTZ');
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 11, "Piestewa Peak Circumference Trail", "A pretty sort of famiy hike, with not a lot of elevation gain or change. Hike up about 300 ft to the trail split, and then around the mountain and back down.", "16268", "400", "#PiestewaCircHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 12, "Piestewa Peak Summit Trail", "A steep and taxing hike, with over 1000 ft elevation gain in just a mile. One of the very best views of Phoenix", "5808", "1100", "#PiestewaSummitHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 13, "Perl Charles Memorial Trail", "a long beautiful hike that the whole family can enjoy", "25344", "860", "#PerlCharlesHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 14, "Quartz Ridge Trail", "Short but sweet trail right throught the heart of the park", "8976", "500", "#QuartzRidgeHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 15, "Ruth Hamilton Trail", "a classic thats been around for ages", "4752", "430", "#RuthHamiltonHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 16, "Mohave Connector Trail", "a little short but a great way to get to the other side of the park", "7920", "200", "#MohaveConnectorHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 17, "Freedom Trail", "Another long but classic hike that runs through the whole of the park", "19536", "720", "#FreedomTrailHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 18, "Charles M. Christiansen Memorial Trail", "one of the longest trails in Dreamy Draw", "56496", "790", "#ChristiansenMemorialHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 19, "Nature Trail", "A standard quick nature hike", "7920", "80", "#PiestewaSummitHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 20, "Perl Charles Memorial Trail", "Another standard family hike that has a great view of the city", "13200", "220", "#LVYatesHTZ");
+
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (4, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "#TomsThumbHTZ");
