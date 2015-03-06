@@ -33,9 +33,13 @@
 						</div>
 					</div>
 					<span class="user-options">
+						@if(Auth::guest())
 						<a href="/auth/register" title="Signup"><i class="fa fa-pencil-square-o"></i></a>
 						<a href="/auth/login" title="Login"><i class="fa fa-sign-in"></i></a>
+						@else
 						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs"> </i></a>
+						<div><a href="{{ url('/auth/logout') }}">Logout</a></div>
+						@endif
 					</span>
 				</nav>
 			</header>
