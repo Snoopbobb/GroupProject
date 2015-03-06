@@ -7,5 +7,5 @@ use App\Models\Model;
 
 class Trail extends Model {
 	protected static $table = 'trail';
-	protected static $key = 'mountain_id';
+	protected static $key = 'trail_id';
 }
