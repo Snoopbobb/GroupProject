@@ -20,19 +20,32 @@
 
 @section('main_content')
 	<div class="trail_tiles">
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_1" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_2" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_3" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_4" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_5" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_6" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_7" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_8" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_9" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
-		<a href="/Trails/{{ $trail->trail_id }}"><div class="trail_tile_10" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<div>
+
+{{-- 		@foreach ($trails->getArray() as $trail) 
+	    	{{$trail->name}}
+		@endforeach
+		@foreach ($trails as $trail)
+			$i = 1;
+			$all .= <a href="/Trails/{{ $trail['trail_id'] }}"><div class="trail_tile_{{$i}}" title="{{ $trail['name'] }}">{{ $trail['name'] }}</div></a>;
+			$i++;
+
+		@endforeach
+		{{$all}} --}}
+{{-- 		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_1" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_2" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_3" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_4" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_5" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_6" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_7" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_8" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_9" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+		<a href="/Trails/{{ $mountain->mountain_id}}/{{ $trail->trail_id }}"><div class="trail_tile_10" title="{{ $trail->name }}">{{ $trail->name }}</div></a>
+	</div>
 	</div>
 	<div class="seeAll displayNone">
 		{{ $trail->name }}
-	</div>
+	</div> --}}
 
 @stop

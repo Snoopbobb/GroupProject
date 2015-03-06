@@ -13,10 +13,6 @@ Route::get('/profile', function(){
 });
 
 
-// Route::get('/signup', function(){
-// 	return view('signup');
-// });
-
 
 //Mountains
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
