@@ -29,7 +29,7 @@
 						</div>
 						<div class="options ">
 							<div>3headertext3</div>
-							<div><a href="{{ url('/auth/logout') }}">3other txt3</a></div>
+							<div>3other txt3</div>
 						</div>
 					</div>
 					<span class="user-options">
@@ -38,7 +38,7 @@
 						<a href="/auth/login" title="Login"><i class="fa fa-sign-in"></i></a>
 						@else
 						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs"> </i></a>
-						<div><a href="{{ url('/auth/logout') }}">Logout</a></div>
+						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-sign-out"></i></a>
 						@endif
 					</span>
 				</nav>
