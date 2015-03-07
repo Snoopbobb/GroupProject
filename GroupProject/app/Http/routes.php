@@ -13,6 +13,10 @@ Route::get('/profile', function(){
 	return view('profile');
 });
 
+Route::get('/suggest', function(){
+	return view('suggest');
+});
+
 
 
 //Mountains

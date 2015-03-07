@@ -27,8 +27,16 @@ class MountainController extends Controller {
 				$trailIds[] = $trail->trail_id;
 			}
 
+			$template = '';
+			$a = '<a href="/Trails/'. $mountain_id . '/';
+			$b = '"><div class="trail_tile_';
+			$i = 1;
+			foreach ($trails->getArray() as $trail) {
+				$template .= $a . $trail->trail_id . $b . $i . '">' . $trail->name . '</div></a>';
+				$i++;
+			}
 
-
-			return view('Mountain', ['mountain' => $mountain, 'trail' => $trails, 'trailNames' => $trailNames, 'trailIds' => $trailIds, 'imageURL' => $imageURL]);
+			return view('Mountain', ['mountain' => $mountain, 'trail' => $trails, 
+						'trailNames' => $trailNames, 'trailIds' => $trailIds, 'imageURL' => $imageURL, 'template' => $template]);
 	}
 }

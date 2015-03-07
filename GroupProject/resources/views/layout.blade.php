@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="hero">
-		<div class="photo" style="background-image: url(<?php if(isset($imageURL)){echo $imageURL;}{echo '/css/images/Sup2HDR.jpg';} ?>)">
+		<div class="photo" style="background-image: url(<?php if (isset($imageURL)) { echo $imageURL;} else { echo '/css/images/Sup2HDR.jpg';} ?>)">
 			<header>
 				<nav>
 					<span class="logo">
