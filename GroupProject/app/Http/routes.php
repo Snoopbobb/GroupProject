@@ -1,8 +1,7 @@
 <?php
 
-Route::get('/', function(){
-	return view('home');
-});
+
+Route::get('/', 'HomeController@index');
 
 Route::get('/home', function(){
 	return redirect('/');

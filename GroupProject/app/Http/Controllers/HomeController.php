@@ -4,8 +4,11 @@ class HomeController extends Controller {
 
 	
 	public function index()
-	{
-		return view('home');
+	{	
+		// call weather function
+		$weather = Controller::getWeather();
+		
+		return view('home')->with('weather', $weather);
 	}
 
 }
