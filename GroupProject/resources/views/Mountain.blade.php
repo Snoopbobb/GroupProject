@@ -2,7 +2,10 @@
 
 @section('title')
 <h1>{{ $mountain->name }}</h1>
-<div>** weather **</div>
+<div>
+	{{ $weather['temperature'] }}&deg; 
+	{!! $weather['clouds'] !!}
+</div>
 <div>** random stuff **</div>
 @stop
 

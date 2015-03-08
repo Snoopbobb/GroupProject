@@ -1,9 +1,8 @@
 <?php
 
-Route::get('/', function(){
+Route::get('/', 'HomeController@index');
 	// $imageURL = 'css/images/Sup2HDR.jpg';
-	return view('home');
-});
+	
 
 Route::get('/home', function(){
 	return redirect('/');
