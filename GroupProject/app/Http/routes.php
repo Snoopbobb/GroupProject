@@ -16,7 +16,6 @@ Route::get('/suggest', function(){
 });
 
 
-
 //Mountains
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
 Route::get('/Mountains/all', 'MountainController@getAll');

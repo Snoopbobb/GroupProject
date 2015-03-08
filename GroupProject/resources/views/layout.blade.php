@@ -9,6 +9,7 @@
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" href="{{ URL::asset('fonts/weather-icons/css/weather-icons.min.css') }}">
 </head>
 <body>
 	<div class="hero">
