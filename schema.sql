@@ -101,15 +101,15 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 19, "Nature Trail", "A standard quick nature hike", "7920", "80", "#PiestewaSummitHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 20, "Perl Charles Memorial Trail", "Another standard family hike that has a great view of the city", "13200", "220", "#LVYatesHTZ");
 
-INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (4, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "#TomsThumbHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (5, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "#TomsThumbHTZ");
 
 
 INSERT INTO image (image_id, image_path) VALUES (1, '/css/images/Sup2HDR.jpg');
-INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/Sunset.jpg');
+INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/CamelbackMountainPanorama.jpg');
 INSERT INTO image (image_id, image_path) VALUES (3, '/css/images/DreamyDraw/PiestewaPeak.jpg');
 INSERT INTO image (image_id, image_path) VALUES (4, '/css/images/LookoutMountain/');
 INSERT INTO image (image_id, image_path) VALUES (5, '/css/images/McDowellMountains/IMG_8261.jpg');
 INSERT INTO image (image_id, image_path) VALUES (6, '/css/images/NorthMountain/NorthMTN.jpg');
-INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/SouthMTN.jpg');
+INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/sunset.jpg');
 INSERT INTO image (image_id, image_path) VALUES (8, '/css/images/ShawButte/');
 INSERT INTO image (image_id, image_path) VALUES (9, '/css/images/ShadowMountain/ShadowMTN.jpg');
