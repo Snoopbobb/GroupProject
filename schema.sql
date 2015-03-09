@@ -75,7 +75,7 @@ INSERT INTO user (first_name, last_name, username, password, email, gender)
 INSERT INTO user (first_name, last_name, username, password, email, gender)
     VALUES ('Scott', 'Kessinger', 'Scottie2Hottie', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 'S@K.com', 'male');
 INSERT INTO user (first_name, last_name, username, password, email, gender)
-    VALUES ('Miney', 'Mouse', 'MineyMouse', '$2y$10$UlMC6d5eFI/jTTXZLbozKe4YD0UWp3WdEw/xt1Z3qyz84PrzeSWDW', 'miney@mouse.com', 'female');
+    VALUES ('Minnie', 'Mouse', 'MinnieMouse', '$2y$10$qO1kQjmRNfbBB1U5.5nJIeZ4uWoNL1PL5g3OKRDY8JjcQ/k8u5o4S', 'minnie@mouse.com', 'female');
 
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Beardsley Mountiain', 'More of a boulder pile than conventional mountiain just north of the 101 on Cave Creek. Home to more rock climbers than hikers', 1, 'Cave Creek Blvd & Loop 101', '560', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Camelback', 'A small but steep mountain in the heart of Scottsdale. very busy most weekend days', 2, 'Tatum & McDonald', '2706', '');

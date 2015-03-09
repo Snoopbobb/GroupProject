@@ -19,7 +19,7 @@
 			</div>
 			<div class="info">
 				<h1>The mountains</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
@@ -35,7 +35,7 @@
 			</div>
 			<div class="info">
 				<h1>The other place</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
@@ -51,7 +51,7 @@
 			</div>
 			<div class="info">
 				<h1>The stuff things</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
@@ -67,7 +67,7 @@
 			</div>
 			<div class="info">
 				<h1>The supps</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>

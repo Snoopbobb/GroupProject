@@ -92,7 +92,6 @@ nav {
 
 .photo {
 	height: 550px;
-	/*background-image: url('images/Sup2HDR.jpg'); */
 	background-size: cover;
 }
 
@@ -105,6 +104,17 @@ nav {
 
 .title h1 {
 	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.weather {
+	color: #ddd;
+	font-size: 25pt;
+}
+
+.hashtag {
+	color: #ddd;
+	font-size: 28pt;
 }
 
 /*****************************
@@ -178,7 +188,7 @@ featured
 	background-color: red;
 	position: absolute;
 	bottom: 0;
-	height: 250%;
+	height: 100%;
 }
 
 .focus .info {
@@ -220,6 +230,9 @@ Tagline and Search
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+.tagline h1 {
+	margin: 0 auto;
 }
 
 .tagline > div span {
@@ -581,17 +594,66 @@ Tiles
 
 .trail-description {
 	float: left;
-	width: 33%;
+	width: 32%;
+	margin: 10px;
+	height: 730px;
+	background-color: #ccc;
 }
 
 .trail-comment {
 	float: left;
 	width: 33%;
+	background-color: yellow;
+}
+
+.trail-comment > .more-comments {
+	height: 60px;
+	background-color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.comment-block {
+	background-color: red;
+	padding: 5px;
+}
+
+.comment-block::after{
+	content: '';
+	display: block;
+	clear: both
+}
+
+.comment-block .comment {
+	margin-left: 75px;
+}
+
+.comment-block .image {
+	background-color: blue;
+	float: left;
+	width: 70px;
+	height: 70px;
+
+}
+
+.comment-block .user-name {
+	background-color: purple;
+	text-align: left;
+}
+
+.comment > .comment-content{
+	background-color: orange;
+	margin-left: 5px;
+	text-align: justify;
+	margin-top: 5px;
 }
 
 .instagram-feed {
 	float: left;
-	width: 33%;
+	width: 32%;
+	margin: 10px;
+	height: 730px;
+	background-color: #ccc;
 }
 
 
