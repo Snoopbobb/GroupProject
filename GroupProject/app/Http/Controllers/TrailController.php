@@ -27,6 +27,12 @@ class TrailController extends Controller {
 
 	}
 
+	public function randomTrail ($trail_id) {
+		$trail = new Trail($trail_id);
+		$mountain_id = $trail->mountain_id;
+		return redirect('/Trails/' . $mountain_id . '/' . $trail_id);
+	}
+
 	// public function getComments($trail_id) {
 	// 	$comment = Trail::getComments($trail_id);
 	// 	return view("Trails",["comment" => $comment]);
