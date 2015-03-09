@@ -652,6 +652,35 @@ Tiles
 	margin-top: 5px;
 }
 
+.add-comment {
+	background-color: red;
+	padding: 5px;
+}
+
+.add-comment::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.add-comment .comment {
+	margin-left: 75px;
+}
+
+.add-comment .image {
+	background-color: blue;
+	float: left;
+	width: 70px;
+	height: 70px;
+
+}
+
+.add-comment .user-name {
+	background-color: purple;
+	text-align: left;
+}
+
+
 .instagram-feed {
 	float: left;
 	width: 32%;
@@ -674,7 +703,7 @@ Tiles
 	box-sizing: border-box;
 }
 
-.form-control {
+.suggest-form {
 	display: block;
 	width: 100%;
 	height: 24px;
