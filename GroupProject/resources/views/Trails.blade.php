@@ -38,7 +38,24 @@
 				<div class="comment-content">I love to hike here. What a beautiful place to be. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptate mollitia explicabo dicta quae, ipsam tempore cupiditate accusantium consequatur, delectus totam quis quo minus voluptas! Exercitationem soluta, illum officia voluptatibus.</div>
 			</div>
 		</div>
+
+		<div class="comment-block">
+			<div class="image">this is an image</div>
+			<div class="comment">
+				<div class="user-name">Jordyn</div>
+				<div class="comment-content">I love to hike here. What a beautiful place to be. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptate mollitia explicabo dicta quae, ipsam tempore cupiditate accusantium consequatur, delectus totam quis quo minus voluptas! Exercitationem soluta, illum officia voluptatibus.</div>
+			</div>
+		</div>
+
+
+		<div class="more-comments">
+			<span>more v</span>
+			
+		</div>
+
 	</div>
+
+	
 	<div class="instagram-feed">
 		<h3>{{ $trail->hashtag }}</h3>
 

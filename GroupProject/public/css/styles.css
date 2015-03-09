@@ -603,7 +603,14 @@ Tiles
 .trail-comment {
 	float: left;
 	width: 33%;
-	background-color: yellow
+	background-color: yellow;
+}
+
+.trail-comment > .more-comments {
+	height: 60px;
+	background-color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .comment-block {
@@ -618,7 +625,7 @@ Tiles
 }
 
 .comment-block .comment {
-	margin-left: 75px
+	margin-left: 75px;
 }
 
 .comment-block .image {
@@ -634,9 +641,11 @@ Tiles
 	text-align: left;
 }
 
-.comment-block .comment-content{
-	background-color: orange
-	margin: 10px;
+.comment > .comment-content{
+	background-color: orange;
+	margin-left: 5px;
+	text-align: justify;
+	margin-top: 5px;
 }
 
 .instagram-feed {
