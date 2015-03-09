@@ -56,9 +56,20 @@
 			
 		</div>
 		@if(Auth::guest())
-		<h1><a href="/auth/login">Login</a> to add a comment!</h1>
+			<h1><a href="/auth/login">Login</a> to add a comment!</h1>
 		@else
-		<div class="add-comment">
+			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
+			<form class="add-comment">
+				<textarea placeholder="Add your comment!"></textarea>
+					<div>
+						<button>Send</button>
+					</div>
+			</form>
+
+	
+
+
+		{{-- <div class="add-comment">
 			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
 			<div class="image">picture</div>
 			<div class="comment">
@@ -67,7 +78,7 @@
 				</div>
 				<textarea placeholder="comment here!"></textarea>
 			</div>
-		</div>
+		</div> --}}
 		@endif
 			
 
