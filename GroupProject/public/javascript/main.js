@@ -4,7 +4,7 @@ $(document).ready(function() {
 			get: 'tagged',
 			tagName: 'echocanyonHTZ',
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
-			template: '<img src={{image}}>'
+			template: '<div><img src={{image}}></div>'
 		});
 	feed.run();
 
@@ -28,8 +28,19 @@ $(document).ready(function() {
 	//================================================================
 
 	$('.featured span').on('click', function(){
-		$('.focus').removeClass('focus');
-		$(this).addClass('focus');
+		var header = $(this).find('.info h1').text();
+		// var weather = $(this).find('.info div:first-child').text();
+		// var rand = $(this).find('.info div:last-child').text();
+		// var desc = $(this).find('.info p').text();
+
+		var fheader = $('.focus').find('.info h1').text();
+		// var fweather = $('.focus').find('.info div:first-child').text();
+		// var frand = $('.focus').find('.info div:last-child').text();
+		// var fdesc = $('.focus').find('.info p').text();
+
+		$(header).replaceWith('<h1>' + fheader + '</h1>');
+		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
+
 	});
 
 	//================================================================

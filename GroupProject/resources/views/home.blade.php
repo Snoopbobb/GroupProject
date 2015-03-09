@@ -12,7 +12,7 @@
 
 @section('featured')
 <div class="featured">
-	<span>
+	<span class="featured1">
 		<div>
 			<div class="thumbnail">
 				<h3>The Mountains</h3>
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</span>
-	<span>
+	<span class="featured2">
 		<div>
 			<div class="thumbnail">
 				<h3>The Other Place</h3>
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 	</span>
-	<span>
+	<span class="featured3">
 		<div>
 			<div class="thumbnail">
 				<h3>The Stuff & Things</h3>
@@ -60,7 +60,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="focus">
+	<span class="focus featured4">
 		<div>
 			<div class="thumbnail">
 				<h3>The Supps</h3>

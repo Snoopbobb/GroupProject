@@ -4,17 +4,17 @@
 
 @section('title')
 <h1>{{ $trail->name }}</h1>
-<div>
+<div class="weather">
 	{{ $weather['temperature'] }}&deg; 
 	{!! $weather['clouds'] !!}
 </div>
-<div>** random stuff **</div>
+<div class="hashtag">{{ $trail->hashtag }}</div>
 @stop
 
 
 @section('tagline')
 <div class="tagline">
-	<h2>Length: {{ number_format($trail->length) }} ft. | Elevation Gain: {{ number_format($trail->elevation_gain) }} ft.</h2>
+	<h1>Length: {{ number_format($trail->length) }} ft. | Elevation Gain: {{ number_format($trail->elevation_gain) }} ft.</h1>
 	<div>
 		<span class="selected">Top 10</span>
 		<span>See All</span>
@@ -34,6 +34,7 @@
 	</div>
 	<div class="instagram-feed">
 		<h3>{{ $trail->hashtag }}</h3>
+
 	</div>
 
 @stop
