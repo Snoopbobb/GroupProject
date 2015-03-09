@@ -11,22 +11,19 @@ abstract class Controller extends BaseController {
 	public static function getWeather(){
 		$weather = [];
 		// get weather data
-		$json = file_get_contents('http://api.openweathermap.org/data/2.5/weather?q=Phoenix');
+		try {
+			$json = file_get_contents('http://api.openweathermap.org/data/2.5/weather?q=Phoenix');
+		} catch (Exception $e) {
+			return redirect('/');
+		}
 
 		$data = json_decode($json);
 
 		// get temperature in farenheit, round to whole degree  
 		$temperature = round((($data->main->temp)- 273.15) * 1.8 + 32);
-
-		// // use cloud or sun font awesome icon
-		// if(($data->clouds->all) > 50){
-		// 	$clouds = '<i class="fa fa-cloud"></i>';
-		// } else {
-		// 	$clouds = '<i class="fa fa-sun-o"></i>';
-		// }
 		
-		// $code = $data->weather[0]->id;
-		$code = 922;
+		$code = $data->weather[0]->id;
+		// $code = 922;
 
 		switch ($code) {
 
@@ -64,7 +61,6 @@ abstract class Controller extends BaseController {
 			case ($code > '599' && $code < '623'):
 				$clouds = '<i class="wi wi-day-snow" title = "' . $data->weather[0]->description . '"></i>';
 				break;
-
 
 			default:
 				$clouds = '<i class="wi wi-alien" title = "' . $data->weather[0]->description . '"></i>';

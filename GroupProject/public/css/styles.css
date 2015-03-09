@@ -199,6 +199,14 @@ featured
 	display: none;
 }
 
+.feature-buttons div {
+	height: 50%;
+}
+
+.feature-buttons div:hover {
+	background-color: rgba(255,255,255,.5);
+}
+
 main > div {
 	text-align: center;
 }
@@ -594,7 +602,7 @@ Tiles
 
 .trail-description {
 	float: left;
-	width: 32%;
+	width: 22%;
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
@@ -602,7 +610,7 @@ Tiles
 
 .trail-comment {
 	float: left;
-	width: 33%;
+	width: 37%;
 	background-color: yellow;
 }
 
@@ -664,7 +672,7 @@ Tiles
 
 .instagram-feed {
 	float: left;
-	width: 32%;
+	width: 38%;
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
@@ -706,4 +714,56 @@ Tiles
 
 .instafeed {
 	
+}
+
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 586px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 586px;
+	height: 730px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	width: 490px;
 }
