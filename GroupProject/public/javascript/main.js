@@ -13,6 +13,7 @@ $(document).ready(function() {
                   		speed: 2,
                   		frameRate: 20,
                   		manualMode: 'end',
+                  		startOnLoad: true,
                   		orientation: 'vertical',
                   		direction: 'forwards'
      		});
