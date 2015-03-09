@@ -1,6 +1,5 @@
 @extends('layout')
-{{ print_r($mountain) }}
-{{ print_r($trail) }}
+
 
 @section('title')
 <h1>{{ $trail->name }}</h1>
@@ -38,14 +37,15 @@
 				<div class="comment-content">I love to hike here. What a beautiful place to be. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptate mollitia explicabo dicta quae, ipsam tempore cupiditate accusantium consequatur, delectus totam quis quo minus voluptas! Exercitationem soluta, illum officia voluptatibus.</div>
 			</div>
 		</div>
-
+		@foreach($comment as $comm)
 		<div class="comment-block">
-			<div class="image">this is an image</div>
+			<div class="image">picture</div>
 			<div class="comment">
-				<div class="user-name">Jordyn</div>
-				<div class="comment-content">I love to hike here. What a beautiful place to be. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptate mollitia explicabo dicta quae, ipsam tempore cupiditate accusantium consequatur, delectus totam quis quo minus voluptas! Exercitationem soluta, illum officia voluptatibus.</div>
+				<div class="user-name">{{$comm->username}}</div>
+				<div class="comment-content">{{$comm->comment_description}}</div>
 			</div>
 		</div>
+		@endforeach
 
 
 		<div class="more-comments">
