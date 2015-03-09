@@ -382,7 +382,7 @@ Signup Page
 	background-color: green;
 	width: 90px;
 	height: 100px;
-	margin: 0 auto;
+	margin-left: 50% ;
 	transform: translateY(100%)
 
 }
@@ -400,8 +400,11 @@ Login Page
 ******************************/
 
 
-
-
+.inputs .error {
+	background-color: pink;
+	margin-top: 5px;
+	text-align: right;
+}
 
 
 /*****************************
