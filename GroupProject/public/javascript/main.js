@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('.focus > div').animate({height: '250%'}, 10);
 
 	var feed = new Instafeed({
 			get: 'tagged',
@@ -40,9 +41,12 @@ $(document).ready(function() {
 		$(this).find('.info h1').replaceWith('<h1>' + fheader + '</h1>');
 		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
 
-		$(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');
+		// $(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');
 		$('.focus .info .fweather').replaceWith('<div class="fweather">' + weather + '</div>');
-		
+
+		$('.focus > div').css('height', '100%');
+		$('.focus > div').animate({height: '250%'}, 500);
+
 		// $('.focus').removeClass('focus');
 		// $(this).addClass('focus');
 	});
