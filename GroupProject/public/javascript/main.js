@@ -3,11 +3,18 @@ $(document).ready(function() {
 
 	var feed = new Instafeed({
 			get: 'tagged',
-			tagName: 'athletascottsaz',
+			tagName: 'hikeaz',
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
-			template: '<div><img src={{image}}></div>'
+			template: '<div class="instafeed"><img src={{image}}></div>'
 		});
 	feed.run();
+
+	$("#instafeed").simplyScroll({
+                  		speed: 1,
+                  		frameRate: 20,
+                  		orientation: 'vertical',
+                  		direction: 'down'
+     	});
 
 	//================================================================
 	// Header

@@ -665,27 +665,8 @@ Tiles
 	padding: 5px;
 }
 
-.add-comment::after{
-	content: '';
-	display: block;
-	clear: both;
-}
-
-.add-comment .comment {
-	margin-left: 75px;
-}
-
-.add-comment .image {
-	background-color: blue;
-	float: left;
-	width: 70px;
-	height: 70px;
-
-}
-
-.add-comment .user-name {
-	background-color: purple;
-	text-align: left;
+.add-comment textarea {
+	width: 400px;
 }
 
 
@@ -695,6 +676,7 @@ Tiles
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
+	overflow: hidden;
 }
 
 
@@ -724,4 +706,12 @@ Tiles
 	background-image: none;
 	border: 1px solid #ccc;
 	border-radius: 4px;
+}
+
+/*======================================================================================================================
+/*================================================  Instafeed  ===============================================
+/*======================================================================================================================*/
+
+.instafeed {
+	
 }
