@@ -25,7 +25,8 @@ abstract class Controller extends BaseController {
 		// 	$clouds = '<i class="fa fa-sun-o"></i>';
 		// }
 		
-		$code = $data->weather[0]->id;
+		// $code = $data->weather[0]->id;
+		$code = 922;
 
 		switch ($code) {
 
