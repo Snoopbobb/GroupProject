@@ -587,6 +587,39 @@ Tiles
 .trail-comment {
 	float: left;
 	width: 33%;
+	background-color: yellow
+}
+
+.comment-block {
+	background-color: red;
+	padding: 5px;
+}
+
+.comment-block::after{
+	content: '';
+	display: block;
+	clear: both
+}
+
+.comment-block .comment {
+	margin-left: 75px
+}
+
+.comment-block .image {
+	background-color: blue;
+	float: left;
+	width: 70px;
+	height: 70px;
+
+}
+
+.comment-block .user-name {
+	background-color: purple;
+	text-align: left;
+}
+
+.comment-block .comment-content{
+	background-color: orange
 }
 
 .instagram-feed {
