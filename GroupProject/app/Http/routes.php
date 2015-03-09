@@ -30,9 +30,13 @@ Route::get('/Mountains/{mountain_id}', 'MountainController@getMountain');
 
 //Trails
 Route::get('/Trails', function(){return redirect('/Mountains/all');});
+Route::get('/randomTrail/{trail_id}', 'TrailController@randomTrail');
 Route::get('/Trails/all', 'TrailController@getAll');
-// Route::get('/Trails/{mountain_id}/{trail_id}', 'TrailController@getTrail', 'TrailController@getComments');
 Route::get('/Trails/{mountain_id}/{trail_id}','TrailController@getTrail');
+
+
+//Add a Comment
+Route::post('/addComment/{user_id}/{trail_id}', 'TrailController@addComment');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

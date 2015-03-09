@@ -2,8 +2,10 @@
 /*=========================================================== Main Foundation/ Reused CSS ==============================
 /*======================================================================================================================*/
 
-h3 {
+h3, h2 {
 	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 10px;
 }
 
 i {
@@ -96,7 +98,7 @@ nav {
 }
 
 .title {
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0);
 	position: absolute;
 	left: 10%;
 	top: 60%;
@@ -104,17 +106,22 @@ nav {
 
 .title h1 {
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 5px;
+	color: #ddd;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .weather {
 	color: #ddd;
 	font-size: 25pt;
+	/*padding-left: 10px;*/
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .hashtag {
 	color: #ddd;
 	font-size: 28pt;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 /*****************************
@@ -197,6 +204,14 @@ featured
 
 .focus .thumbnail {
 	display: none;
+}
+
+.feature-buttons div {
+	height: 50%;
+}
+
+.feature-buttons div:hover {
+	background-color: rgba(255,255,255,.5);
 }
 
 main > div {
@@ -493,7 +508,9 @@ Tiles
 /*======================================================================================================================*/
 
 .trail_tiles {
-	margin-left: auto;
+	/*margin-left: auto;*/
+	/*text-align: center;*/
+	padding-left: 200px;
 }
 
 .trail_tile_1 {
@@ -594,7 +611,7 @@ Tiles
 
 .trail-description {
 	float: left;
-	width: 32%;
+	width: 22%;
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
@@ -602,7 +619,7 @@ Tiles
 
 .trail-comment {
 	float: left;
-	width: 33%;
+	width: 37%;
 	background-color: yellow;
 }
 
@@ -652,12 +669,23 @@ Tiles
 	margin-top: 5px;
 }
 
+.add-comment {
+	background-color: red;
+	padding: 5px;
+}
+
+.add-comment textarea {
+	width: 400px;
+}
+
+
 .instagram-feed {
 	float: left;
-	width: 32%;
+	width: 38%;
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
+	overflow: hidden;
 }
 
 
@@ -674,7 +702,7 @@ Tiles
 	box-sizing: border-box;
 }
 
-.form-control {
+.suggest-form {
 	display: block;
 	width: 100%;
 	height: 24px;
@@ -687,4 +715,63 @@ Tiles
 	background-image: none;
 	border: 1px solid #ccc;
 	border-radius: 4px;
+}
+
+/*======================================================================================================================
+/*================================================  Instafeed  ===============================================
+/*======================================================================================================================*/
+
+.instafeed {
+	
+}
+
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+/* Container DIV */
+.simply-scroll { 
+	width: 586px;
+	height: 100%;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 586px;
+	height: 730px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	width: 490px;
 }

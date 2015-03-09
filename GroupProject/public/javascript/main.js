@@ -3,11 +3,25 @@ $(document).ready(function() {
 
 	var feed = new Instafeed({
 			get: 'tagged',
-			tagName: 'athletascottsaz',
+			tagName: 'hikeaz',
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
-			template: '<div><img src={{image}}></div>'
-		});
+			template: '<div><img src={{image}}></div>',
+			resolution: 'standard_resolution'
+		,
+		after:function(){
+			$("#instafeed").simplyScroll({
+                  		speed: 2,
+                  		frameRate: 20,
+                  		manualMode: 'end',
+                  		startOnLoad: true,
+                  		orientation: 'vertical',
+                  		direction: 'forwards'
+     		});
+		}
+	});
+
 	feed.run();
+
 
 	//================================================================
 	// Header
@@ -24,11 +38,17 @@ $(document).ready(function() {
 		window.location.href = "/suggest";
 	});
 
+	$('.options.randomtrail').on('click', function(){
+		var trail = Math.floor(Math.random() * 12) + 1;
+
+		window.location.href = '/randomTrail/' + trail;
+	});
+
 	//================================================================
 	// Featured
 	//================================================================
 
-	$('.featured span').on('click', function(){
+	$('.featureblock').on('click', function(){
 		var mID = $(this).find('.info input').val();
 
 		var header = $(this).find('.info h1').text();
@@ -98,6 +118,29 @@ $(document).ready(function() {
 			$('.trail_tiles').removeClass('displayNone');		
 		}
 	});
+
+	//================================================================
+	// Add Comment on Trail Page
+	//================================================================
+
+	// function renderComment(message){
+	// 	var source = $('#template-comment').html();
+	// 	var template = Handlebars.compile(source);
+	// 	var output = template({
+	// 		message: message
+	// 	});
+	// 	return output;	
+	// };
+
+
+
+	// $('form.add-comment').on('submit', function(event) {
+	// 	event.preventDefault();
+	// 	var message = $('.add-comment textarea').val();
+	// 	var output = renderComment(message);
+	// 	$('.comments').prepend(output);
+	// 	$('textarea').val('');		
+	// });
 
 
 });

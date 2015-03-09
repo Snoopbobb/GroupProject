@@ -17,16 +17,10 @@ abstract class Controller extends BaseController {
 
 		// get temperature in farenheit, round to whole degree  
 		$temperature = round((($data->main->temp)- 273.15) * 1.8 + 32);
-
-		// // use cloud or sun font awesome icon
-		// if(($data->clouds->all) > 50){
-		// 	$clouds = '<i class="fa fa-cloud"></i>';
-		// } else {
-		// 	$clouds = '<i class="fa fa-sun-o"></i>';
-		// }
 		
-		// $code = $data->weather[0]->id;
-		$code = 922;
+		$code = $data->weather[0]->id;
+		// echo $code;
+		// $code = 922;
 
 		switch ($code) {
 
@@ -36,7 +30,7 @@ abstract class Controller extends BaseController {
 				break;
 
 			//overcast in any way
-			case ($code > '801' && $code < '805'):
+			case ($code > '800' && $code < '805'):
 				$clouds = '<i class="wi wi-day-cloudy" title = "' . $data->weather[0]->description . '"></i>';
 				break;	
 
@@ -64,7 +58,6 @@ abstract class Controller extends BaseController {
 			case ($code > '599' && $code < '623'):
 				$clouds = '<i class="wi wi-day-snow" title = "' . $data->weather[0]->description . '"></i>';
 				break;
-
 
 			default:
 				$clouds = '<i class="wi wi-alien" title = "' . $data->weather[0]->description . '"></i>';

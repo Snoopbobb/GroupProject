@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-	<!-- Latest compiled and minified Bootstrap CSS -->
-	{{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --}}
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('javascript/jquery.simplyscroll.min.js') }}"></script>
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
@@ -30,9 +30,9 @@
 							<div>Suggest A Trail</div>
 							<div>Send Us What You Wanna See</div>
 						</div></a>
-						<div class="options ">
-							<div>3headertext3</div>
-							<div>3other txt3</div>
+						<div class="options randomtrail">
+							<div>Random Trail</div>
+							<div>Any Random Trail</div>
 						</div>
 					</div>
 					<span class="user-options">
