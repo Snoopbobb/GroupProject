@@ -613,6 +613,10 @@ Tiles
 	margin-bottom: 5px;
 }
 
+.more-comments:hover {
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
 .comment-block {
 	background-color: red;
 	padding: 5px;
@@ -654,4 +658,33 @@ Tiles
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
+}
+
+
+/*======================================================================================================================
+/*================================================ Static Pages  ===============================================
+/*======================================================================================================================*/
+
+
+/* CSS For Suggest A Trail Page */
+.suggest-wrapper {
+	text-align: center;
+	margin: 0 auto;
+	width: 40%;
+	box-sizing: border-box;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 24px;
+	margin: 15px;
+	padding: 6px 6px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }
