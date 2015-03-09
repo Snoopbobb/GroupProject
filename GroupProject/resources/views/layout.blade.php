@@ -28,9 +28,9 @@
 							<div>Suggest A Trail</div>
 							<div>Send Us What You Wanna See</div>
 						</div></a>
-						<div class="options ">
-							<div>3headertext3</div>
-							<div>3other txt3</div>
+						<div class="options randomtrail">
+							<div>Random Trail</div>
+							<div>Any Random Trail</div>
 						</div>
 					</div>
 					<span class="user-options">

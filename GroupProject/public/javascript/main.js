@@ -24,6 +24,12 @@ $(document).ready(function() {
 		window.location.href = "/suggest";
 	});
 
+	$('.options.randomtrail').on('click', function(){
+		var trail = Math.floor(Math.random() * 12) + 1;
+
+		window.location.href = '/randomTrail/' + trail;
+	});
+
 	//================================================================
 	// Featured
 	//================================================================
