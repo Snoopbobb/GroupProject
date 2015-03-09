@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	var feed = new Instafeed({
 			get: 'tagged',
-			tagName: 'echocanyonHTZ',
+			tagName: 'athletascottsaz',
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
 			template: '<div><img src={{image}}></div>'
 		});
@@ -29,26 +29,52 @@ $(document).ready(function() {
 	//================================================================
 
 	$('.featured span').on('click', function(){
+		var mID = $(this).find('.info input').val();
 
 		var header = $(this).find('.info h1').text();
 		var weather = $(this).find('.info .fweather').html();
 		// var rand = $(this).find('.info div:last-child').text();
-		// var desc = $(this).find('.info p').text();
+		var desc = $(this).find('.info p').text();
 
+		var fmID = $('.focus').find('.info input').val();
 		var fheader = $('.focus').find('.info h1').text();
+		var fweather = $('.focus').find('.info .fweather').html();
+		var fdesc = $('.focus').find('.info p').text();
 
+		//replace header
 		$(this).find('.thumbnail h3').replaceWith('<h3>' + fheader + '</h3>');
 		$(this).find('.info h1').replaceWith('<h1>' + fheader + '</h1>');
+		$(this).find('.info input').replaceWith('<input type="hidden" value="' + fmID + '">');
+		$('.focus .info input').replaceWith('<input type="hidden" value="' + mID + '">');
 		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
 
-		// $(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');
+		//replace hero photo
+		// $.ajax({
+		// 	url: '/ajax/',
+		// 	data: {'mountain_id': mID},
+		// 	// type: 'post',
+		// 	cache: false,
+		// 	dataType: 'json',
+		// 	success: function(imageURL) {$('.photo').css('background-image', 'url(' + imageURL + ')')}
+		// });
+		// $('.photo')
+
+		//replace weather
+		$(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');
 		$('.focus .info .fweather').replaceWith('<div class="fweather">' + weather + '</div>');
 
+		// $(this).find('.info p').replaceWith('<p>' + fdesc + '</p>');
+		// $('.focus .info p').replaceWith('<p>' + desc + '</p>');
+
+		//replace description
+		$(this).find('.info p').replaceWith('<p>' + fdesc + '</p>');
+		$('.focus .info p').replaceWith('<p>' + desc + '</p>');
+
+
+		//animation
 		$('.focus > div').css('height', '100%');
 		$('.focus > div').animate({height: '250%'}, 500);
 
-		// $('.focus').removeClass('focus');
-		// $(this).addClass('focus');
 	});
 
 	//================================================================
