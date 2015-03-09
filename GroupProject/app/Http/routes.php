@@ -10,7 +10,7 @@ Route::get('/home', function(){
 Route::get('/profile/', 'ProfileController@show');
 
 Route::get('/suggest', function(){
-	return view('suggest');
+	return view('pages.suggest');
 });
 
 

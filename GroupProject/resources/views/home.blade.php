@@ -12,14 +12,14 @@
 
 @section('featured')
 <div class="featured">
-	<span class="featured1">
+	<span>
 		<div>
 			<div class="thumbnail">
 				<h3>The Mountains</h3>
 			</div>
 			<div class="info">
 				<h1>The mountains</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
@@ -28,14 +28,14 @@
 			</div>
 		</div>
 	</span>
-	<span class="featured2">
+	<span>
 		<div>
 			<div class="thumbnail">
 				<h3>The Other Place</h3>
 			</div>
 			<div class="info">
 				<h1>The other place</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
@@ -44,14 +44,14 @@
 			</div>
 		</div>
 	</span>
-	<span class="featured3">
+	<span>
 		<div>
 			<div class="thumbnail">
 				<h3>The Stuff & Things</h3>
 			</div>
 			<div class="info">
 				<h1>The stuff things</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
@@ -60,14 +60,14 @@
 			</div>
 		</div>
 	</span>
-	<span class="focus featured4">
+	<span class="focus">
 		<div>
 			<div class="thumbnail">
 				<h3>The Supps</h3>
 			</div>
 			<div class="info">
 				<h1>The supps</h1>
-				<div>
+				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
 				</div>
