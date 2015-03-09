@@ -654,6 +654,7 @@ Tiles
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
+	overflow: hidden;
 }
 
 
@@ -690,5 +691,5 @@ Tiles
 /*======================================================================================================================*/
 
 .instafeed {
-	background-color: red;
+	
 }

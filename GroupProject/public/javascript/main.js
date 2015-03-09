@@ -8,14 +8,13 @@ $(document).ready(function() {
 			template: '<div class="instafeed"><img src={{image}}></div>'
 		});
 	feed.run();
-	$("#instafeed").simplyScroll({
-                  	speed: 1,
-                  	frameRate: 20,
-                  	orientation: 'vertical',
-                  	direction: 'forwards',
-                  	customClass: 'instagram_scroller'
-     });
 
+	$("#instafeed").simplyScroll({
+                  		speed: 1,
+                  		frameRate: 20,
+                  		orientation: 'vertical',
+                  		direction: 'down'
+     	});
 
 	//================================================================
 	// Header

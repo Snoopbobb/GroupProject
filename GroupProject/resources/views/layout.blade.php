@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-	<script type="text/javascript" src="../scripts/Plugins/jquery.simplyscroll.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('javascript/jquery.simplyscroll.min.js') }}"></script>
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
