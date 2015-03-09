@@ -41,7 +41,9 @@ CREATE TABLE comment (
     trail_id int NOT NULL,
     user_id int NOT NULL,
     comment_description TEXT DEFAULT NULL,
-    user_rating INT DEFAULT NULL
+    user_rating INT DEFAULT NULL,
+    created_at TIMESTAMP
+
 );
 CREATE TABLE image (
 	image_id INT auto_increment PRIMARY KEY,
