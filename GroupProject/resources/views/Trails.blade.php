@@ -30,14 +30,14 @@
 	</div>
 	<div class="trail-comment">
 		<div class="more-comments">
-			<span><i class="fa fa-angle-up"></i></span>
+			<span><i class="fa fa-chevron-up"></i></span>
 		</div>
 		<h3>Comments</h3>
 		<div class="comment-block">
 			<div class="image">this is an image</div>
 			<div class="comment">
 				<div class="user-name">Jordyn</div>
-				<div class="comment-content">I love to hike here. What a beautiful place to be. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptate mollitia explicabo dicta quae, ipsam tempore cupiditate accusantium consequatur, delectus totam quis quo minus voluptas! Exercitationem soluta, illum officia voluptatibus.</div>
+				<div class="comment-content">I love to hike here. What a beautiful place to be.</div>
 			</div>
 		</div>
 		@foreach($comment as $comm)
@@ -55,6 +55,21 @@
 			<span><i class="fa fa-chevron-down"></i></span>
 			
 		</div>
+		@if(Auth::guest())
+		<h1><a href="/auth/login">Login</a> to add a comment!</h1>
+		@else
+		<div class="add-comment">
+			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
+			<div class="image">picture</div>
+			<div class="comment">
+				<div class="user-name">
+					{{Auth::user()->username}}
+				</div>
+				<textarea placeholder="comment here!"></textarea>
+			</div>
+		</div>
+		@endif
+			
 
 	</div>
 
