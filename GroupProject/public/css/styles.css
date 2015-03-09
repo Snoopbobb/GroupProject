@@ -549,3 +549,18 @@ Tiles
 	height: 170px;
 	width: 200px;
 }
+
+.trail-description {
+	float: left;
+	width: 33%;
+}
+
+.trail-comment {
+	float: left;
+	width: 33%;
+}
+
+.instagram-feed {
+	float: left;
+	width: 33%;
+}
