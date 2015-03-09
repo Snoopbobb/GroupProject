@@ -620,6 +620,9 @@ Tiles
 .trail-comment {
 	float: left;
 	width: 32%;
+	margin-top: 10px;
+	padding: 5px;
+	height: 720px;
 	background-color: yellow;
 }
 
@@ -654,7 +657,6 @@ Tiles
 	float: left;
 	width: 70px;
 	height: 70px;
-
 }
 
 .comment-block .user-name {
