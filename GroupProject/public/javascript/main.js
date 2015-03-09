@@ -5,8 +5,8 @@ $(document).ready(function() {
 			get: 'tagged',
 			tagName: 'hikeaz',
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
-			template: '<div><img src={{image}}></div>',
-			resolution: 'standard_resolution'
+			template: '<div><a target="_blank" href={{link}}><img src={{image}}></a></div>',
+			resolution: 'low_resolution'
 		,
 		after:function(){
 			$("#instafeed").simplyScroll({
