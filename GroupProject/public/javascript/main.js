@@ -5,16 +5,21 @@ $(document).ready(function() {
 			get: 'tagged',
 			tagName: 'hikeaz',
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
-			template: '<div class="instafeed"><img src={{image}}></div>'
-		});
-	feed.run();
-
-	$("#instafeed").simplyScroll({
-                  		speed: 1,
+			template: '<div><img src={{image}}></div>',
+			resolution: 'standard_resolution'
+		,
+		after:function(){
+			$("#instafeed").simplyScroll({
+                  		speed: 2,
                   		frameRate: 20,
                   		orientation: 'vertical',
-                  		direction: 'down'
-     	});
+                  		direction: 'forwards'
+     		});
+		}
+	});
+
+	feed.run();
+
 
 	//================================================================
 	// Header
