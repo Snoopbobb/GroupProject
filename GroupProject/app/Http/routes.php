@@ -7,9 +7,7 @@ Route::get('/home', function(){
 	return redirect('/');
 });
 
-Route::get('/profile', function(){
-	return view('profile');
-});
+Route::get('/profile/', 'ProfileController@show');
 
 Route::get('/suggest', function(){
 	return view('suggest');

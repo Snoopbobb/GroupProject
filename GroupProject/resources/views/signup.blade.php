@@ -99,8 +99,8 @@
 								<label class="col-md-4 control-label"> Gender</label>
 								<div class="col-md-6">
 									<select name="gender">
-										<option>Male</option>
-										<option>Female</option>
+										<option value="male">Male</option>
+										<option value="female">Female</option>
 									</select>
 								</div>
 							</div>
