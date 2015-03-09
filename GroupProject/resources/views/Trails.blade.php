@@ -58,7 +58,6 @@
 	
 	<div class="instagram-feed">
 		<h3>{{ $trail->hashtag }}</h3>
-
+		<div id="instafeed"></div>
 	</div>
-
 @stop
