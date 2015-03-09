@@ -9,10 +9,11 @@
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" href="{{ URL::asset('fonts/weather-icons/css/weather-icons.min.css') }}">
 </head>
 <body>
 	<div class="hero">
-		<div class="photo" style="background-image: url(<?php if(isset($imageURL)){echo $imageURL;}{echo '/css/images/Sup2HDR.jpg';} ?>)">
+		<div class="photo" style="background-image: url(<?php if (isset($imageURL)) { echo $imageURL;} else { echo '/css/images/Sup2HDR.jpg';} ?>)">
 			<header>
 				<nav>
 					<span class="logo">
@@ -29,7 +30,7 @@
 						</div>
 						<div class="options ">
 							<div>3headertext3</div>
-							<div><a href="{{ url('/auth/logout') }}">3other txt3</a></div>
+							<div>3other txt3</div>
 						</div>
 					</div>
 					<span class="user-options">
@@ -38,7 +39,7 @@
 						<a href="/auth/login" title="Login"><i class="fa fa-sign-in"></i></a>
 						@else
 						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs"> </i></a>
-						<div><a href="{{ url('/auth/logout') }}">Logout</a></div>
+						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-sign-out"></i></a>
 						@endif
 					</span>
 				</nav>

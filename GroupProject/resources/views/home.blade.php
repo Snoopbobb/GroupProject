@@ -2,9 +2,9 @@
 
 @section('title')
 		@if(Auth::guest())
-		<h1>Welcome</h1>
+		<h1>Welcome!</h1>
 		@else
-		<h1>Welcome {{Auth::user()->first_name}}</h1>
+		<h1>Welcome {{Auth::user()->first_name}}!</h1>
 		@endif
 		<div>Check out our amazing Hiking Trails</div>	
 @stop
@@ -19,7 +19,10 @@
 			</div>
 			<div class="info">
 				<h1>The mountains</h1>
-				<div>**Weather**</div>
+				<div>
+					{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!}
+				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque, aliquid numquam totam minima! Earum quae mollitia, repellendus fugit nostrum atque iste quidem, doloribus perferendis velit laudantium minima incidunt! Animi deserunt, deleniti quae adipisci veniam?</p>
 			</div>
@@ -32,7 +35,10 @@
 			</div>
 			<div class="info">
 				<h1>The other place</h1>
-				<div>**Weather**</div>
+				<div>
+					{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!}
+				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus assumenda sed earum iste expedita vero nobis natus numquam cum, delectus voluptatum unde nihil voluptate fuga dolore ipsum at laborum eius minima fugiat. Veniam, minima!</p>
 			</div>
@@ -45,7 +51,10 @@
 			</div>
 			<div class="info">
 				<h1>The stuff things</h1>
-				<div>**Weather**</div>
+				<div>
+					{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!}
+				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eaque voluptas voluptates illum fugiat at cupiditate quae, odio alias suscipit nisi unde porro, iste, commodi quidem quos quisquam saepe possimus. Assumenda animi quibusdam alias consequuntur.</p>
 			</div>
@@ -58,7 +67,10 @@
 			</div>
 			<div class="info">
 				<h1>The supps</h1>
-				<div>**Weather**</div>
+				<div>
+					{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!}
+				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio.</p>
 			</div>

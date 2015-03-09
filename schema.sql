@@ -67,13 +67,15 @@ CREATE TABLE weather (
 --
 
 INSERT INTO user (first_name, last_name, username, password, email, gender)
-    VALUES ('Seth', 'Howell', 'Sk8rSeth', 'password', 'k@jacobs.com', 'male');
+    VALUES ('Seth', 'Howell', 'Sk8rSeth', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 's@h.com', 'male');
 INSERT INTO user (first_name, last_name, username, password, email, gender)
-    VALUES ('Bob', 'Tabor', 'SnoopBobb', 'password', 'b@t.com', 'male');
+    VALUES ('Bob', 'Tabor', 'SnoopBobb', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 'b@t.com', 'male');
 INSERT INTO user (first_name, last_name, username, password, email, gender)
-    VALUES ('Jordyn', 'Tacorante', 'JT', 'password', 'J@T.com', 'female');
+    VALUES ('Jordyn', 'Tacorante', 'JT', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 'J@T.com', 'female');
 INSERT INTO user (first_name, last_name, username, password, email, gender)
-    VALUES ('Scott', 'Kessinger', 'Scottie2Hottie', 'password', 'S@K.com', 'male');
+    VALUES ('Scott', 'Kessinger', 'Scottie2Hottie', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 'S@K.com', 'male');
+INSERT INTO user (first_name, last_name, username, password, email, gender)
+    VALUES ('Miney', 'Mouse', 'MineyMouse', '$2y$10$UlMC6d5eFI/jTTXZLbozKe4YD0UWp3WdEw/xt1Z3qyz84PrzeSWDW', 'miney@mouse.com', 'female');
 
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Beardsley Mountiain', 'More of a boulder pile than conventional mountiain just north of the 101 on Cave Creek. Home to more rock climbers than hikers', 1, 'Cave Creek Blvd & Loop 101', '560', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Camelback', 'A small but steep mountain in the heart of Scottsdale. very busy most weekend days', 2, 'Tatum & McDonald', '2706', '');
@@ -99,15 +101,15 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 19, "Nature Trail", "A standard quick nature hike", "7920", "80", "#PiestewaSummitHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 20, "Perl Charles Memorial Trail", "Another standard family hike that has a great view of the city", "13200", "220", "#LVYatesHTZ");
 
-INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (4, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "#TomsThumbHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (5, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "#TomsThumbHTZ");
 
 
 INSERT INTO image (image_id, image_path) VALUES (1, '/css/images/Sup2HDR.jpg');
-INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/Sunset.jpg');
+INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/CamelbackMountainPanorama.jpg');
 INSERT INTO image (image_id, image_path) VALUES (3, '/css/images/DreamyDraw/PiestewaPeak.jpg');
 INSERT INTO image (image_id, image_path) VALUES (4, '/css/images/LookoutMountain/');
 INSERT INTO image (image_id, image_path) VALUES (5, '/css/images/McDowellMountains/IMG_8261.jpg');
 INSERT INTO image (image_id, image_path) VALUES (6, '/css/images/NorthMountain/NorthMTN.jpg');
-INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/SouthMTN.jpg');
+INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/sunset.jpg');
 INSERT INTO image (image_id, image_path) VALUES (8, '/css/images/ShawButte/');
 INSERT INTO image (image_id, image_path) VALUES (9, '/css/images/ShadowMountain/ShadowMTN.jpg');

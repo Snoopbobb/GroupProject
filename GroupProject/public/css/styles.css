@@ -76,6 +76,10 @@ nav {
 	top: 30px;
 }
 
+.user-options a:hover {
+	color: #ddd;
+}
+
 .user-options a {
 	color:white;
 	text-decoration: none;
@@ -564,4 +568,25 @@ Tiles
 	top: 410px;
 	height: 170px;
 	width: 200px;
+}
+
+/*======================================================================================================================
+/*================================================ Trail Page  ===============================================
+/*======================================================================================================================*/
+
+/* CSS just to get started */
+
+.trail-description {
+	float: left;
+	width: 33%;
+}
+
+.trail-comment {
+	float: left;
+	width: 33%;
+}
+
+.instagram-feed {
+	float: left;
+	width: 33%;
 }
