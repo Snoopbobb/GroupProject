@@ -29,6 +29,9 @@
 		<p>{{ $trail->description }}</p>
 	</div>
 	<div class="trail-comment">
+		<div class="more-comments">
+			<span><i class="fa fa-angle-up"></i></span>
+		</div>
 		<h3>Comments</h3>
 		<div class="comment-block">
 			<div class="image">this is an image</div>
@@ -49,7 +52,7 @@
 
 
 		<div class="more-comments">
-			<span>more v</span>
+			<span><i class="fa fa-chevron-down"></i></span>
 			
 		</div>
 
