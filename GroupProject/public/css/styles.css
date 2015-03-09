@@ -602,10 +602,50 @@ Tiles
 
 .trail-comment {
 	float: left;
-	width: 32%;
-	margin: 10px;
-	height: 730px;
-	background-color: #ccc;
+	width: 33%;
+	background-color: yellow;
+}
+
+.trail-comment > .more-comments {
+	height: 60px;
+	background-color: gray;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.comment-block {
+	background-color: red;
+	padding: 5px;
+}
+
+.comment-block::after{
+	content: '';
+	display: block;
+	clear: both
+}
+
+.comment-block .comment {
+	margin-left: 75px;
+}
+
+.comment-block .image {
+	background-color: blue;
+	float: left;
+	width: 70px;
+	height: 70px;
+
+}
+
+.comment-block .user-name {
+	background-color: purple;
+	text-align: left;
+}
+
+.comment > .comment-content{
+	background-color: orange;
+	margin-left: 5px;
+	text-align: justify;
+	margin-top: 5px;
 }
 
 .instagram-feed {

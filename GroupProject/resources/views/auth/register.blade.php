@@ -111,8 +111,8 @@
 						<div class="col-md-6">
 							<select name="gender">
 								<div>
-									<option>Male</option>
-									<option>Female</option>
+									<option value="male">Male</option>
+									<option value="female">Female</option>
 								</div>
 							</select>
 						</div>
