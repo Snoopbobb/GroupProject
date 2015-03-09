@@ -1,7 +1,7 @@
 <?php
 namespace App\Models;
 use DB;
-use App\Library\Sql;
+use App\Library\SQL;
 abstract class Model {
     
     /**

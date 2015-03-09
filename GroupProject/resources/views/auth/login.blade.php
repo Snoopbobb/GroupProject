@@ -1,40 +1,51 @@
 @extends('layout')
 
 @section('main_content')
-
+	<?php $login_errors = []; ?>
 	<div class="main-content">
 		@if (count($errors) > 0)
-			<div class="alert alert-danger">
-				<strong>balls!</strong> 
-				There were some problems with your input.
-				<ul>
-					@foreach ($errors->all() as $error)
-						<li>{{ $error }}</li>
-					@endforeach
-				</ul>
+				<span class="head-error">balls!</span> 
+				<div class="main-error">There were some problems with your input.</div>
+				<?php 
+					foreach($errors->keys() as $key) {
+						$login_errors[$key] = $errors->get($key)[0];
+					}
+
+						
+				?>
+					
 			</div>
 		@endif
 
-		<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
+		<form role="form" method="POST" action="{{ url('/auth/login') }}">
 			<div>
 				<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-				<div class="form-group inputs">
+				<div class="inputs">
 					<label class="col-md-4 control-label">E-Mail Address</label>
 					<div class="col-md-6">
 						<input type="email" class="form-control" name="email" value="{{ old('email') }}">
+
+						@if(isset($login_errors['email']))
+							{{$login_errors['email']}}
+						@endif
+
 					</div>
 				</div>
 
-				<div class="form-group inputs">
+				<div class="inputs">
 					<label class="col-md-4 control-label">Password</label>
-					<div class="col-md-6">
+					<div>
 						<input type="password" class="form-control" name="password">
+						
+						@if(isset($login_errors['password']))
+							{{$login_errors['password']}}
+						@endif
 					</div>
 				</div>
 
-				<div class="form-group inputs">
-					<div class="col-md-6 col-md-offset-4">
+				<div class="inputs">
+					<div>
 						<div class="checkbox">
 							<label>
 								<input type="checkbox" name="remember"> Remember Me
@@ -53,3 +64,4 @@
 		</form>
 	</div>
 @endsection
+	

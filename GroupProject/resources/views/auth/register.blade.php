@@ -22,7 +22,7 @@
 							<input type="text" class="form-control" name="first_name" value="{{ old('first_name') }}"> 
 
 							@if(isset($my_errors['first_name']))
-							
+
 								{{$my_errors['first_name']}}
 
 							@endif
@@ -36,9 +36,9 @@
 							<input type="text" class="form-control" name="last_name" value="{{ 
 							old('last_name') }}">
 
-							@if(count($errors) > 0 && $errors->getBag('default')->has('last_name'))
-
-							{{$errors->getBag('default')->get('last_name')[0]}}
+							@if(isset($my_errors['last_name']))
+							
+								{{$my_errors['last_name']}}
 
 							@endif
 
@@ -50,9 +50,9 @@
 						<div class="col-md-6">
 							<input type="text" class="form-control" name="username" value="{{ old('username') }}">
 
-							@if(count($errors) > 0 && $errors->getBag('default')->has('username'))
-
-							{{$errors->getBag('default')->get('username')[0]}}
+							@if(isset($my_errors['username']))
+							
+								{{$my_errors['username']}}
 
 							@endif
 
@@ -64,9 +64,9 @@
 						<div class="col-md-6">
 							<input type="email" class="form-control" name="email" value="{{ old('email') }}">
 
-							@if(count($errors) > 0 && $errors->getBag('default')->has('email'))
-
-							{{$errors->getBag('default')->get('email')[0]}}
+							@if(isset($my_errors['email']))
+							
+								{{$my_errors['email']}}
 
 							@endif
 
@@ -78,9 +78,9 @@
 						<div class="col-md-6">
 							<input type="password" class="form-control" name="password">
 							
-							@if(count($errors) > 0 && $errors->getBag('default')->has('password'))
-
-							{{$errors->getBag('default')->get('password')[0]}}
+							@if(isset($my_errors['password']))
+							
+								{{$my_errors['password']}}
 
 							@endif
 
