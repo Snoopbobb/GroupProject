@@ -117,5 +117,28 @@ $(document).ready(function() {
 		}
 	});
 
+	//================================================================
+	// Add Comment on Trail Page
+	//================================================================
+
+	function renderComment(message){
+		var source = $('#template-comment').html();
+		var template = Handlebars.compile(source);
+		var output = template({
+			message: message
+		});
+		return output;	
+	};
+
+
+
+	$('form.add-comment').on('submit', function(event) {
+		event.preventDefault();
+		var message = $('.add-comment textarea').val();
+		var output = renderComment(message);
+		$('.comments').prepend(output);
+		$('textarea').val('');		
+	});
+
 
 });

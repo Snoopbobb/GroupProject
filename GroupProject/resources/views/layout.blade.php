@@ -5,6 +5,7 @@
 	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/jquery.simplyscroll.min.js') }}"></script>
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>

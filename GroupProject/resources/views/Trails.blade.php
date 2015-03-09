@@ -33,22 +33,24 @@
 			<span><i class="fa fa-chevron-up"></i></span>
 		</div>
 		<h3>Comments</h3>
-		<div class="comment-block">
-			<div class="image">this is an image</div>
-			<div class="comment">
-				<div class="user-name">Jordyn</div>
-				<div class="comment-content">I love to hike here. What a beautiful place to be.</div>
+		<div class="comments">
+			<div class="comment-block">
+				<div class="image">this is an image</div>
+				<div class="comment">
+					<div class="user-name">Jordyn</div>
+					<div class="comment-content">I love to hike here. What a beautiful place to be.</div>
+				</div>
 			</div>
-		</div>
-		@foreach($comment as $comm)
-		<div class="comment-block">
-			<div class="image">picture</div>
-			<div class="comment">
-				<div class="user-name">{{$comm->username}}</div>
-				<div class="comment-content">{{$comm->comment_description}}</div>
+			@foreach($comment as $comm)
+			<div class="comment-block">
+				<div class="image">picture</div>
+				<div class="comment">
+					<div class="user-name">{{$comm->username}}</div>
+					<div class="comment-content">{{$comm->comment_description}}</div>
+				</div>
 			</div>
+			@endforeach
 		</div>
-		@endforeach
 
 
 		<div class="more-comments">
@@ -83,6 +85,8 @@
 			
 
 	</div>
+
+	@include('partial/handlebar-templates/comments')
 
 	
 	<div class="instagram-feed">
