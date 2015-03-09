@@ -2,8 +2,10 @@
 /*=========================================================== Main Foundation/ Reused CSS ==============================
 /*======================================================================================================================*/
 
-h3 {
+h3, h2 {
 	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 10px;
 }
 
 i {
@@ -96,7 +98,7 @@ nav {
 }
 
 .title {
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0);
 	position: absolute;
 	left: 10%;
 	top: 60%;
@@ -104,17 +106,22 @@ nav {
 
 .title h1 {
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 5px;
+	color: #ddd;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .weather {
 	color: #ddd;
 	font-size: 25pt;
+	/*padding-left: 10px;*/
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .hashtag {
 	color: #ddd;
 	font-size: 28pt;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 /*****************************
@@ -501,7 +508,9 @@ Tiles
 /*======================================================================================================================*/
 
 .trail_tiles {
-	margin-left: auto;
+	/*margin-left: auto;*/
+	/*text-align: center;*/
+	padding-left: 200px;
 }
 
 .trail_tile_1 {
@@ -749,11 +758,10 @@ Class name automatically added to element */
 
 /* Custom class modifications - adds to / overrides above
 
-.simply-scroll is default base class */
-
 /* Container DIV */
 .simply-scroll { 
 	width: 586px;
+	height: 100%;
 	margin-bottom: 1em;
 }
 

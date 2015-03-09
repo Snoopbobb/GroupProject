@@ -12,6 +12,7 @@ $(document).ready(function() {
 			$("#instafeed").simplyScroll({
                   		speed: 2,
                   		frameRate: 20,
+                  		manualMode: 'end',
                   		orientation: 'vertical',
                   		direction: 'forwards'
      		});

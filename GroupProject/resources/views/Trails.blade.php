@@ -27,6 +27,9 @@
 	<div class="trail-description">
 		<h3>Trail Description</h3>
 		<p>{{ $trail->description }}</p>
+		<div class="rating">
+			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+		</div>
 	</div>
 	<div class="trail-comment">
 		<div class="more-comments">
