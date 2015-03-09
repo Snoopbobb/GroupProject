@@ -113,3 +113,12 @@ INSERT INTO image (image_id, image_path) VALUES (6, '/css/images/NorthMountain/N
 INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/sunset.jpg');
 INSERT INTO image (image_id, image_path) VALUES (8, '/css/images/ShawButte/');
 INSERT INTO image (image_id, image_path) VALUES (9, '/css/images/ShadowMountain/ShadowMTN.jpg');
+
+
+insert into comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1,2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+
