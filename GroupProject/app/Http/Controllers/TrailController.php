@@ -3,6 +3,7 @@ use DB;
 use App\Models\Mountain;
 use App\Models\Trail;
 use App\Models\Image;
+use Request;
 
 class TrailController extends Controller {
 
@@ -37,5 +38,14 @@ class TrailController extends Controller {
 	// 	$comment = Trail::getComments($trail_id);
 	// 	return view("Trails",["comment" => $comment]);
 	// }
+
+	public function addComment($user_id) {
+		$comment = Request::input('comment');
+		$trail_id = Request::input('trail_id');
+		// $user_id = Auth::user()->user_id;
+		$new_comment = Trail::addComment($user_id, $trail_id, $comment);
+		return redirect()->back();
+
+	}
 
 }

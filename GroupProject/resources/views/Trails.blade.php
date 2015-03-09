@@ -61,8 +61,10 @@
 			<h1><a href="/auth/login">Login</a> to add a comment!</h1>
 		@else
 			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
-			<form class="add-comment">
-				<textarea placeholder="Add your comment!"></textarea>
+			<form class="add-comment" action="/addComment/{{Auth::user()->user_id}}/{{$trail->trail_id}}" method="POST">
+				<input type="hidden" name="_token" value="{{ csrf_token() }}">
+				<input type="hidden" name="trail_id" value="{{$trail->trail_id}}">
+				<textarea name="comment" placeholder="Add your comment!"></textarea>
 					<div>
 						<button>Send</button>
 					</div>
@@ -85,12 +87,11 @@
 			
 
 	</div>
-	<script id="template-comment" type="text/x-handlebars-template">
+	<!--<script id="template-comment" type="text/x-handlebars-template">
 		<div class="comment-block">
 			<div class="image">this is an image</div>
 			<div class="comment">
-				<div class="user-name">{{Auth::user()->username}}</div>
-				@include('partial/handlebar-templates/comments')
+				
 			</div>
 		</div>
 	</script>
@@ -99,5 +100,5 @@
 	<div class="instagram-feed">
 		<h3>{{ $trail->hashtag }}</h3>
 		<div id="instafeed"></div>
-	</div>
+	</div>-->
 @stop
