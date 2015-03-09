@@ -7,7 +7,12 @@ Route::get('/home', function(){
 	return redirect('/');
 });
 
-Route::get('/profile/', 'ProfileController@show');
+
+//Profile
+Route::get('/profile', 'ProfileController@show');
+Route::post('/profile/{user_id}/update', 'ProfileController@update');
+
+
 
 Route::get('/suggest', function(){
 	return view('pages.suggest');
