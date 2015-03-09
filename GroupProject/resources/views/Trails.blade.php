@@ -90,14 +90,18 @@
 			
 
 	</div>
-	<!--<script id="template-comment" type="text/x-handlebars-template">
+{{-- 	<script id="template-comment" type="text/x-handlebars-template">
 		<div class="comment-block">
 			<div class="image">this is an image</div>
 			<div class="comment">
 				
 			</div>
 		</div>
+
 	</script>-->
+
+	</script> --}}
+
 
 	
 	<div class="instagram-feed">
