@@ -34,7 +34,7 @@ $(document).ready(function() {
 	// Featured
 	//================================================================
 
-	$('.featured span').on('click', function(){
+	$('.featureblock').on('click', function(){
 		var mID = $(this).find('.info input').val();
 
 		var header = $(this).find('.info h1').text();

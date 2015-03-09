@@ -199,6 +199,14 @@ featured
 	display: none;
 }
 
+.feature-buttons div {
+	height: 50%;
+}
+
+.feature-buttons div:hover {
+	background-color: rgba(255,255,255,.5);
+}
+
 main > div {
 	text-align: center;
 }

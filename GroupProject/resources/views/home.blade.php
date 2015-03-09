@@ -12,7 +12,7 @@
 
 @section('featured')
 <div class="featured">
-	<span>
+	<span class="featureblock">
 		<div>
 			<div class="thumbnail">
 				<h3>The Mountains</h3>
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</span>
-	<span>
+	<span class="featureblock">
 		<div>
 			<div class="thumbnail">
 				<h3>The Other Place</h3>
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</span>
-	<span>
+	<span class="featureblock">
 		<div>
 			<div class="thumbnail">
 				<h3>The Stuff & Things</h3>
@@ -63,7 +63,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="focus">
+	<span class="featureblock focus">
 		<div>
 			<div class="thumbnail">
 				<h3>The Supps</h3>
@@ -80,7 +80,10 @@
 			</div>
 		</div>
 	</span>
-	<span>5featured5</span>
+	<span class="feature-buttons">
+		<div>Next ></div>
+		<div>< Previous</div>
+	</span>
 </div>
 @stop
 
