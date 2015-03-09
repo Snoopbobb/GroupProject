@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-	<!-- Latest compiled and minified Bootstrap CSS -->
-	{{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --}}
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>

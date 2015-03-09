@@ -86,6 +86,7 @@ INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) V
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('South Mountain', 'This is another very long park that has lots and lots of long hikes, as well as a bunch of mountain biking trails.', 7, 'S 48th St. & S Pointe Pkwy', '2660', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shaw Butte', 'Another of the "Big Seven" that is inside Narth Mountain Park', 8, 'Central Ave. & Thunderbird Rd.', '2149', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Shadow Mountain', 'A small but steep littl mountain in paradise valley that has one of the very best summit views of the city.', 9, 'Thunderbird & 32nd St.', '1928', '');
+INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Supperstition Mountains', 'A.', 99, ' St.', '1928', '');
 
 
 
@@ -113,12 +114,10 @@ INSERT INTO image (image_id, image_path) VALUES (6, '/css/images/NorthMountain/N
 INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/sunset.jpg');
 INSERT INTO image (image_id, image_path) VALUES (8, '/css/images/ShawButte/');
 INSERT INTO image (image_id, image_path) VALUES (9, '/css/images/ShadowMountain/ShadowMTN.jpg');
+INSERT INTO image (image_id, image_path) VALUES (99, '/css/images/Sup2HDR.jpg');
 
-
-insert into comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 1, "I love this trail. you would love it");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 5, "this is an awesome trail");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1,2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
-
-

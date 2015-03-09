@@ -14,6 +14,9 @@ Route::get('/suggest', function(){
 });
 
 
+Route::get('/ajax/{mountain_id}', 'MountainController@getImage');
+
+
 //Mountains
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
 Route::get('/Mountains/all', 'MountainController@getAll');

@@ -25,6 +25,7 @@
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque, aliquid numquam totam minima! Earum quae mollitia, repellendus fugit nostrum atque iste quidem, doloribus perferendis velit laudantium minima incidunt! Animi deserunt, deleniti quae adipisci veniam?</p>
+				<input type="hidden" value="2">
 			</div>
 		</div>
 	</span>
@@ -41,6 +42,7 @@
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus assumenda sed earum iste expedita vero nobis natus numquam cum, delectus voluptatum unde nihil voluptate fuga dolore ipsum at laborum eius minima fugiat. Veniam, minima!</p>
+				<input type="hidden" value="3">
 			</div>
 		</div>
 	</span>
@@ -57,6 +59,7 @@
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eaque voluptas voluptates illum fugiat at cupiditate quae, odio alias suscipit nisi unde porro, iste, commodi quidem quos quisquam saepe possimus. Assumenda animi quibusdam alias consequuntur.</p>
+				<input type="hidden" value="5">
 			</div>
 		</div>
 	</span>
@@ -73,6 +76,7 @@
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio.</p>
+				<input type="hidden" value="99">
 			</div>
 		</div>
 	</span>
