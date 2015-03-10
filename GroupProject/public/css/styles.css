@@ -779,5 +779,6 @@ Class name automatically added to element */
 	
 /* Explicitly set height/width of each list item */	
 .simply-scroll .simply-scroll-list li {
-	/*width: auto;*/
+	width: 380px;
+	height: 380px;
 }
