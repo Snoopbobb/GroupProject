@@ -71,7 +71,7 @@
 		<div class="image">this is an image</div>
 		<div class="comment">
 			<div class="user-name">{{Auth::user()->username}}</div>
-			@include('partial/handlebar-templates/comments')
+				@include('partial/handlebar-templates/comments')
 		</div>
 	</div>
 </script>

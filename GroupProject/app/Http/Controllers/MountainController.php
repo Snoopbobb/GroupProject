@@ -11,6 +11,7 @@ class MountainController extends Controller {
 	}
 
 	public function getMountain($mountain_id) {
+			
 			// call weather function
 			$weather = Controller::getWeather();
 
