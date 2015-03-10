@@ -60,7 +60,6 @@
 						<button>Send</button>
 					</div>
 			</form>
-		@endif
 			
 
 	</div>
@@ -75,6 +74,8 @@
 		</div>
 	</div>
 </script>
+
+@endif
 
 	
 	<div class="instagram-feed">
