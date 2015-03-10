@@ -74,8 +74,8 @@
 			<a href="/">logo</a>
 		</span>
 		<span class="about">
-			<a href="/">About Us</a>
-			<a href="/">FAQ</a>
+			<a href="/about">About Us</a> | 
+			<a href="/faq">FAQ</a>
 		</span>
 		<span class="social-logos">
 			<i class="fa fa-instagram fa-3x"></i>

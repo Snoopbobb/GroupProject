@@ -11,11 +11,17 @@ Route::get('/home', function(){
 //Profile
 Route::get('/profile', 'ProfileController@show');
 Route::post('/profile/{user_id}/update', 'ProfileController@update');
+Route::post('/profile/{user_id}/delete', 'ProfileController@delete');
 
-
-
+//Static pages
 Route::get('/suggest', function(){
 	return view('pages.suggest');
+});
+Route::get('/faq', function(){
+	return view('pages.faq');
+});
+Route::get('/about', function(){
+	return view('pages.about');
 });
 
 

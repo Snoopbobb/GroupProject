@@ -357,9 +357,14 @@ label {
 	margin-top: 10px;
 }
 
-.main-content button {
+.save-button {
 	float:left;
 	margin-left: 2em;
+}
+
+.delete-profile {
+	float:right;
+	margin-right: 2em;
 }
 
 .non-label-text {
@@ -717,6 +722,23 @@ Tiles
 	background-image: none;
 	border: 1px solid #ccc;
 	border-radius: 4px;
+}
+
+.faq-wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.faq-wrapper > h4 {
+	margin-bottom: -20px;
+	padding: 0;
+	display: inline-block;
+}
+
+.faq-wrapper > p {
+	padding: 0;
+	margin:  0;
+	display: inline-block;
 }
 
 /*======================================================================================================================

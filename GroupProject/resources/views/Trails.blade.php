@@ -45,13 +45,13 @@
 				</div>
 			</div>
 			@foreach($comment as $comm)
-			<div class="comment-block">
-				<div class="image">picture</div>
-				<div class="comment">
-					<div class="user-name">{{$comm->username}}</div>
-					<div class="comment-content">{{$comm->comment_description}}</div>
+				<div class="comment-block">
+					<div class="image">picture</div>
+					<div class="comment">
+						<div class="user-name">{{$comm->username}}<span>{{$comm->created_at}}</span></div>
+						<div class="comment-content">{{$comm->comment_description}}</div>
+					</div>
 				</div>
-			</div>
 			@endforeach
 		</div>
 
