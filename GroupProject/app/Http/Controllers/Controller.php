@@ -20,7 +20,7 @@ abstract class Controller extends BaseController {
 		
 		$code = $data->weather[0]->id;
 		// echo $code;
-		// $code = 922;
+		// $code = 802;
 
 		switch ($code) {
 

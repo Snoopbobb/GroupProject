@@ -106,6 +106,8 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (5, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "TomsThumbHTZ");
 
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (7, 22, "Pima Canyon National Trail", "A very long and pretty trail, that is most frequented by mountain bikers,a dn trail runners.", "75504", "400", "PimaCanyonHTZ");
+
 
 INSERT INTO image (image_id, image_path) VALUES (1, '/css/images/Sup2HDR.jpg');
 INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/CamelbackMountainPanorama.jpg');

@@ -7,7 +7,7 @@
 	{{ $weather['temperature'] }}&deg; 
 	{!! $weather['clouds'] !!}
 </div>
-<div class="hashtag">#{{ $trail->hashtag }}</div>
+<div class='hash'>#<span class="hashtag">{{ $trail->hashtag }}</span></div>
 @stop
 
 

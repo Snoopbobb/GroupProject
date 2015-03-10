@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$('.focus > div').animate({height: '250%'}, 10);
-	var hashtag = 'hikeaz'; //$('.hashtag').text();
+	var hashtag =  $('.hashtag').text(); //'hikeaz';
+	console.log(hashtag);
 	var feed = new Instafeed({
 			get: 'tagged',
 			tagName: hashtag,
