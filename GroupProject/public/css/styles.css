@@ -703,6 +703,7 @@ Tiles
 
 
 /* CSS For Suggest A Trail Page */
+<<<<<<< HEAD
 .suggest-form {
 	width: 50%;
 }
@@ -783,3 +784,43 @@ Class name automatically added to element */
 	width: 380px;
 	height: 380px;
 }
+=======
+.suggest-wrapper {
+	margin-left: 200px;
+	width: 45%;
+	text-align: none;
+}
+
+.suggest-form label {
+	float: none;
+	margin-right: 0em;
+	width: 0px;
+	margin-top:0;
+}
+
+.suggest-input {
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	height: 25px;	
+}
+
+.suggest-radio-wrapper {
+	margin: 20px;
+	padding: 20px;
+}
+
+.suggest-radio {
+	display: inline;
+	padding: 10px;
+}
+
+.suggest-button {
+	position: relative;
+	margin: 20px;
+}
+
+
+>>>>>>> suggest_a_trail
