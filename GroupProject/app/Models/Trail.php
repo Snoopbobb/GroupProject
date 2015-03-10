@@ -11,7 +11,10 @@ class Trail extends Model{
 
 	public static function getComments($trail_id){	
 		$sql = "
-			SELECT *
+			SELECT user.user_id, 
+			comment_description,  
+			comment.created_at as created_at,
+			user.username
 			FROM comment 
 			JOIN user USING(user_id)
 			WHERE trail_id = :trail_id
@@ -28,12 +31,6 @@ class Trail extends Model{
 			(user_id, comment_description, trail_id)
 			VALUES(:user_id, :comment, :trail_id)
 			";
-
-			echo "hello";
-			echo $user_id;
-			echo $trail_id;
-			echo $comment;
-		echo "hi";
 		$new_comment = DB::insert($sql, [
 					':user_id' => $user_id, 
 					':comment' => $comment,

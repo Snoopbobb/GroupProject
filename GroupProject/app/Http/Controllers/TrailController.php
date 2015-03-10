@@ -39,12 +39,13 @@ class TrailController extends Controller {
 	// 	return view("Trails",["comment" => $comment]);
 	// }
 
-	public function addComment($user_id) {
-		$comment = Request::input('comment');
+	public function addComment() {
+		$user_id = Request::input('user_id');
+		$message = Request::input('message');
 		$trail_id = Request::input('trail_id');
-		// $user_id = Auth::user()->user_id;
-		$new_comment = Trail::addComment($user_id, $trail_id, $comment);
-		return redirect()->back();
+		$new_comment = Trail::addComment($user_id, $trail_id, $message);
+		// return redirect()->back();
+		return [];
 
 	}
 

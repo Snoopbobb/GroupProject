@@ -622,6 +622,9 @@ Tiles
 	height: 730px;
 	background-color: #ccc;
 }
+/****************************
+Comments
+****************************/
 
 .trail-comment {
 	float: left;
@@ -630,6 +633,13 @@ Tiles
 	padding: 5px;
 	height: 720px;
 	background-color: yellow;
+}
+
+.trail-comment .comments {
+	height: 525px;
+	background-color: white;
+	padding: 2px;
+	overflow-Y: scroll;
 }
 
 .trail-comment > .more-comments {
@@ -645,7 +655,12 @@ Tiles
 
 .comment-block {
 	background-color: red;
+	margin-top: 5px;
 	padding: 5px;
+}
+
+.comment-block.hidden {
+	display: none;
 }
 
 .comment-block::after{
@@ -665,6 +680,10 @@ Tiles
 	height: 70px;
 }
 
+.comment .date{
+	text-align: right;
+}
+
 .comment-block .user-name {
 	background-color: purple;
 	text-align: left;
@@ -680,6 +699,7 @@ Tiles
 .add-comment {
 	background-color: red;
 	padding: 5px;
+	margin-top: 15px;
 }
 
 .add-comment textarea {

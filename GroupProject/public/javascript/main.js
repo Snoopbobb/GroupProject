@@ -124,24 +124,41 @@ $(document).ready(function() {
 	// Add Comment on Trail Page
 	//================================================================
 
-	// function renderComment(message){
-	// 	var source = $('#template-comment').html();
-	// 	var template = Handlebars.compile(source);
-	// 	var output = template({
-	// 		message: message
-	// 	});
-	// 	return output;	
-	// };
+	function renderComment(message){
+		var source = $('#template-comment').html();
+		var template = Handlebars.compile(source);
+		var output = template({
+			message: message
+		});
+		return output;	
+	};
 
 
 
-	// $('form.add-comment').on('submit', function(event) {
-	// 	event.preventDefault();
-	// 	var message = $('.add-comment textarea').val();
-	// 	var output = renderComment(message);
-	// 	$('.comments').prepend(output);
-	// 	$('textarea').val('');		
-	// });
+	$('form.add-comment').on('submit', function(event) {
+		event.preventDefault();
+		var message = $('.add-comment textarea').val();
+		// var output = renderComment(message);
+		// $('.comments').prepend(output);
+		console.log(message);
+
+		var senddata = {
+			user_id: $('.add-comment .user-id').val(),
+			token: $('.add-comment .token').val(),
+			trail_id: $('.add-comment .trail-id').val(),
+			message: $('.add-comment textarea').val()
+		}
+		
+
+		$.get('/addComment', senddata, function (data){
+
+				var output = renderComment(message);
+				$('.comments').prepend(output);
+		})
+
+
+		$('textarea').val('');		
+	});
 
 
 });

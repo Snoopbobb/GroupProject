@@ -32,23 +32,14 @@
 		</div>
 	</div>
 	<div class="trail-comment">
-		<div class="more-comments">
-			<span><i class="fa fa-chevron-up"></i></span>
-		</div>
 		<h3>Comments</h3>
 		<div class="comments">
-			<div class="comment-block">
-				<div class="image">this is an image</div>
-				<div class="comment">
-					<div class="user-name">Jordyn</div>
-					<div class="comment-content">I love to hike here. What a beautiful place to be.</div>
-				</div>
-			</div>
 			@foreach($comment as $comm)
 				<div class="comment-block">
 					<div class="image">picture</div>
 					<div class="comment">
-						<div class="user-name">{{$comm->username}}<span>{{$comm->created_at}}</span></div>
+						<div class="date">{{$comm->created_at}}</div>
+						<div class="user-name">{{$comm->username}}</div>
 						<div class="comment-content">{{$comm->comment_description}}</div>
 					</div>
 				</div>
@@ -56,52 +47,34 @@
 		</div>
 
 
-		<div class="more-comments">
-			<span><i class="fa fa-chevron-down"></i></span>
-			
-		</div>
 		@if(Auth::guest())
 			<h1><a href="/auth/login">Login</a> to add a comment!</h1>
 		@else
 			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
-			<form class="add-comment" action="/addComment/{{Auth::user()->user_id}}/{{$trail->trail_id}}" method="POST">
-				<input type="hidden" name="_token" value="{{ csrf_token() }}">
-				<input type="hidden" name="trail_id" value="{{$trail->trail_id}}">
+			<form class="add-comment">
+				<input type="hidden" class="token" name="_token" value="{{ csrf_token() }}">
+				<input type="hidden" class="trail-id" name="trail_id" value="{{$trail->trail_id}}">
+				<input class="user-id" type="hidden" name="user_id" value="{{Auth::user()->user_id}}">
 				<textarea name="comment" placeholder="Add your comment!"></textarea>
 					<div>
 						<button>Send</button>
 					</div>
 			</form>
-
-	
-
-
-		{{-- <div class="add-comment">
-			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
-			<div class="image">picture</div>
-			<div class="comment">
-				<div class="user-name">
-					{{Auth::user()->username}}
-				</div>
-				<textarea placeholder="comment here!"></textarea>
-			</div>
-		</div> --}}
 		@endif
 			
 
 	</div>
-{{-- 	<script id="template-comment" type="text/x-handlebars-template">
-		<div class="comment-block">
-			<div class="image">this is an image</div>
-			<div class="comment">
-				
-			</div>
+
+
+<script id="template-comment" type="text/x-handlebars-template">
+	<div class="comment-block">
+		<div class="image">this is an image</div>
+		<div class="comment">
+			<div class="user-name">{{Auth::user()->username}}</div>
+			@include('partial/handlebar-templates/comments')
 		</div>
-
-	</script>-->
-
-	</script> --}}
-
+	</div>
+</script>
 
 	
 	<div class="instagram-feed">

@@ -42,7 +42,7 @@ Route::get('/Trails/{mountain_id}/{trail_id}','TrailController@getTrail');
 
 
 //Add a Comment
-Route::post('/addComment/{user_id}/{trail_id}', 'TrailController@addComment');
+Route::get('/addComment', 'TrailController@addComment');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
