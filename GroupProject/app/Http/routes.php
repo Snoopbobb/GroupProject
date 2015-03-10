@@ -13,9 +13,15 @@ Route::get('/profile', 'ProfileController@show');
 Route::post('/profile/{user_id}/update', 'ProfileController@update');
 
 
-
+//Static pages
 Route::get('/suggest', function(){
 	return view('pages.suggest');
+});
+Route::get('/faq', function(){
+	return view('pages.faq');
+});
+Route::get('/about', function(){
+	return view('pages.about');
 });
 
 
