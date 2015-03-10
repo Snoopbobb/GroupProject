@@ -62,8 +62,6 @@
 			</form>
 			
 
-	</div>
-
 
 <script id="template-comment" type="text/x-handlebars-template">
 	<div class="comment-block">
@@ -76,6 +74,8 @@
 </script>
 
 @endif
+
+</div>
 
 	
 	<div class="instagram-feed">
