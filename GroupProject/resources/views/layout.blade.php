@@ -4,12 +4,7 @@
 	<meta charset="UTF-8">
 	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('javascript/jquery.simplyscroll.min.js') }}"></script>
-	<script src="{{ URL::asset('javascript/main.js') }}"></script>
-	<script src="{{ URL::asset('/masonry.pkgd.js') }}"></script>
+
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/weather-icons/css/weather-icons.min.css') }}">
@@ -38,11 +33,11 @@
 					</div>
 					<span class="user-options">
 						@if(Auth::guest())
-						<a href="/auth/register" title="Signup"><i class="fa fa-pencil-square-o scale"></i></a>
+						<a href="/auth/register" title="Signup"><i class="fa fa-user-plus scale"></i></a>
 						<a href="/auth/login" title="Login"><i class="fa fa-sign-in scale"></i></a>
 						@else
 						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs scale"> </i></a>
-						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-sign-out scale"></i></a>
+						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-external-link scale"></i></a>
 						@endif
 					</span>
 				</nav>
@@ -84,6 +79,11 @@
 			<i class="fa fa-twitter fa-3x"></i>
 		</span>
 	</footer>
-
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('javascript/jquery.simplyscroll.min.js') }}"></script>
+	<script src="{{ URL::asset('javascript/main.js') }}"></script>
+	<script src="{{ URL::asset('/masonry.pkgd.js') }}"></script>
 </body>
 </html>

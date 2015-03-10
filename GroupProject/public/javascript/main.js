@@ -33,6 +33,12 @@ $(document).ready(function() {
 		itemSelector: '.ttile'
 	});
 
+	$('.masonry.trail_tiles > div').masonry({
+		columnWidth: 10,
+		gutter: 10,
+		itemSelector: '.ttile'
+	});
+
 	//================================================================
 	// Header
 	//================================================================

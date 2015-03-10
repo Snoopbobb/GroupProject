@@ -709,9 +709,6 @@ Main Page Tiles
 /*================================================  Instafeed  ===============================================
 /*======================================================================================================================*/
 
-.instafeed {
-	
-}
 
 /* Container DIV - automatically generated */
 .simply-scroll-container { 
@@ -767,10 +764,10 @@ Class name automatically added to element */
 
 /*masonry*/
 
-.masonry {
-  background: yellow;
-  width: 95%;
-  margin: 0 auto;
+.masonry, .masonry > div {
+	background: yellow;
+	width: 95%;
+	margin: 0 auto;
 }
 
 .ttile {

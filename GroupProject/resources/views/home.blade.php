@@ -81,8 +81,8 @@
 		</div>
 	</span>
 	<span class="feature-buttons">
-		<div>Next ></div>
-		<div>< Previous</div>
+		<div>Next -></div>
+		<div><- Previous</div>
 	</span>
 </div>
 @stop

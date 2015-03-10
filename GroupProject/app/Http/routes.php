@@ -28,7 +28,7 @@ Route::get('/about', function(){
 });
 
 
-Route::get('/ajax/{mountain_id}', 'MountainController@getImage');
+// Route::get('/ajax/{mountain_id}', 'MountainController@getImage');
 
 
 //Mountains

@@ -6,7 +6,6 @@
 	{{ $weather['temperature'] }}&deg; 
 	{!! $weather['clouds'] !!}
 </div>
-<div>** random stuff **</div>
 @stop
 
 
@@ -21,10 +20,9 @@
 @stop
 
 
-
 @section('main_content')
-	<div class="masonry js-masonry trail_tiles">
-		<div>
+	<div class="masonry trail_tiles">
+		<div class="js-masonry">
 			{!! $template !!}
 		</div>
 	</div>
