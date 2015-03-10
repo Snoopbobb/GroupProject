@@ -7,7 +7,7 @@
 	{{ $weather['temperature'] }}&deg; 
 	{!! $weather['clouds'] !!}
 </div>
-<div class="hashtag">{{ $trail->hashtag }}</div>
+<div class="hashtag">#{{ $trail->hashtag }}</div>
 @stop
 
 
@@ -45,13 +45,13 @@
 				</div>
 			</div>
 			@foreach($comment as $comm)
-			<div class="comment-block">
-				<div class="image">picture</div>
-				<div class="comment">
-					<div class="user-name">{{$comm->username}}</div>
-					<div class="comment-content">{{$comm->comment_description}}</div>
+				<div class="comment-block">
+					<div class="image">picture</div>
+					<div class="comment">
+						<div class="user-name">{{$comm->username}}<span>{{$comm->created_at}}</span></div>
+						<div class="comment-content">{{$comm->comment_description}}</div>
+					</div>
 				</div>
-			</div>
 			@endforeach
 		</div>
 
@@ -97,11 +97,15 @@
 				
 			</div>
 		</div>
+
+	</script>-->
+
 	</script> --}}
+
 
 	
 	<div class="instagram-feed">
-		<h3>{{ $trail->hashtag }}</h3>
+		<h3>#{{ $trail->hashtag }}</h3>
 		<div id="instafeed"></div>
 	</div>
 @stop

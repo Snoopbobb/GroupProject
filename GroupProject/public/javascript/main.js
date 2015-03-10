@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	$('.focus > div').animate({height: '250%'}, 10);
-
+	var hashtag = 'hikeaz'; //$('.hashtag').text();
 	var feed = new Instafeed({
 			get: 'tagged',
-			tagName: 'hikeaz',
+			tagName: hashtag,
 			clientId: 'ad19ab7ad8e940a5a8ee3775ac7553ff',
-			template: '<div><img src={{image}}></div>',
-			resolution: 'standard_resolution'
+			template: '<div><a target="_blank" href={{link}}><img src={{image}}></a></div>',
+			resolution: 'low_resolution'
 		,
 		after:function(){
 			$("#instafeed").simplyScroll({
