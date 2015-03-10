@@ -818,7 +818,7 @@ Class name automatically added to element */
 	display: inline-block;
 }
 
-/* CSS for FAQ page*/
+/* CSS for Confiramtion page*/
 .confirmation-page {
 	color: #00CC33;
 	position: relative;
@@ -839,4 +839,29 @@ Class name automatically added to element */
 .back-home-button:hover {
 	color: red;
 	background-color: white;
+}
+
+/* CSS for about page */
+.about-page-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.about-wrapper {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.about-wrapper a {
+	color: black;
+}
+
+.about-pic {
+	float: left;
+}
+
+.about-bio {
+	background-color: #fff;
+	margin-left: 100px;
+	padding-left: 10px;
 }
