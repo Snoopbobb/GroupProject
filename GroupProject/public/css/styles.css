@@ -296,7 +296,7 @@ main {
 }
 
 .browse-section {
-	min-height: 750px;
+	min-height: 650px;
 	background-color: #ddd;
 	position: relative;
 	text-align: center;
@@ -441,8 +441,17 @@ Login Page
 
 
 /*****************************
-Tiles
+Main Page Tiles
 *****************************/
+
+.tiles {
+	min-height: 750px;
+	margin: 0 auto;
+}
+
+.scale:hover {
+	transform: scale(1.01,1.01);
+}
 
 .tile_1 {
 	background-image: url('images/Camelback/Sunset_tile.jpg');
@@ -512,11 +521,11 @@ Tiles
 /*================================================ Mountains and Trails  ===============================================
 /*======================================================================================================================*/
 
-.trail_tiles {
-	/*margin-left: auto;*/
-	/*text-align: center;*/
-	padding-left: 200px;
-}
+/*.trail_tiles > div:first-child {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}*/
 
 .trail_tile_1 {
 	background-color: teal;
@@ -531,7 +540,7 @@ Tiles
 	background-color: teal;
 	position: absolute;
 	left: 20px;
-	top: 330px;
+	top: 340px;
 	height: 250px;
 	width: 250px;
 }
@@ -539,7 +548,7 @@ Tiles
 .trail_tile_3 {
 	background-color: teal;
 	position: absolute;
-	left: 280px;
+	left: 290px;
 	top: 20px;
 	height: 200px;
 	width: 250px;
@@ -548,8 +557,8 @@ Tiles
 .trail_tile_4 {
 	background-color: teal;
 	position: absolute;
-	left: 280px;
-	top: 230px;
+	left: 290px;
+	top: 240px;
 	height: 350px;
 	width: 250px;
 }
@@ -557,7 +566,7 @@ Tiles
 .trail_tile_5 {
 	background-color: teal;
 	position: absolute;
-	left: 540px;
+	left: 560px;
 	top: 20px;
 	height: 300px;
 	width: 200px;
@@ -566,8 +575,8 @@ Tiles
 .trail_tile_6 {
 	background-color: teal;
 	position: absolute;
-	left: 540px;
-	top: 330px;
+	left: 560px;
+	top: 340px;
 	height: 250px;
 	width: 200px;
 }
@@ -575,17 +584,17 @@ Tiles
 .trail_tile_7 {
 	background-color: teal;
 	position: absolute;
-	left: 750px;
+	left: 780px;
 	top: 20px;
 	height: 200px;
-	width: 410px;
+	width: 420px;
 }
 
 .trail_tile_8 {
 	background-color: teal;
 	position: absolute;
-	left: 750px;
-	top: 230px;
+	left: 780px;
+	top: 240px;
 	height: 350px;
 	width: 200px;
 }
@@ -593,18 +602,18 @@ Tiles
 .trail_tile_9 {
 	background-color: teal;
 	position: absolute;
-	left: 960px;
-	top: 230px;
-	height: 170px;
+	left: 1000px;
+	top: 240px;
+	height: 165px;
 	width: 200px;
 }
 
 .trail_tile_10 {
 	background-color: teal;
 	position: absolute;
-	left: 960px;
-	top: 410px;
-	height: 170px;
+	left: 1000px;
+	top: 425px;
+	height: 165px;
 	width: 200px;
 }
 
@@ -781,4 +790,18 @@ Class name automatically added to element */
 .simply-scroll .simply-scroll-list li {
 	width: 380px;
 	height: 380px;
+}
+
+/*masonry*/
+
+.masonry {
+  background: yellow;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.ttile {
+	border: 1px solid black;
+	float: left;
+	margin: 10px auto 10px auto;
 }

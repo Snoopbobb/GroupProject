@@ -23,9 +23,9 @@
 
 
 @section('main_content')
-	<div class="trail_tiles">
+	<div class="masonry js-masonry trail_tiles">
 		<div>
-		<?php echo $template; ?>
+			{!! $template !!}
 		</div>
 	</div>
 	<div class="seeAll displayNone">

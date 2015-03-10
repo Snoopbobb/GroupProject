@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="{{ URL::asset('javascript/instafeed.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('javascript/jquery.simplyscroll.min.js') }}"></script>
 	<script src="{{ URL::asset('javascript/main.js') }}"></script>
+	<script src="{{ URL::asset('/masonry.pkgd.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/weather-icons/css/weather-icons.min.css') }}">
@@ -37,11 +38,11 @@
 					</div>
 					<span class="user-options">
 						@if(Auth::guest())
-						<a href="/auth/register" title="Signup"><i class="fa fa-pencil-square-o"></i></a>
-						<a href="/auth/login" title="Login"><i class="fa fa-sign-in"></i></a>
+						<a href="/auth/register" title="Signup"><i class="fa fa-pencil-square-o scale"></i></a>
+						<a href="/auth/login" title="Login"><i class="fa fa-sign-in scale"></i></a>
 						@else
-						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs"> </i></a>
-						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-sign-out"></i></a>
+						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs scale"> </i></a>
+						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-sign-out scale"></i></a>
 						@endif
 					</span>
 				</nav>
