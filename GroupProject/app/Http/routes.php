@@ -17,6 +17,9 @@ Route::post('/profile/{user_id}/delete', 'ProfileController@delete');
 Route::get('/suggest', function(){
 	return view('pages.suggest');
 });
+Route::post('/confirmation', function(){
+	return view('pages.confirmation');
+});
 Route::get('/faq', function(){
 	return view('pages.faq');
 });
@@ -25,7 +28,7 @@ Route::get('/about', function(){
 });
 
 
-Route::get('/ajax/{mountain_id}', 'MountainController@getImage');
+// Route::get('/ajax/{mountain_id}', 'MountainController@getImage');
 
 
 //Mountains

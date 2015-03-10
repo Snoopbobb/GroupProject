@@ -32,10 +32,10 @@ class MountainController extends Controller {
 
 			$template = '';
 			$a = '<a href="/Trails/'. $mountain_id . '/';
-			$b = '"><div class="trail_tile_';
+			$b = '"><div class="scale trail_tile_';
 			$i = 1;
 			foreach ($trails->getArray() as $trail) {
-				$template .= $a . $trail->trail_id . $b . $i . '">' . $trail->name . '</div></a>';
+				$template .= $a . $trail->trail_id . $b . $i . '">' . $i . $trail->name . '</div></a>';
 				$i++;
 			}
 

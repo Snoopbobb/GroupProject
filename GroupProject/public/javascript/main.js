@@ -23,6 +23,21 @@ $(document).ready(function() {
 
 	feed.run();
 
+	//================================================================
+	// Masonry
+	//================================================================
+
+	$('.masonry.tiles').masonry({
+		columnWidth: 10,
+		gutter: 10,
+		itemSelector: '.ttile'
+	});
+
+	$('.masonry.trail_tiles > div').masonry({
+		columnWidth: 10,
+		gutter: 10,
+		itemSelector: '.ttile'
+	});
 
 	//================================================================
 	// Header

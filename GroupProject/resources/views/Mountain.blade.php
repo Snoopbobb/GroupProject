@@ -6,7 +6,6 @@
 	{{ $weather['temperature'] }}&deg; 
 	{!! $weather['clouds'] !!}
 </div>
-<div>** random stuff **</div>
 @stop
 
 
@@ -21,11 +20,10 @@
 @stop
 
 
-
 @section('main_content')
-	<div class="trail_tiles">
-		<div>
-		<?php echo $template; ?>
+	<div class="masonry trail_tiles">
+		<div class="js-masonry">
+			{!! $template !!}
 		</div>
 	</div>
 	<div class="seeAll displayNone">
