@@ -415,7 +415,7 @@ Signup Page
 	background-color: green;
 	width: 90px;
 	height: 100px;
-	margin-left: 50% ;
+	/*margin-left: 50% ;*/
 	transform: translateY(100%)
 
 }
@@ -438,6 +438,7 @@ Login Page
 	margin-top: 5px;
 	text-align: right;
 }
+
 
 
 /*****************************
@@ -704,34 +705,6 @@ Main Page Tiles
 	overflow: hidden;
 }
 
-
-/*======================================================================================================================
-/*================================================ Static Pages  ===============================================
-/*======================================================================================================================*/
-
-
-/* CSS For Suggest A Trail Page */
-.suggest-form {
-	width: 50%;
-}
-
-.faq-wrapper {
-	width: 60%;
-	margin: 0 auto;
-}
-
-.faq-wrapper > h4 {
-	margin-bottom: -20px;
-	padding: 0;
-	display: inline-block;
-}
-
-.faq-wrapper > p {
-	padding: 0;
-	margin:  0;
-	display: inline-block;
-}
-
 /*======================================================================================================================
 /*================================================  Instafeed  ===============================================
 /*======================================================================================================================*/
@@ -804,4 +777,89 @@ Class name automatically added to element */
 	border: 1px solid black;
 	float: left;
 	margin: 10px auto 10px auto;
+
+
+/*======================================================================================================================
+/*================================================ Static Pages  ===============================================
+/*======================================================================================================================*/
+
+
+/* CSS For Suggest A Trail Page */
+
+.suggest-wrapper {
+	margin-left: 200px;
+	width: 45%;
+	text-align: none;
 }
+
+.suggest-form label {
+	float: none;
+	margin-right: 0em;
+	width: 0px;
+	margin-top:0;
+}
+
+.suggest-input {
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	height: 25px;	
+}
+
+.suggest-radio-wrapper {
+	margin: 20px;
+	padding: 20px;
+}
+
+.suggest-radio {
+	display: inline;
+	padding: 10px;
+}
+
+.suggest-button {
+	position: relative;
+	margin: 20px;
+}
+
+/* CSS for FAQ page*/
+.faq-wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.faq-wrapper > h4 {
+	margin-bottom: -20px;
+	padding: 0;
+	display: inline-block;
+}
+
+.faq-wrapper > p {
+	padding: 0;
+	margin:  0;
+	display: inline-block;
+}
+
+/* CSS for FAQ page*/
+.confirmation-page {
+	color: #00CC33;
+	position: relative;
+	padding: 100px 0;
+}
+
+.back-home-button {
+	position: absolute;
+	left: 45%;
+	bottom: 0;
+	padding: 10px 20px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.back-home-button:hover {
+	color: red;
+	background-color: white;
+
