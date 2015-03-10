@@ -43,18 +43,23 @@
 				</select>
 			</div>
 			<div class="save-or-cancel">
-				<button>Save Changes</button>
+				<button class="save-button">Save Changes</button>
 				<span class="non-label-text"><a href="/profile/">Cancel</a></span>
 			</div>
 		</div>
-	</form>
-	<div class="profile-photo">
-		<div>
-			<div class="image">
-				this photo will be on right side 
+		<div class="profile-photo">
+			<div>
+				<div class="image">
+					this photo will be on right side 
+				</div>
 			</div>
 		</div>
-	</div>
+	</form>
+	<form name="Delete" action="profile/{{$user->user_id}}/delete" method="POST">
+		<input type="hidden" name="_token" value="{{ csrf_token() }}">
+		<input type="hidden" name="user_id" value="{{$user->user_id}}">
+		<button class="delete-profile">Delete Profile</button>
+	</form>
 </div>
 
 @stop
