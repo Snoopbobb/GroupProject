@@ -17,6 +17,9 @@ Route::post('/profile/{user_id}/delete', 'ProfileController@delete');
 Route::get('/suggest', function(){
 	return view('pages.suggest');
 });
+Route::post('/confirmation', function(){
+	return view('pages.confirmation');
+});
 Route::get('/faq', function(){
 	return view('pages.faq');
 });

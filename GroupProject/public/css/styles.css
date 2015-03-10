@@ -817,3 +817,26 @@ Class name automatically added to element */
 	margin:  0;
 	display: inline-block;
 }
+
+/* CSS for FAQ page*/
+.confirmation-page {
+	color: #00CC33;
+	position: relative;
+	padding: 100px 0;
+}
+
+.back-home-button {
+	position: absolute;
+	left: 45%;
+	bottom: 0;
+	padding: 10px 20px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.back-home-button:hover {
+	color: red;
+	background-color: white;
+}

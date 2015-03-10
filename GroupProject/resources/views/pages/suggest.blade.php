@@ -4,7 +4,7 @@
 	<div class="suggest-wrapper">
 		<h2>Don't see a trail you love?</h2>
 		<h4>Suggest it to us. We'll do some research, and get it on our website as soon as possible.</h4>
-		<form class="suggest-form">
+		<form class="suggest-form" action="/confirmation" method="POST">
 				<input type="hidden" name="_token" value="{{ csrf_token() }}">
 			<div class="suggest-input">
 				Mountain Name:
