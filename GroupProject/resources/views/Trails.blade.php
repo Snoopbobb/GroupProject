@@ -7,7 +7,7 @@
 	{{ $weather['temperature'] }}&deg; 
 	{!! $weather['clouds'] !!}
 </div>
-<div class="hashtag">{{ $trail->hashtag }}</div>
+<div class="hashtag">#{{ $trail->hashtag }}</div>
 @stop
 
 
@@ -105,7 +105,7 @@
 
 	
 	<div class="instagram-feed">
-		<h3>{{ $trail->hashtag }}</h3>
+		<h3>#{{ $trail->hashtag }}</h3>
 		<div id="instafeed"></div>
 	</div>
 @stop
