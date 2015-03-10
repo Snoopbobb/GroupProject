@@ -357,9 +357,14 @@ label {
 	margin-top: 10px;
 }
 
-.main-content button {
+.save-button {
 	float:left;
 	margin-left: 2em;
+}
+
+.delete-profile {
+	float:right;
+	margin-right: 2em;
 }
 
 .non-label-text {

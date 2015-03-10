@@ -44,4 +44,14 @@ class ProfileController extends Controller {
 
 		return redirect("profile");
 	}
+
+//Delete User
+
+	public function delete($user_id) {
+		$sql="DELETE FROM user WHERE user_id = $user_id";
+		DB::delete($sql);
+		return redirect("/");
+
+
+	}
 }

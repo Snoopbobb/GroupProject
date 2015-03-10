@@ -15,6 +15,7 @@ class Trail extends Model{
 			FROM comment 
 			JOIN user USING(user_id)
 			WHERE trail_id = :trail_id
+			ORDER BY comment.created_at DESC
 			";
 		$comment = DB::select($sql, [':trail_id' => $trail_id]);
 
