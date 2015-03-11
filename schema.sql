@@ -108,7 +108,7 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (7, 22, "Pima Canyon National Trail", "A very long and pretty trail, that is most frequented by mountain bikers,a dn trail runners.", "75504", "400", "PimaCanyonHTZ");
 
-
+-- mountain images
 INSERT INTO image (image_id, image_path) VALUES (1, '/css/images/Sup2HDR.jpg');
 INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/CamelbackMountainPanorama.jpg');
 INSERT INTO image (image_id, image_path) VALUES (3, '/css/images/DreamyDraw/PiestewaPeak.jpg');
@@ -119,6 +119,9 @@ INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/s
 INSERT INTO image (image_id, image_path) VALUES (8, '/css/images/ShawButte/');
 INSERT INTO image (image_id, image_path) VALUES (9, '/css/images/ShadowMountain/ShadowMTN.jpg');
 INSERT INTO image (image_id, image_path) VALUES (99, '/css/images/Sup2HDR.jpg');
+
+-- trail images
+INSERT INTO image (image_id, image_path) VALUES (10, '/css/images/Camelback/EchoCanyon1.jpg');
 
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 1, "I love this trail. you would love it");

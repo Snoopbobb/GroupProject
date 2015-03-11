@@ -7,7 +7,6 @@ Route::get('/home', function(){
 	return redirect('/');
 });
 
-
 //Profile
 Route::get('/profile', 'ProfileController@show');
 Route::post('/profile/{user_id}/update', 'ProfileController@update');
@@ -26,9 +25,6 @@ Route::get('/faq', function(){
 Route::get('/about', function(){
 	return view('pages.about');
 });
-
-
-// Route::get('/ajax/{mountain_id}', 'MountainController@getImage');
 
 
 //Mountains

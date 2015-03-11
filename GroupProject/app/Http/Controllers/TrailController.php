@@ -24,7 +24,7 @@ class TrailController extends Controller {
 		//grabbing comments for specific trail
 		$comment = Trail::getComments($trail_id);
 		
-		return view('Trails', ["comment" => $comment])->with('mountain', $mountain)->with('trail', $trail)->with('weather', $weather);
+		return view('Trails', [ "comment" => $comment])->with('mountain', $mountain)->with('trail', $trail)->with('weather', $weather);
 
 	}
 
@@ -33,11 +33,6 @@ class TrailController extends Controller {
 		$mountain_id = $trail->mountain_id;
 		return redirect('/Trails/' . $mountain_id . '/' . $trail_id);
 	}
-
-	// public function getComments($trail_id) {
-	// 	$comment = Trail::getComments($trail_id);
-	// 	return view("Trails",["comment" => $comment]);
-	// }
 
 	public function addComment() {
 		$user_id = Request::input('user_id');

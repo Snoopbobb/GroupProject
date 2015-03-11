@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<div class="seeAll displayNone">
-		<?php for ($i=0; $i < count($trailNames); $i++) { echo $trailNames[$i]; }?>
+		<?php for ($i=0; $i < count($trailNames); $i++) { echo '<div><a href="' . $trailIds[$i] . '">' . $trailNames[$i] . '</a></div>'; }?>
 	</div>
 
 @stop
