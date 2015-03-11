@@ -74,11 +74,13 @@
 				<div class="comment">
 					<div class="date">NEW</div>
 					<div class="user-name">{{Auth::user()->username}}</div>
-					@include('partial/handlebar-templates/comments')
+					<div class="comment-content">
+						@{{message}}
+					</div>
 				</div>
 					<div class="delete">
 						<form class="delete-comment">
-							@include('partial/handlebar-templates/deleteComment')
+							<input class="comment-id" type="hidden" value="@{{comment_id}}">
 							<button>Delete</button>
 						</form>
 					</div>
