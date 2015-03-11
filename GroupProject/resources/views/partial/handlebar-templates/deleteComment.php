@@ -1,1 +1,0 @@
-<input class="comment-id" type="hidden" value="{{comment_id}}">
