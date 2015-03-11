@@ -11,9 +11,9 @@ class MountainController extends Controller {
 	}
 
 	public function getMountain($mountain_id) {
-			
+
 			// call weather function
-			$weather = Controller::getWeather();
+			// $weather = Controller::getWeather();
 
 			$trailNames = [];
 			$trailIds = [];
@@ -41,8 +41,7 @@ class MountainController extends Controller {
 			}
 
 			return view('Mountain', ['mountain' => $mountain, 'trail' => $trails, 
-						'trailNames' => $trailNames, 'trailIds' => $trailIds, 'imageURL' => $imageURL, 'template' => $template])->
-						with('weather', $weather);
+						'trailNames' => $trailNames, 'trailIds' => $trailIds, 'imageURL' => $imageURL, 'template' => $template]);
 	}
 
 	public function getImage ($mountain_id) {

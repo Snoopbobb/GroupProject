@@ -70,6 +70,13 @@ $(document).ready(function() {
 	// Featured
 	//================================================================
 
+	$.get('/weather', {}, function (data) {
+		// $('.fweather').text(data.temperature);
+		$('.fweather').html(data.temperature + '&deg; ' + data.clouds);
+	})
+	
+
+
 	$('.featureblock').on('click', function(){
 		//regular getters
 		var mID = $(this).find('.info input').val();
@@ -86,7 +93,7 @@ $(document).ready(function() {
 		var sendData = {
 			mountain_id: $(this).find('input').val()
 		}
-		console.log(sendData);
+
 		$.get('/featureImage', sendData, function (data) {
 			$('.photo').css('background-image', 'url(' + data.imageURL + ')');
 		})

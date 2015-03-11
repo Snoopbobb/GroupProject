@@ -29,6 +29,7 @@ Route::get('/about', function(){
 
 //Mountains
 Route::get('/featureImage', 'HomeController@getImage');
+Route::get('/weather', 'HomeController@getWeather');
 
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
 Route::get('/Mountains/all', 'MountainController@getAll');
