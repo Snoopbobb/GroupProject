@@ -2,9 +2,9 @@
 
 @section('title')
 <h1>{{ $mountain->name }}</h1>
-<div class="weather">
-	{{ $weather['temperature'] }}&deg; 
-	{!! $weather['clouds'] !!}
+<div class="fweather">
+{{-- 	{{ $weather['temperature'] }}&deg; 
+	{!! $weather['clouds'] !!} --}}
 </div>
 @stop
 

@@ -20,8 +20,8 @@
 			<div class="info">
 				<h1><a href="/Mountains/2">Camelback Mountain</a></h1>
 				<div class="fweather">
-					{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!}
+	{{-- 				{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!} --}}
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque, aliquid numquam totam minima! Earum quae mollitia, repellendus fugit nostrum atque iste quidem, doloribus perferendis velit laudantium minima incidunt! Animi deserunt, deleniti quae adipisci veniam?</p>
@@ -37,8 +37,8 @@
 			<div class="info">
 				<h1><a href="/Mountains/3">Dreamy Draw Park</a></h1>
 				<div class="fweather">
-					{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!}
+{{-- 					{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!} --}}
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus assumenda sed earum iste expedita vero nobis natus numquam cum, delectus voluptatum unde nihil voluptate fuga dolore ipsum at laborum eius minima fugiat. Veniam, minima!</p>
@@ -54,8 +54,8 @@
 			<div class="info">
 				<h1><a href="/Mountains/5">McDowell Mountains</a></h1>
 				<div class="fweather">
-					{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!}
+			{{-- 		{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!} --}}
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eaque voluptas voluptates illum fugiat at cupiditate quae, odio alias suscipit nisi unde porro, iste, commodi quidem quos quisquam saepe possimus. Assumenda animi quibusdam alias consequuntur.</p>
@@ -71,8 +71,8 @@
 			<div class="info">
 				<h1><a href="/">Superstition Mountians</a></h1>
 				<div class="fweather">
-					{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!}
+				{{-- 	{{ $weather['temperature'] }}&deg; 
+					{!! $weather['clouds'] !!} --}}
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio.</p>

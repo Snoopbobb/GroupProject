@@ -3,9 +3,9 @@
 
 @section('title')
 <h1>{{ $trail->name }}</h1>
-<div class="weather">
-	{{ $weather['temperature'] }}&deg; 
-	{!! $weather['clouds'] !!}
+<div class="fweather">
+{{-- 	{{ $weather['temperature'] }}&deg; 
+	{!! $weather['clouds'] !!} --}}
 </div>
 <div class='hash'>#<span class="hashtag">{{ $trail->hashtag }}</span></div>
 @stop
@@ -71,6 +71,7 @@
 		<script id="template-comment" type="text/x-handlebars-template">
 			<div class="comment-block">
 				<div class="image">this is an image</div>
+				@include('partial/handlebar-templates/datetime')
 				<div class="comment">
 					<div class="user-name">{{Auth::user()->username}}</div>
 					@include('partial/handlebar-templates/comments')

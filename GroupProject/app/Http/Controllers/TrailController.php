@@ -14,7 +14,7 @@ class TrailController extends Controller {
 	public function getTrail($mountain_id, $trail_id) {
 
 		// call weather function
-		$weather = Controller::getWeather();
+		// $weather = Controller::getWeather();
 
 		$mountain = new Mountain($mountain_id);
 		$trail = new Trail($trail_id);
@@ -25,7 +25,7 @@ class TrailController extends Controller {
 		$comment = Trail::getComments($trail_id);
 		// put me in the array 'imageURL' => $imageURL,
 		
-		return view('Trails', ['imageURL' => $imageURL, "comment" => $comment])->with('mountain', $mountain)->with('trail', $trail)->with('weather', $weather);
+		return view('Trails', ['imageURL' => $imageURL, "comment" => $comment])->with('mountain', $mountain)->with('trail', $trail);
 
 	}
 
