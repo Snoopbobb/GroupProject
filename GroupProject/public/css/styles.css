@@ -21,6 +21,10 @@ a {
 	padding: 0;
 }
 
+body {
+	background-color: #ddd;
+}
+
 /***************************************
 Header and Navbar
 ****************************************/
@@ -167,6 +171,11 @@ featured
 	background-color: rgba(0,0,0,0,0);
 }
 
+.featureblock {
+/*	background-image: url('images/Camelback/CamelbackMountainPanorama.jpg');
+	background-size: cover; */
+}
+
 .featured span {
 	background-color: magenta;
 	height: 150px;
@@ -297,7 +306,6 @@ main {
 
 .browse-section {
 	min-height: 750px;
-	background-color: #ddd;
 	position: relative;
 	text-align: center;
 

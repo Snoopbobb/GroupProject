@@ -1,5 +1,11 @@
 $(document).ready(function() {
+
 	$('.focus > div').animate({height: '250%'}, 10);
+
+	//================================================================
+	// Instafeed
+	//================================================================
+
 	var hashtag = 'hikeaz'; // $('.hashtag').text(); //'hikeaz';
 	console.log(hashtag);
 	var feed = new Instafeed({
@@ -65,17 +71,25 @@ $(document).ready(function() {
 	//================================================================
 
 	$('.featureblock').on('click', function(){
+		//regular getters
 		var mID = $(this).find('.info input').val();
-
-		var header = $(this).find('.info h1').text();
+		var header = $(this).find('.info h1').html();
 		var weather = $(this).find('.info .fweather').html();
-		// var rand = $(this).find('.info div:last-child').text();
 		var desc = $(this).find('.info p').text();
-
+		//focus getters
 		var fmID = $('.focus').find('.info input').val();
 		var fheader = $('.focus').find('.info h1').text();
 		var fweather = $('.focus').find('.info .fweather').html();
 		var fdesc = $('.focus').find('.info p').text();
+
+		//AJAX replace hero photo
+		var sendData = {
+			mountain_id: $(this).find('input').val()
+		}
+		console.log(sendData);
+		$.get('/featureImage', sendData, function (data) {
+			$('.photo').css('background-image', 'url(' + data.imageURL + ')');
+		})
 
 		//replace header
 		$(this).find('.thumbnail h3').replaceWith('<h3>' + fheader + '</h3>');
@@ -84,27 +98,13 @@ $(document).ready(function() {
 		$('.focus .info input').replaceWith('<input type="hidden" value="' + mID + '">');
 		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
 
-		//replace hero photo
-		var sendData = {
-			mountain_id: $(this).find('input').val()
-		}
-		console.log(sendData);
-		$.get('/featureImage', sendData, function (data) {
-			var img = JSON.parse(data);
-			$('.photo').css('background-image', 'url(' + img.imageURL + ')');
-		})
-
 		//replace weather
 		$(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');
 		$('.focus .info .fweather').replaceWith('<div class="fweather">' + weather + '</div>');
 
-		// $(this).find('.info p').replaceWith('<p>' + fdesc + '</p>');
-		// $('.focus .info p').replaceWith('<p>' + desc + '</p>');
-
 		//replace description
 		$(this).find('.info p').replaceWith('<p>' + fdesc + '</p>');
 		$('.focus .info p').replaceWith('<p>' + desc + '</p>');
-
 
 		//animation
 		$('.focus > div').css('height', '100%');

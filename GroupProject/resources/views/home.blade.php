@@ -15,10 +15,10 @@
 	<span class="featureblock">
 		<div>
 			<div class="thumbnail">
-				<h3>The Mountains</h3>
+				<h3>Camelback Mountain</h3>
 			</div>
 			<div class="info">
-				<h1>The mountains</h1>
+				<h1><a href="/Mountains/2">Camelback Mountain</a></h1>
 				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
@@ -32,10 +32,10 @@
 	<span class="featureblock">
 		<div>
 			<div class="thumbnail">
-				<h3>The Other Place</h3>
+				<h3>Dreamy Draw Park</h3>
 			</div>
 			<div class="info">
-				<h1>The other place</h1>
+				<h1><a href="/Mountains/3">Dreamy Draw Park</a></h1>
 				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
@@ -49,10 +49,10 @@
 	<span class="featureblock">
 		<div>
 			<div class="thumbnail">
-				<h3>The Stuff & Things</h3>
+				<h3>McDowell Mountains</h3>
 			</div>
 			<div class="info">
-				<h1>The stuff things</h1>
+				<h1><a href="/Mountains/5">McDowell Mountains</a></h1>
 				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}
@@ -66,10 +66,10 @@
 	<span class="featureblock focus">
 		<div>
 			<div class="thumbnail">
-				<h3>The Supps</h3>
+				<h3>Superstition Mountians</h3>
 			</div>
 			<div class="info">
-				<h1>The supps</h1>
+				<h1><a href="/">Superstition Mountians</a></h1>
 				<div class="fweather">
 					{{ $weather['temperature'] }}&deg; 
 					{!! $weather['clouds'] !!}

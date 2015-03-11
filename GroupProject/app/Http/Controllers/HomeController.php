@@ -23,6 +23,6 @@ class HomeController extends Controller {
 		$img = new Image($image);
 		$imageURL = $img->image_path;
 
-		return json_encode(['imageURL' => $imageURL]);
+		return ['imageURL' => $imageURL];
 	}
 }

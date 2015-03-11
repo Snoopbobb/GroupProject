@@ -11,7 +11,17 @@ abstract class Controller extends BaseController {
 	public static function getWeather(){
 		$weather = [];
 		// get weather data
-		$json = file_get_contents('http://api.openweathermap.org/data/2.5/weather?q=Phoenix');
+		// $json = file_get_contents('http://api.openweathermap.org/data/2.5/weather?q=Seattle');
+
+
+		$URL = "http://api.openweathermap.org/data/2.5/weather?q=Phoenix";
+		$Context = stream_context_create(array(
+				'http' => array(
+    				'method' => 'GET',
+    				'timeout' => 30,
+					)
+		));
+		$json = file_get_contents($URL, false, $Context);
 
 		$data = json_decode($json);
 
