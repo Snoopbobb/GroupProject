@@ -49,7 +49,7 @@ class TrailController extends Controller {
 	public function deleteComment() {
 		$comment_id = Request::input('comment_id');
 		Trail::deleteComment($comment_id);
-		return [];
+		return ['foo'];
 
 	}
 

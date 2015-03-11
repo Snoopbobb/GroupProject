@@ -155,10 +155,9 @@ $(document).ready(function() {
 		var message = $('.add-comment textarea').val();
 		// var output = renderComment(message);
 		// $('.comments').prepend(output);
-<<<<<<< HEAD
-=======
+
 		// console.log(message);
->>>>>>> a4df2b80372ceaa725171a87158520ac419aa649
+
 
 		var senddata = {
 			user_id: $('.add-comment .user-id').val(),
@@ -185,18 +184,18 @@ $(document).ready(function() {
 //================================================================
 	$('form.delete-comment').on('submit', function(event) {
 		event.preventDefault();
-		var comment_id = $('input.comment-id').val();
+		var comment_id = $('.delete-comment .comment-id').val();
 		// var output = renderComment(message);
 		// $('.comments').prepend(output);
 
 		var senddata = {
-			comment_id: $(".comment-id").val()	
+			comment_id: $('.delete-comment .comment-id').val()	
 		}
 		
 
 		$.get('/deleteComment', senddata, function (data){
 			
-
+				console.log(data);
 				
 		})
 
