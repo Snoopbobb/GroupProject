@@ -79,6 +79,7 @@ INSERT INTO user (first_name, last_name, username, password, email, gender)
 INSERT INTO user (first_name, last_name, username, password, email, gender)
     VALUES ('Minnie', 'Mouse', 'MinnieMouse', '$2y$10$qO1kQjmRNfbBB1U5.5nJIeZ4uWoNL1PL5g3OKRDY8JjcQ/k8u5o4S', 'minnie@mouse.com', 'female');
 
+--insert mountains
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Beardsley Mountain', 'More of a boulder pile than conventional Mountain just north of the 101 on Cave Creek. Home to more rock climbers than hikers', 1, 'Cave Creek Blvd & Loop 101', '560', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Camelback', 'A small but steep mountain in the heart of Scottsdale. very busy most weekend days', 2, 'Tatum & McDonald', '2706', '');
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Dreamy Draw / Piestewa Peak Park', 'A very large park with dozens of trails. Almost as many bikers as hikers, and one of the best views in all of Phoenix', 3, 'Northern and SR-51', '2612', '');
@@ -91,7 +92,7 @@ INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) V
 INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) VALUES ('Supperstition Mountains', 'A.', 99, ' St.', '1928', '');
 
 
-
+-- insert trails
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (2, 10, 'Echo Canyon Trail', 'One of the most traveled trails in the state, Echo Canyon trail is a solid hike with an even more solid view', '12144', '1300', 'EchoCanyonHTZ');
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 11, "Piestewa Peak Circumference Trail", "A pretty sort of famiy hike, with not a lot of elevation gain or change. Hike up about 300 ft to the trail split, and then around the mountain and back down.", "16268", "400", "PiestewaCircHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 12, "Piestewa Peak Summit Trail", "A steep and taxing hike, with over 1000 ft elevation gain in just a mile. One of the very best views of Phoenix", "5808", "1100", "PiestewaSummitHTZ");
