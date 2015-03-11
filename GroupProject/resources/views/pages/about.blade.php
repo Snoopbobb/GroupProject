@@ -26,7 +26,7 @@
 		</div>
 		<div class="about-bio">
 			<h3>Seth Howell</h3>
-			<p>Seth is a rockstar developer, literally!</p>
+			<p>Seth is a 'Rock'star developer, literally!</p>
 		</div>
 	</div>
 	<div class="about-wrapper">
@@ -39,7 +39,7 @@
 		</div>
 		<div class="about-bio">
 			<h3>Scott Kessinger</h3>
-			<p>Scott is a superstar developer!</p>
+			<p>Scott makes his code sing!</p>
 		</div>
 	</div>
 	<div class="about-wrapper">
