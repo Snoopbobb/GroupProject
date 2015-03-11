@@ -76,7 +76,7 @@
 				</div>
 				<div>*some other random data</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio.</p>
-				<input type="hidden" value="99">
+				<input type="hidden" value="10">
 			</div>
 		</div>
 	</span>
