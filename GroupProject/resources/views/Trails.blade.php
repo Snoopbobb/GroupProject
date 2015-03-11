@@ -85,7 +85,6 @@
 		</script>
 
 	</div>
-	</div>
 
 
 	
