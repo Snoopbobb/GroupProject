@@ -122,6 +122,7 @@ INSERT INTO image (image_id, image_path) VALUES (99, '/css/images/Sup2HDR.jpg');
 
 -- trail images
 INSERT INTO image (image_id, image_path) VALUES (10, '/css/images/Camelback/EchoCanyon1.jpg');
+INSERT INTO image (image_id, image_path) VALUES (21, '/css/images/McDowellMountains/TomsThumbSNOW.jpg');
 
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 1, "I love this trail. you would love it");
