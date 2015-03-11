@@ -794,6 +794,7 @@ Class name automatically added to element */
 	border: 1px solid black;
 	float: left;
 	margin: 10px auto 10px auto;
+}
 
 
 /*======================================================================================================================
@@ -803,7 +804,7 @@ Class name automatically added to element */
 
 /* CSS For Suggest A Trail Page */
 
-.suggest-wrapper {
+.suggest {
 	margin-left: 200px;
 	width: 45%;
 	text-align: none;
@@ -858,7 +859,7 @@ Class name automatically added to element */
 	display: inline-block;
 }
 
-/* CSS for FAQ page*/
+/* CSS for Confiramtion page*/
 .confirmation-page {
 	color: #00CC33;
 	position: relative;
@@ -879,4 +880,29 @@ Class name automatically added to element */
 .back-home-button:hover {
 	color: red;
 	background-color: white;
+}
 
+/* CSS for about page */
+.about-page-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.about-wrapper {
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.about-wrapper a {
+	color: black;
+}
+
+.about-pic {
+	float: left;
+}
+
+.about-bio {
+	background-color: #fff;
+	margin-left: 100px;
+	padding-left: 10px;
+}
