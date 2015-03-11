@@ -41,13 +41,17 @@ Route::get('/Trails', function(){return redirect('/Mountains/all');});
 Route::get('/randomTrail/{trail_id}', 'TrailController@randomTrail');
 Route::get('/Trails/all', 'TrailController@getAll');
 Route::get('/Trails/{mountain_id}/{trail_id}','TrailController@getTrail');
+Route::get('/Trails/loginToComment/{mountain_id}/{trail_id}', ['middleware' => 'auth', 
+	function($mountain_id, $trail_id){
+   		return redirect("/Trails/$mountain_id/$trail_id");
+}]);
 
 
 //Add a Comment
-Route::get('/addComment', 'TrailController@addComment');
+Route::get('/addComment', 'CommentController@addComment');
 
 //Delete a Comment
-Route::get('/deleteComment', 'TrailController@deleteComment');
+Route::get('/deleteComment', 'CommentController@deleteComment');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

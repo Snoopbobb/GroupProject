@@ -52,14 +52,14 @@
 
 
 		@if(Auth::guest())
-			<h1><a href="/auth/login">Login</a> to add a comment!</h1>
+			<h1><a href="/Trails/loginToComment/{{$mountain->mountain_id}}/{{$trail->trail_id}}">Login</a> to add a comment!</h1>
 		@else
 			<strong>Add a Comment {{Auth::user()->first_name}}!</strong>
 			<form class="add-comment">
 				<input type="hidden" class="token" name="_token" value="{{ csrf_token() }}">
 				<input type="hidden" class="trail-id" name="trail_id" value="{{$trail->trail_id}}">
 				<input class="user-id" type="hidden" name="user_id" value="{{Auth::user()->user_id}}">
-				<textarea name="comment" placeholder="Add your comment!"></textarea>
+				<textarea name="comment_description" placeholder="Add your comment!"></textarea>
 					<div>
 						<button>Send</button>
 					</div>
@@ -73,12 +73,15 @@
 				<div class="image">this is an image</div>
 				@include('partial/handlebar-templates/datetime')
 				<div class="comment">
+					<div class="date">@{{created_at}}</div>
 					<div class="user-name">{{Auth::user()->username}}</div>
-					@include('partial/handlebar-templates/comments')
+					<div class="comment-content">
+						@{{comment_description}}
+					</div>
 				</div>
 					<div class="delete">
 						<form class="delete-comment">
-							@include('partial/handlebar-templates/deleteComment')
+							<input class="comment-id" type="hidden" value="@{{comment_id}}">
 							<button>Delete</button>
 						</form>
 					</div>

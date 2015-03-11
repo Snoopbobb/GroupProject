@@ -26,33 +26,17 @@ class Trail extends Model{
 		return $comment;
 	}
 
-	public static function addComment($user_id, $trail_id, $comment) {
-		$sql = "
-			INSERT INTO comment
-			(user_id, comment_description, trail_id)
-			VALUES(:user_id, :comment, :trail_id)
-			";
-		DB::insert($sql, [
-				':user_id' => $user_id, 
-				':comment' => $comment,
-				':trail_id' => $trail_id
-				]);
-
-		$pdo = DB::getPdo();
-		$comment_id = $pdo->lastInsertId();
-		return $comment_id;
-
-	}
+	
 
 
-	public static function deleteComment($comment_id) {
-		$sql = "
-				DELETE FROM comment
-				WHERE comment_id = :comment_id
-				";
-		DB::delete($sql, [
-						':comment_id' => $comment_id
-						]);	
+	// public static function deleteComment($comment_id) {
+	// 	$sql = "
+	// 			DELETE FROM comment
+	// 			WHERE comment_id = :comment_id
+	// 			";
+	// 	DB::delete($sql, [
+	// 					':comment_id' => $comment_id
+	// 					]);	
 		
-	}
+	// }
 }

@@ -141,8 +141,99 @@ INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Fre
 INSERT INTO image (image_id, image_path) VALUES (18, '/css/images/DreamyDraw/CharlesC.jpg');
 INSERT INTO image (image_id, image_path) VALUES (19, '/css/images/DreamyDraw/Nature.jpg');
 
+-- comments
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 1, "I love this trail. you would love it");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 5, "this is an awesome trail");
-INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1,2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (2, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (2, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (2, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (2, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (2, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (3, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (3, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (3, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (3, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (3, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (4, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (4, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (4, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (4, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (4, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (5, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (5, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (5, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (5, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (5, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (6, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (6, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (6, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (6, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (6, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (7, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (7, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (7, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (7, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (7, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (8, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (8, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (8, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (8, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (8, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (9, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (9, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (9, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (9, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (9, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (10, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (10, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (10, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (10, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (10, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (11, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (11, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (11, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (11, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (11, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (12, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (12, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (12, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (12, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (12, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (13, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (13, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (13, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (13, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (13, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (14, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (14, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (14, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (14, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (14, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (15, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (15, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (15, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (15, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (15, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
+
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (16, 4, "this trail was ok. I have seen better.");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (16, 1, "I love this trail. you would love it");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (16, 5, "this is an awesome trail");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (16, 2, " I hated this trail. it smells. there are a lot of bees, and it is too hard!Waste of time and energy");
+INSERT INTO comment(trail_id, user_id, comment_description) VALUES (16, 3, "I am so into this trail, it really is a great time, i cannot wait to come back. you have to check it out!");
