@@ -67,7 +67,7 @@
 		@endif
 			
 
-
+		@if(Auth::user())
 		<script id="template-comment" type="text/x-handlebars-template">
 			<div class="comment-block">
 				<div class="image">this is an image</div>
@@ -83,6 +83,7 @@
 					</div>
 				</div>
 		</script>
+		@endif
 
 	</div>
 
