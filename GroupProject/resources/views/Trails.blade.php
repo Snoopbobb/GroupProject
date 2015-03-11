@@ -75,15 +75,14 @@
 					<div class="user-name">{{Auth::user()->username}}</div>
 						@include('partial/handlebar-templates/comments')
 				</div>
-				@if(Auth::user()->user_id == $comm->user_id)
+				
 					<div class="delete">
 						<form class="delete-comment">
 							@include('partial/handlebar-templates/deleteComment')
 							<button>Delete</button>
 						</form>
 					</div>
-				@endif
-			</div>
+				</div>
 		</script>
 
 	</div>
