@@ -67,13 +67,13 @@
 		@endif
 			
 
-
+		@if(Auth::user())
 		<script id="template-comment" type="text/x-handlebars-template">
 			<div class="comment-block">
 				<div class="image">this is an image</div>
 				<div class="comment">
 					<div class="user-name">{{Auth::user()->username}}</div>
-						@include('partial/handlebar-templates/comments')
+					@include('partial/handlebar-templates/comments')
 				</div>
 					<div class="delete">
 						<form class="delete-comment">
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 		</script>
-
+		@endif
 	</div>
 
 
