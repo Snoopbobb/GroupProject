@@ -153,11 +153,7 @@ $(document).ready(function() {
 	$('form.add-comment').on('submit', function(event) {
 		event.preventDefault();
 		var message = $('.add-comment textarea').val();
-		// var output = renderComment(message);
-		// $('.comments').prepend(output);
-
-		// console.log(message);
-
+		
 
 		var senddata = {
 			user_id: $('.add-comment .user-id').val(),
@@ -169,7 +165,6 @@ $(document).ready(function() {
 
 		$.get('/addComment', senddata, function (data){
 			
-
 				var output = renderComment(message, data.comment_id);
 				console.log(data);
 				$('.comments').prepend(output);
@@ -195,7 +190,7 @@ $(document).ready(function() {
 
 		$.get('/deleteComment', senddata, function (data){
 			
-				console.log(data);
+				$(this).remove().parents('.comment-block');
 				
 		})
 
