@@ -38,6 +38,14 @@
 						<div class="user-name">{{$comm->username}}</div>
 						<div class="comment-content">{{$comm->comment_description}}</div>
 					</div>
+					@if(Auth::user()->user_id == $comm->user_id)
+						<div class="delete-comment">
+							<form class="delete-comment">
+								<input class="comment-id" type="hidden" value="{{$comm->user_id}}">
+								<button>Delete</button>
+							</form>
+						</div>
+					@endif
 				</div>
 			@endforeach
 		</div>
@@ -56,22 +64,31 @@
 						<button>Send</button>
 					</div>
 			</form>
+		@endif
 			
 
 
-<script id="template-comment" type="text/x-handlebars-template">
-	<div class="comment-block">
-		<div class="image">this is an image</div>
-		<div class="comment">
-			<div class="user-name">{{Auth::user()->username}}</div>
-				@include('partial/handlebar-templates/comments')
-		</div>
+		<script id="template-comment" type="text/x-handlebars-template">
+			<div class="comment-block">
+				<div class="image">this is an image</div>
+				<div class="comment">
+					<div class="user-name">{{Auth::user()->username}}</div>
+						@include('partial/handlebar-templates/comments')
+				</div>
+				@if(Auth::user()->user_id == $comm->user_id)
+					<div class="delete-comment">
+						<form class="delete-comment">
+							@include('partial/handlebar-templates/deleteComment')
+							<button>Delete</button>
+						</form>
+					</div>
+				@endif
+			</div>
+		</script>
+
 	</div>
-</script>
+	</div>
 
-@endif
-
-</div>
 
 	
 	<div class="instagram-feed">

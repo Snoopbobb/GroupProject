@@ -28,7 +28,7 @@ Route::get('/about', function(){
 
 
 //Mountains
-Route::get('/featureImage', 'MountainController@getAll');
+Route::get('/featureImage', 'HomeController@getImage');
 
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
 Route::get('/Mountains/all', 'MountainController@getAll');
@@ -44,6 +44,9 @@ Route::get('/Trails/{mountain_id}/{trail_id}','TrailController@getTrail');
 
 //Add a Comment
 Route::get('/addComment', 'TrailController@addComment');
+
+//Delete a Comment
+Route::get('/deleteComment', 'TrailController@deleteComment');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

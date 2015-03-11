@@ -85,8 +85,13 @@ $(document).ready(function() {
 		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
 
 		//replace hero photo
-		$.get(url, {}, function() {
-
+		var sendData = {
+			mountain_id: $(this).find('input').val()
+		}
+		console.log(sendData);
+		$.get('/featureImage', sendData, function (data) {
+			var img = JSON.parse(data);
+			$('.photo').css('background-image', 'url(' + img.imageURL + ')');
 		})
 
 		//replace weather
@@ -133,11 +138,12 @@ $(document).ready(function() {
 	// Add Comment on Trail Page
 	//================================================================
 
-	function renderComment(message){
+	function renderComment(message, comment_id){
 		var source = $('#template-comment').html();
 		var template = Handlebars.compile(source);
 		var output = template({
-			message: message
+			message: message,
+			comment_id: comment_id
 		});
 		return output;	
 	};
@@ -149,7 +155,9 @@ $(document).ready(function() {
 		var message = $('.add-comment textarea').val();
 		// var output = renderComment(message);
 		// $('.comments').prepend(output);
-		console.log(message);
+
+		// console.log(message);
+
 
 		var senddata = {
 			user_id: $('.add-comment .user-id').val(),
@@ -160,14 +168,41 @@ $(document).ready(function() {
 		
 
 		$.get('/addComment', senddata, function (data){
+			
 
-				var output = renderComment(message);
+				var output = renderComment(message, data.comment_id);
+				console.log(data);
 				$('.comments').prepend(output);
 		})
 
 
 		$('textarea').val('');		
 	});
+
+//================================================================
+// Delete Comment on Trail Page
+//================================================================
+	$('form.delete-comment').on('submit', function(event) {
+		event.preventDefault();
+		var comment_id = $('.delete-comment .comment-id').val();
+		// var output = renderComment(message);
+		// $('.comments').prepend(output);
+
+		var senddata = {
+			comment_id: $('.delete-comment .comment-id').val()	
+		}
+		
+
+		$.get('/deleteComment', senddata, function (data){
+			
+				console.log(data);
+				
+		})
+
+
+				
+	});
+
 
 
 });

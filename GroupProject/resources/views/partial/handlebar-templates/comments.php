@@ -1,3 +1,6 @@
-<div class="comment-content">{{message}}</div>
+<div class="comment-content">
+	{{message}}
+</div>
+
 			
 	
