@@ -75,7 +75,6 @@
 					<div class="user-name">{{Auth::user()->username}}</div>
 						@include('partial/handlebar-templates/comments')
 				</div>
-				
 					<div class="delete">
 						<form class="delete-comment">
 							@include('partial/handlebar-templates/deleteComment')

@@ -180,22 +180,18 @@ $(document).ready(function() {
 	$(document).on('submit', 'form.delete-comment' , function(event) {
 		event.preventDefault();
 		var comment_id = $('.delete-comment .comment-id').val();
-		// var output = renderComment(message);
-		// $('.comments').prepend(output);
+		
 
 		var senddata = {
 			comment_id: $('.delete-comment .comment-id').val()	
 		}
 		
+		$(this).parents('.comment-block').remove();
 
 		$.get('/deleteComment', senddata, function (data){
-			
-				$(this).remove().parents('.comment-block');
-				
+
 		})
-
-
-				
+		
 	});
 
 
