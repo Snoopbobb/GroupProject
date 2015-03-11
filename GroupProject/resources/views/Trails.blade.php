@@ -41,7 +41,7 @@
 					@if(Auth::user()->user_id == $comm->user_id)
 						<div class="delete-comment">
 							<form class="delete-comment">
-								<input class="comment-id" type="hidden" value="{{$comm->user_id}}">
+								<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
 								<button>Delete</button>
 							</form>
 						</div>
