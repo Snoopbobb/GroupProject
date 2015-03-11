@@ -59,7 +59,7 @@
 				<input type="hidden" class="token" name="_token" value="{{ csrf_token() }}">
 				<input type="hidden" class="trail-id" name="trail_id" value="{{$trail->trail_id}}">
 				<input class="user-id" type="hidden" name="user_id" value="{{Auth::user()->user_id}}">
-				<textarea name="comment" placeholder="Add your comment!"></textarea>
+				<textarea name="comment_description" placeholder="Add your comment!"></textarea>
 					<div>
 						<button>Send</button>
 					</div>
@@ -72,10 +72,10 @@
 			<div class="comment-block">
 				<div class="image">this is an image</div>
 				<div class="comment">
-					<div class="date">NEW</div>
+					<div class="date">@{{created_at}}</div>
 					<div class="user-name">{{Auth::user()->username}}</div>
 					<div class="comment-content">
-						@{{message}}
+						@{{comment_description}}
 					</div>
 				</div>
 					<div class="delete">

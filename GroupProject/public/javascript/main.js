@@ -138,12 +138,13 @@ $(document).ready(function() {
 	// Add Comment on Trail Page
 	//================================================================
 
-	function renderComment(message, comment_id){
+	function renderComment(comment){
 		var source = $('#template-comment').html();
 		var template = Handlebars.compile(source);
 		var output = template({
-			message: message,
-			comment_id: comment_id
+			comment_description: comment.comment_description,
+			comment_id: comment.comment_id,
+			created_at: comment.created_at
 		});
 		return output;	
 	};
@@ -152,7 +153,7 @@ $(document).ready(function() {
 
 	$('form.add-comment').on('submit', function(event) {
 		event.preventDefault();
-		var message = $('.add-comment textarea').val();
+		var comment_description = $('.add-comment textarea').val();
 		
 
 		var senddata = {
@@ -165,8 +166,8 @@ $(document).ready(function() {
 
 		$.get('/addComment', senddata, function (data){
 			
-				var output = renderComment(message, data.comment_id);
-				console.log(data);
+				var output = renderComment(data.comment);
+				//console.log(data.comment.created_at);
 				$('.comments').prepend(output);
 		})
 
