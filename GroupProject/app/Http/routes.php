@@ -9,7 +9,7 @@ Route::get('/home', function(){
 
 //Profile
 Route::get('/profile', 'ProfileController@show');
-Route::post('/profile/{user_id}/update', 'ProfileController@update');
+Route::post('/profile/{user_id}/update', 'ProfileController@edit');
 Route::post('/profile/{user_id}/delete', 'ProfileController@delete');
 
 //Static pages
