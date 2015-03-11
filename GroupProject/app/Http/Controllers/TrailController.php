@@ -41,7 +41,7 @@ class TrailController extends Controller {
 		$trail_id = Request::input('trail_id');
 		$comment_id = Trail::addComment($user_id, $trail_id, $message);
 		// return redirect()->back();
-		return json_encode(['comment_id' => $comment_id]);
+		return ['comment_id' => $comment_id];
 
 	}
 

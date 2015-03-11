@@ -39,7 +39,7 @@
 						<div class="comment-content">{{$comm->comment_description}}</div>
 					</div>
 					@if(Auth::user()->user_id == $comm->user_id)
-						<div class="delete-comment">
+						<div class="delete">
 							<form class="delete-comment">
 								<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
 								<button>Delete</button>
@@ -76,7 +76,7 @@
 						@include('partial/handlebar-templates/comments')
 				</div>
 				@if(Auth::user()->user_id == $comm->user_id)
-					<div class="delete-comment">
+					<div class="delete">
 						<form class="delete-comment">
 							@include('partial/handlebar-templates/deleteComment')
 							<button>Delete</button>

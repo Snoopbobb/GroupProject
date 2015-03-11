@@ -182,7 +182,7 @@ $(document).ready(function() {
 //================================================================
 // Delete Comment on Trail Page
 //================================================================
-	$('form.delete-comment').on('submit', function(event) {
+	$(document).on('submit', 'form.delete-comment' , function(event) {
 		event.preventDefault();
 		var comment_id = $('.delete-comment .comment-id').val();
 		// var output = renderComment(message);
