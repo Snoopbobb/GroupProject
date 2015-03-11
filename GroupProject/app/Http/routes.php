@@ -45,6 +45,9 @@ Route::get('/Trails/{mountain_id}/{trail_id}','TrailController@getTrail');
 //Add a Comment
 Route::get('/addComment', 'TrailController@addComment');
 
+//Delete a Comment
+Route::get('/deleteComment', 'TrailController@deleteComment');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
