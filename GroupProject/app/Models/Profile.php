@@ -9,6 +9,9 @@ class Profile extends Model {
 	protected static $table = 'user';
 	protected static $key = 'user_id';
 
+
+//Update user Info
+	
 	public static function edit($first_name, 
 								$last_name, 
 								$email, 
@@ -32,6 +35,8 @@ class Profile extends Model {
 
 		return $update_profile;
 	}
+
+//Delete User
 
 	public static function delete($user_id) {
 		$sql="DELETE FROM user WHERE user_id = $user_id";
