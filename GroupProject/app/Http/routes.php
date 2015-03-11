@@ -28,6 +28,8 @@ Route::get('/about', function(){
 
 
 //Mountains
+Route::get('/featureImage', 'MountainController@getAll');
+
 Route::get('/Mountains', function(){return redirect('/Mountains/all');});
 Route::get('/Mountains/all', 'MountainController@getAll');
 Route::get('/Mountains/{mountain_id}', 'MountainController@getMountain');

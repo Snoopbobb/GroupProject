@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('.focus > div').animate({height: '250%'}, 10);
-	var hashtag = 'camelbackmountain'; // $('.hashtag').text(); //'hikeaz';
+	var hashtag = 'hikeaz'; // $('.hashtag').text(); //'hikeaz';
 	console.log(hashtag);
 	var feed = new Instafeed({
 			get: 'tagged',
@@ -85,15 +85,9 @@ $(document).ready(function() {
 		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
 
 		//replace hero photo
-		// $.ajax({
-		// 	url: '/ajax/',
-		// 	data: {'mountain_id': mID},
-		// 	// type: 'post',
-		// 	cache: false,
-		// 	dataType: 'json',
-		// 	success: function(imageURL) {$('.photo').css('background-image', 'url(' + imageURL + ')')}
-		// });
-		// $('.photo')
+		$.get(url, {}, function() {
+
+		})
 
 		//replace weather
 		$(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');

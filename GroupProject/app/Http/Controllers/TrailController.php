@@ -19,12 +19,12 @@ class TrailController extends Controller {
 		$mountain = new Mountain($mountain_id);
 		$trail = new Trail($trail_id);
 		$img = new Image($trail->image_id);
-		// $imageURL = $img->image_path;
+		$imageURL = $img->image_path;
 
 		//grabbing comments for specific trail
 		$comment = Trail::getComments($trail_id);
 		
-		return view('Trails', [ "comment" => $comment])->with('mountain', $mountain)->with('trail', $trail)->with('weather', $weather);
+		return view('Trails', ['imageURL' => $imageURL, "comment" => $comment])->with('mountain', $mountain)->with('trail', $trail)->with('weather', $weather);
 
 	}
 
