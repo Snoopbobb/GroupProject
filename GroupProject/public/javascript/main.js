@@ -138,11 +138,12 @@ $(document).ready(function() {
 	// Add Comment on Trail Page
 	//================================================================
 
-	function renderComment(message){
+	function renderComment(message, comment_id){
 		var source = $('#template-comment').html();
 		var template = Handlebars.compile(source);
 		var output = template({
-			message: message
+			message: message,
+			comment_id: comment_id
 		});
 		return output;	
 	};
@@ -154,7 +155,9 @@ $(document).ready(function() {
 		var message = $('.add-comment textarea').val();
 		// var output = renderComment(message);
 		// $('.comments').prepend(output);
+
 		// console.log(message);
+
 
 		var senddata = {
 			user_id: $('.add-comment .user-id').val(),
@@ -165,14 +168,41 @@ $(document).ready(function() {
 		
 
 		$.get('/addComment', senddata, function (data){
+			
 
-				var output = renderComment(message);
+				var output = renderComment(message, data.comment_id);
+				console.log(data);
 				$('.comments').prepend(output);
 		})
 
 
 		$('textarea').val('');		
 	});
+
+//================================================================
+// Delete Comment on Trail Page
+//================================================================
+	$(document).on('submit', 'form.delete-comment' , function(event) {
+		event.preventDefault();
+		var comment_id = $('.delete-comment .comment-id').val();
+		// var output = renderComment(message);
+		// $('.comments').prepend(output);
+
+		var senddata = {
+			comment_id: $('.delete-comment .comment-id').val()	
+		}
+		
+
+		$.get('/deleteComment', senddata, function (data){
+			
+				console.log(data);
+				
+		})
+
+
+				
+	});
+
 
 
 });

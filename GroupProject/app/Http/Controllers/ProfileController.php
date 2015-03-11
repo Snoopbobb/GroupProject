@@ -19,37 +19,22 @@ class ProfileController extends Controller {
 
 //Update User Info
 
-	public function update($user_id) {
-		$sql= "UPDATE user
-				SET first_name = :first_name,
-					last_name = :last_name,
-					email = :email,
-					gender = :gender
-				WHERE 
-					user_id = :user_id
-				";
-
+	public function edit($user_id) {
 		$user_id = Request::input('user_id');
 		$first_name = Request::input('first_name');
 		$last_name = Request::input('last_name');
 		$email = Request::input('email');
 		$gender = Request::input('gender');
-
-
-		DB::statement($sql, [':first_name'=>$first_name,
-								':last_name'=>$last_name,
-								':email'=>$email,
-								':gender'=>$gender,
-								':user_id'=>$user_id]);
-
+		$update_profile = Profile::edit($first_name, $last_name, $email, $gender, $user_id);
+		
 		return redirect("profile");
 	}
 
 //Delete User
 
 	public function delete($user_id) {
-		$sql="DELETE FROM user WHERE user_id = $user_id";
-		DB::delete($sql);
+		$delete_user = Profile::delete($user_id);
+
 		return redirect("/");
 
 

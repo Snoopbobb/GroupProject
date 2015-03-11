@@ -9,7 +9,7 @@ Route::get('/home', function(){
 
 //Profile
 Route::get('/profile', 'ProfileController@show');
-Route::post('/profile/{user_id}/update', 'ProfileController@update');
+Route::post('/profile/{user_id}/update', 'ProfileController@edit');
 Route::post('/profile/{user_id}/delete', 'ProfileController@delete');
 
 //Static pages
@@ -44,6 +44,9 @@ Route::get('/Trails/{mountain_id}/{trail_id}','TrailController@getTrail');
 
 //Add a Comment
 Route::get('/addComment', 'TrailController@addComment');
+
+//Delete a Comment
+Route::get('/deleteComment', 'TrailController@deleteComment');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
