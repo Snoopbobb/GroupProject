@@ -29,14 +29,14 @@ class Trail extends Model{
 	
 
 
-	public static function deleteComment($comment_id) {
-		$sql = "
-				DELETE FROM comment
-				WHERE comment_id = :comment_id
-				";
-		DB::delete($sql, [
-						':comment_id' => $comment_id
-						]);	
+	// public static function deleteComment($comment_id) {
+	// 	$sql = "
+	// 			DELETE FROM comment
+	// 			WHERE comment_id = :comment_id
+	// 			";
+	// 	DB::delete($sql, [
+	// 					':comment_id' => $comment_id
+	// 					]);	
 		
-	}
+	// }
 }

@@ -47,10 +47,10 @@ Route::get('/Trails/loginToComment/{mountain_id}/{trail_id}', ['middleware' => '
 
 
 //Add a Comment
-Route::get('/addComment', 'TrailController@addComment');
+Route::get('/addComment', 'CommentController@addComment');
 
 //Delete a Comment
-Route::get('/deleteComment', 'TrailController@deleteComment');
+Route::get('/deleteComment', 'CommentController@deleteComment');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
