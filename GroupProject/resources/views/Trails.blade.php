@@ -18,7 +18,7 @@
 
 
 @section('main_content')
-	<div class="trail-description">
+	<div class="trail-description trail">
 		<h3>Trail Description</h3>
 		<p>{{ $trail->description }}</p>
 		<div class="rating">
@@ -28,7 +28,7 @@
 		<div><strong>Trail Length: </strong>{{ number_format($trail->length) }} ft.</div>
 		<div><strong>Trail Hashtag: </strong>#{{ $trail->hashtag }}</div>
 	</div>
-	<div class="trail-comment">
+	<div class="trail-comment trail">
 		<h3>Comments</h3>
 		<div class="comments">
 			@foreach($comment as $comm)
@@ -97,7 +97,7 @@
 
 
 	
-	<div class="instagram-feed">
+	<div class="instagram-feed trail">
 		<h3>#{{ $trail->hashtag }}</h3>
 		<div id="instafeed"></div>
 	</div>
