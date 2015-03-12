@@ -155,13 +155,8 @@ Footer CSS
 *****************************/
 
 footer {
-<<<<<<< HEAD
-	background-color: #3498DB;
-	height: 100px;
-=======
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0.6) 40%, rgba(221,221,221,1) 100%), url('images/footertexture.jpg');
 	height: 150px;
->>>>>>> c17c6427bb4e36f4b92ff7dbb25e6a23603530da
 	text-align: center;	
 	position: relative;
 	overflow: hidden;
