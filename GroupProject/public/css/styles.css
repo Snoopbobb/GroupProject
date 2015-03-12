@@ -197,7 +197,7 @@ footer {
 /*****************************
 featured 
 *****************************/
-.welcome-message {
+h1.welcome-message, div.welcome-message {
 	color: #ccc;
 	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
@@ -206,8 +206,7 @@ div.welcome-message {
 	text-align: center;
 	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 	font-size: 16px;
-	font-weight: 700px;
-
+	font-weight: bold;
 }
 
 .welcome {
