@@ -869,7 +869,7 @@ Class name automatically added to element */
 }
 
 @media screen and (max-width: 1365px) {
-		.masonry {
+	.masonry {
 		width: 100%;
 	}
 
@@ -896,7 +896,7 @@ Class name automatically added to element */
 	}
 }
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1295px) {
 	.masonry {
 		width: 100%;
 	}
