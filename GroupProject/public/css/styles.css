@@ -749,14 +749,12 @@ Comments
 	float: left;
 	width: 32%;
 	margin-top: 10px;
-	height: 720px;
-	background-color: yellow;
+	height: 730px;
+	background-color: #ccc;
 }
 
 .trail-comment .comments {
 	height: 500px;
-	background-color: white;
-	padding: 2px;
 	overflow-Y: scroll;
 }
 
