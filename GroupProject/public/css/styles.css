@@ -582,6 +582,7 @@ Main Page Tiles
 	left: 20px;
 	height: 400px;
 	width: 350px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 .tile_2 {
 	background-image: url('images/McDowellMountains/McDowell_tile.jpg');
@@ -591,6 +592,7 @@ Main Page Tiles
 	left: 20px;
 	height: 300px;
 	width: 700px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 .tile_3 {
 	background-image: url('images/SouthMountain/SouthMTN_tile.jpg');
@@ -600,6 +602,7 @@ Main Page Tiles
 	left: 380px;
 	height: 195px;
 	width: 700px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 .tile_4 {
 	background-image: url('images/NorthMountain/NorthMTN_tile.jpg');
@@ -609,6 +612,7 @@ Main Page Tiles
 	left: 380px;
 	height: 195px;
 	width: 340px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 .tile_5 {
 	background-image: url('images/Camelback/Sunset.jpg');
@@ -618,6 +622,7 @@ Main Page Tiles
 	left: 730px;
 	height: 505px;
 	width: 350px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 .tile_6 {
 	background-image: url('images/ShadowMountain/ShadowMTN_tile.jpg');
@@ -627,6 +632,7 @@ Main Page Tiles
 	left: 1090px;
 	height: 400px;
 	width: 360px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 .tile_7 {
 	background-image: url('images/DreamyDraw/PiestewaPeak_tile.jpg');
@@ -636,6 +642,7 @@ Main Page Tiles
 	left: 1090px;
 	height: 300px;
 	width: 360px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 /*======================================================================================================================
