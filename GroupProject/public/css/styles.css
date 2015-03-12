@@ -403,6 +403,19 @@ main {
 
 }
 
+.browse-section::after {
+	content: "";
+	background-image: url(images/compass.jpg);
+	background-size: cover;
+	opacity: .05;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
 /*****************************
 profile page
 *****************************/
@@ -768,16 +781,8 @@ Comments
 	overflow-Y: scroll;
 }
 
-.trail-comment > .more-comments {
-	height: 60px;
-	background-color: gray;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-
 .comment-block {
-	background-color: red;
+	background-color: rgb(240, 172, 66);
 	margin-top: 5px;
 	padding: 5px;
 }
@@ -805,23 +810,28 @@ Comments
 
 .comment .date{
 	text-align: right;
+	color: #fff;
 }
 
 .comment-block .user-name {
-	background-color: purple;
+	color: rgb(171, 104, 0);
+	background-color: #fff;
+	font-weight: 700;
 	text-align: left;
 	margin-left: 5px;
 }
 
 .comment > .comment-content{
-	background-color: orange;
+	border-left: 2px solid #fff;
 	margin-left: 5px;
 	text-align: justify;
 	margin-top: 5px;
+	padding-left: 5px;
 }
 
 div.new-comment {
-	background-color: blue;
+	color: rgb(171, 104, 0);
+	/*background-color: blue;*/
 	margin-top: 20px;
 }
 
@@ -1061,7 +1071,7 @@ Class name automatically added to element */
 
 /* CSS for Confiramtion page*/
 .confirmation-page {
-	color: #00CC33;
+	color: rgb(171, 104, 0);
 	position: relative;
 	padding: 100px 0;
 }
@@ -1071,14 +1081,14 @@ Class name automatically added to element */
 	left: 45%;
 	bottom: 0;
 	padding: 10px 20px;
-	background-color: red;
+	background-color: rgba(244, 159, 28, 1);
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .back-home-button:hover {
-	color: red;
+	color: rgba(244, 159, 28, 1);
 	background-color: white;
 }
 
@@ -1094,7 +1104,7 @@ Class name automatically added to element */
 }
 
 .about-wrapper a {
-	color: black;
+	color: rgb(240, 172, 66);
 }
 
 .about-pic {
@@ -1105,4 +1115,5 @@ Class name automatically added to element */
 	background-color: #fff;
 	margin-left: 100px;
 	padding-left: 10px;
+	min-height: 200px;
 }
