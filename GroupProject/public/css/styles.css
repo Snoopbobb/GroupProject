@@ -889,7 +889,32 @@ Class name automatically added to element */
 }
 
 @media screen and (max-width: 1285px) {
-	
+	.masonry {
+		width: 100%;
+	}
+
+	.tile_6, .tile_7 {
+		width: 323px;
+		left: 1050px;
+	}
+
+	.tile_2 {
+		width: 680px;
+	}
+
+	.tile_4 {
+		width: 320px;
+	}
+
+	.tile_3 {
+		width: 660px;
+	}
+
+	.tile_5 {
+		width: 330px;
+		left: 710px;
+	}
+}
 }
 
 .ttile {
