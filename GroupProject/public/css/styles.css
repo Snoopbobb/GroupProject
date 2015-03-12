@@ -38,7 +38,7 @@ nav {
 
 .logo {
 	position: absolute;
-	left: 10px;
+	left: 30px;
 	top: 30px;
 	font-size: 36pt;
 	background-color: #777;
@@ -201,7 +201,7 @@ featured
 }
 
 .info p {
-	padding: 20px 10px;
+	padding: 15px 10px;
 	line-height: 130%;
 }
 
@@ -649,6 +649,10 @@ Main Page Tiles
 	margin: 10px;
 	height: 730px;
 	background-color: #ccc;
+}
+
+.trail-description div {
+	padding:10px;
 }
 /****************************
 Comments

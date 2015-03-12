@@ -4,8 +4,6 @@
 @section('title')
 <h1>{{ $trail->name }}</h1>
 <div class="fweather">
-{{-- 	{{ $weather['temperature'] }}&deg; 
-	{!! $weather['clouds'] !!} --}}
 </div>
 <div class='hash'>#<span class="hashtag">{{ $trail->hashtag }}</span></div>
 @stop
@@ -26,6 +24,9 @@
 		<div class="rating">
 			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
 		</div>
+		<div><strong>Elevation Gain: </strong>{{ number_format($trail->elevation_gain) }} ft.</div>
+		<div><strong>Trail Length: </strong>{{ number_format($trail->length) }} ft.</div>
+		<div><strong>Trail Hashtag: </strong>#{{ $trail->hashtag }}</div>
 	</div>
 	<div class="trail-comment">
 		<h3>Comments</h3>
