@@ -698,7 +698,7 @@ Comments
 }
 
 .comment-block .image {
-	background-color: blue;
+	background-image: url('images/hiker_icon_small.png');
 	float: left;
 	width: 70px;
 	height: 70px;
