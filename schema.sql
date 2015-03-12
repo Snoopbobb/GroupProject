@@ -140,6 +140,7 @@ INSERT INTO image (image_id, image_path) VALUES (16, '/css/images/DreamyDraw/Moh
 INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Freedom.jpg');
 INSERT INTO image (image_id, image_path) VALUES (18, '/css/images/DreamyDraw/CharlesC.jpg');
 INSERT INTO image (image_id, image_path) VALUES (19, '/css/images/DreamyDraw/Nature.jpg');
+INSERT INTO image (image_id, image_path) VALUES (24, '/css/images/NorthMountain/northMountainNationalTrail.jpg');
 
 -- comments
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
