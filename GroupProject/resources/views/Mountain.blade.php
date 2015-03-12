@@ -25,7 +25,17 @@
 		</div>
 	</div>
 	<div class="seeAll displayNone">
-		<?php for ($i=0; $i < count($trailNames); $i++) { echo '<div><a href="' . $trailIds[$i] . '">' . $trailNames[$i] . '</a></div>'; }?>
+		<?php 
+			$template2 = '';
+			$a = '<div><a href="/Trails/' . $mountain->mountain_id . '/';
+			$i = 1;
+			$q = 0;
+			foreach ($trail->getArray() as $trails) {
+				$template2 .= $a . $trails->trail_id . '">' . $trails->name . '</a></div>' ;
+				$i++;
+				$q++;
+			} ?>
+		 {!!$template2!!}
 	</div>
 
 @stop
