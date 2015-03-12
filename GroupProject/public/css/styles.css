@@ -44,8 +44,7 @@ header .logo {
 	left: 50px;
 	top: 10px;
 	font-size: 25pt;
-	/*background-color: #777;*/
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .logo > a {
@@ -175,6 +174,7 @@ footer {
 
 .logo-footer > a{
 	color: rgb(240, 172, 66);
+	text-decoration: none;
 	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
@@ -182,6 +182,12 @@ footer {
 	position: absolute;
 	bottom: 30px;
 	margin-left: -20px;
+	color: rgb(171, 104, 0);
+}
+
+.about  a{
+	color: rgb(171, 104, 0);
+	text-decoration: none;
 }
 
 .social-logos {
@@ -224,7 +230,7 @@ div.welcome-message {
 }
 
 .featured span {
-	background-color: magenta;
+	background-color: #888;
 	height: 150px;
 	width: 20%;
 	float: left;
@@ -234,6 +240,11 @@ div.welcome-message {
 
 .info {
 	display: none;
+	color: #eee;
+}
+
+.info a:link, .info a:visited {
+	color: #eee;
 }
 
 .info div {
@@ -246,14 +257,25 @@ div.welcome-message {
 	line-height: 130%;
 }
 
+.info h2 {
+	text-shadow: 5px 6px 3px rgba(0, 0, 0, 0.4);
+}
+
 .thumbnail {
 	position: absolute;
 	bottom: 50%;
-	left: 25%;
+	left: 20%;
+	color: #eee;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+.focus {
 }
 
 .focus > div{
-	background-color: red;
+	background-color: rgba(50,50,50,.9);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top: 1px solid rgba(70,70,70,1);
 	position: absolute;
 	bottom: 0;
 	height: 100%;
@@ -306,7 +328,7 @@ Tagline and Search
 	bottom: 0;
 	left: 0;
 	right: 0;
-	color: #ccc;
+	color: rgb(169, 168, 171);
 	font-weight: 300;
 }
 .tagline h1 {
@@ -316,7 +338,7 @@ Tagline and Search
 .tagline span.tag {
 	font-weight: 300;
 	font-size: 35pt;
-	color: rgb(240, 172, 66);
+	color: rgb(171, 104, 0);
 }
 
 .tagline > div span {
@@ -521,6 +543,13 @@ Main Page Tiles
 
 .scale:hover {
 	transform: scale(1.01,1.01);
+}
+
+.tile-name {
+	color: rgb(240, 172, 66);
+	font-weight: 500;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.23);
+
 }
 
 .tile_1 {

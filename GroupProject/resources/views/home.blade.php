@@ -13,7 +13,7 @@
 
 @section('featured')
 <div class="featured">
-	<span class="featureblock">
+	<span class="featureblock" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(140, 100, 142,0.1) 0%,rgba(140, 100, 142,0.5) 100%), url(./css/images/Camelback/CamelbackMountainPanorama.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>Camelback Mountain</h3>
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="featureblock">
+	<span class="featureblock" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(37, 100, 159, 0.2) 0%,rgba(37, 100, 159, 0.5) 100%), url(./css/images/DreamyDraw/PiestewaPeak.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>Dreamy Draw Park</h3>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="featureblock">
+	<span class="featureblock" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(245, 229, 140,0.1) 0%,rgba(245, 229, 140,0.4) 100%), url(./css/images/McDowellMountains/IMG_8261.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>McDowell Mountains</h3>
@@ -60,7 +60,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="featureblock focus">
+	<span class="featureblock focus" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(79, 157, 137 ,0.4) 0%,rgba(79, 157, 137,0.7) 100%), url(./css/images/Sup2HDR.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>The Superstitions</h3>
@@ -98,12 +98,12 @@
 		</span>
 	</div>
 	<div class="tiles masonry">
-		<a href="/Mountains/2"><div class="scale tile_1">CamelBack</div></a>
-		<a href="/Mountains/5"><div class="scale tile_2">McDowell Mountains</div></a>
-		<a href="/Mountains/7"><div class="scale tile_3">South Moutain</div></a>
-		<a href="/Mountains/6"><div class="scale tile_4">North Mountain</div></a>
-		<a href="/Mountains/4"><div class="scale tile_5">Lookout Mountain</div></a>
-		<a href="/Mountains/9"><div class="scale tile_6">Shadow Mountain</div></a>
-		<a href="/Mountains/3"><div class="scale tile_7">Dreamy Draw / Piestewa Peak</div></a>
+		<a href="/Mountains/2"><div class="scale tile_1 tile-name">CamelBack</div></a>
+		<a href="/Mountains/5"><div class="scale tile_2 tile-name">McDowell Mountains</div></a>
+		<a href="/Mountains/7"><div class="scale tile_3 tile-name">South Moutain</div></a>
+		<a href="/Mountains/6"><div class="scale tile_4 tile-name">North Mountain</div></a>
+		<a href="/Mountains/4"><div class="scale tile_5 tile-name">Lookout Mountain</div></a>
+		<a href="/Mountains/9"><div class="scale tile_6 tile-name">Shadow Mountain</div></a>
+		<a href="/Mountains/3"><div class="scale tile_7 tile-name">Dreamy Draw / Piestewa Peak</div></a>
 	</div>
 @stop
