@@ -408,7 +408,7 @@ main {
 	background-image: url(images/compass.jpg);
 	background-size: cover;
 	opacity: .05;
-	top: 0;
+	top: 0px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -1099,6 +1099,7 @@ Class name automatically added to element */
 /* CSS for about page */
 .about-page-wrapper {
 	width: 50%;
+	padding-bottom: 30px;
 	margin: 0 auto;
 }
 
