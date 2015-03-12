@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>HikingTrailz</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/font-awesome/css/font-awesome.min.css') }}">
 	<link rel="stylesheet" href="{{ URL::asset('fonts/weather-icons/css/weather-icons.min.css') }}">
@@ -15,7 +15,7 @@
 			<header>
 				<nav>
 					<span class="logo">
-						<a href="/">Logo</a>
+						<a href="/">Hiking Trailz</a>
 					</span>
 					<div>
 						<div class="options browse">

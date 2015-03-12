@@ -33,7 +33,7 @@
 		<div class="comments">
 			@foreach($comment as $comm)
 				<div class="comment-block">
-					<div class="image">picture</div>
+					<div class="image">&nbsp;</div>
 					<div class="comment">
 						<div class="date">{{$comm->created_at}}</div>
 						<div class="user-name">{{$comm->username}}</div>

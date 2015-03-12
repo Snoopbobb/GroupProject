@@ -1,7 +1,10 @@
 /*======================================================================================================================
 /*=========================================================== Main Foundation/ Reused CSS ==============================
 /*======================================================================================================================*/
-
+header .logo {
+	font-family: 'Rock Salt';
+	font-size: 40px;
+}
 h3, h2 {
 	margin-bottom: 0;
 	margin-top: 0;
@@ -23,6 +26,7 @@ a {
 
 body {
 	background-color: #ddd;
+	margin: 0;
 }
 
 /***************************************
@@ -40,8 +44,12 @@ nav {
 	position: absolute;
 	left: 30px;
 	top: 30px;
+	left: 0;
 	font-size: 36pt;
 	background-color: #777;
+}
+.logo > a:hover {
+	background-color: rgba(255,255,255,.5);
 }
 
 .options  {
@@ -702,7 +710,7 @@ Comments
 }
 
 .comment-block .image {
-	background-color: blue;
+	background-image: url('images/hiker_icon_small.png');
 	float: left;
 	width: 70px;
 	height: 70px;
