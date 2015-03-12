@@ -57,7 +57,7 @@ CREATE TABLE trail_image (
 CREATE TABLE weather (
     weather_id INT AUTO_INCREMENT PRIMARY KEY,
     week_number INT,
-    mountain_id INT,
+    _id INT,
     weather_description VARCHAR(255) DEFAULT NULL,
     avg_high INT,
     avg_low INT
@@ -122,7 +122,7 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 INSERT INTO image (image_id, image_path) VALUES (1, '/css/images/Sup2HDR.jpg');
 INSERT INTO image (image_id, image_path) VALUES (2, '/css/images/Camelback/CamelbackMountainPanorama.jpg');
 INSERT INTO image (image_id, image_path) VALUES (3, '/css/images/DreamyDraw/PiestewaPeak.jpg');
-INSERT INTO image (image_id, image_path) VALUES (4, '/css/images/LookoutMountain/');
+INSERT INTO image (image_id, image_path) VALUES (4, '/css/images/LookoutMountain/lookout-generic.jpg');
 INSERT INTO image (image_id, image_path) VALUES (5, '/css/images/McDowellMountains/IMG_8261.jpg');
 INSERT INTO image (image_id, image_path) VALUES (6, '/css/images/NorthMountain/NorthMTN.jpg');
 INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/sunset.jpg');
