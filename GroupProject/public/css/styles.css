@@ -155,8 +155,13 @@ Footer CSS
 *****************************/
 
 footer {
-	background-color: orange;
+<<<<<<< HEAD
+	background-color: #3498DB;
 	height: 100px;
+=======
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0.6) 40%, rgba(221,221,221,1) 100%), url('images/footertexture.jpg');
+	height: 150px;
+>>>>>>> c17c6427bb4e36f4b92ff7dbb25e6a23603530da
 	text-align: center;	
 	position: relative;
 	overflow: hidden;
@@ -166,7 +171,7 @@ footer {
 .logo-footer {
 	position: absolute;
 	left: 50px;
-	bottom: 6px;
+	bottom: 30px;
 	font-size: 28pt;
 	/*background-color: #777;*/
 	font-family: 'Rock Salt';
@@ -180,20 +185,21 @@ footer {
 
 .about {
 	position: absolute;
-	bottom: 30px;
-	margin-left: -20px;
+	bottom: 50px;
+	margin-left: -50px;
 	color: rgb(171, 104, 0);
 }
 
 .about  a{
 	color: rgb(171, 104, 0);
 	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.8);
 }
 
 .social-logos {
 	position: absolute;
 	right: 50px;
-	bottom: 30px;
+	bottom: 50px;
 }
 
 
@@ -754,6 +760,15 @@ Main Page Tiles
 .trail-description div {
 	padding:10px;
 }
+
+
+.trail > h3 {
+	color: rgb(240, 172, 66);
+	font-weight: 700;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
+
+
+}
 /****************************
 Comments
 ****************************/
@@ -762,27 +777,17 @@ Comments
 	float: left;
 	width: 32%;
 	margin-top: 10px;
-	height: 720px;
-	background-color: yellow;
+	height: 730px;
+	background-color: #ccc;
 }
 
 .trail-comment .comments {
 	height: 500px;
-	background-color: white;
-	padding: 2px;
 	overflow-Y: scroll;
 }
 
-.trail-comment > .more-comments {
-	height: 60px;
-	background-color: gray;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-
 .comment-block {
-	background-color: red;
+	background-color: rgb(240, 172, 66);
 	margin-top: 5px;
 	padding: 5px;
 }
@@ -810,23 +815,28 @@ Comments
 
 .comment .date{
 	text-align: right;
+	color: #fff;
 }
 
 .comment-block .user-name {
-	background-color: purple;
+	color: rgb(171, 104, 0);
+	background-color: #fff;
+	font-weight: 700;
 	text-align: left;
 	margin-left: 5px;
 }
 
 .comment > .comment-content{
-	background-color: orange;
+	border-left: 2px solid #fff;
 	margin-left: 5px;
 	text-align: justify;
 	margin-top: 5px;
+	padding-left: 5px;
 }
 
 div.new-comment {
-	background-color: blue;
+	color: rgb(171, 104, 0);
+	/*background-color: blue;*/
 	margin-top: 20px;
 }
 
