@@ -83,7 +83,10 @@ $(document).ready(function() {
 		var header = $(this).find('.info h2').html();
 		var weather = $(this).find('.info .fweather').html();
 		var desc = $(this).find('.info p').text();
+		var bgc = $(this).css('background-image');
+
 		//focus getters
+		var fbgc = $('.focus').css('background-image');
 		var fmID = $('.focus').find('.info input').val();
 		var fheader = $('.focus').find('.info h2').text();
 		var fweather = $('.focus').find('.info .fweather').html();
@@ -112,6 +115,10 @@ $(document).ready(function() {
 		//replace description
 		$(this).find('.info p').replaceWith('<p>' + fdesc + '</p>');
 		$('.focus .info p').replaceWith('<p>' + desc + '</p>');
+
+		//replace background image 
+		$('.focus').css('background-image', bgc);
+		$(this).css('background-image', fbgc);
 
 		//animation
 		$('.focus > div').css('height', '100%');

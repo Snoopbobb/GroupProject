@@ -13,7 +13,7 @@
 
 @section('featured')
 <div class="featured">
-	<span class="featureblock">
+	<span class="featureblock" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(140, 100, 142,0.1) 0%,rgba(140, 100, 142,0.5) 100%), url(./css/images/Camelback/CamelbackMountainPanorama.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>Camelback Mountain</h3>
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="featureblock">
+	<span class="featureblock" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(37, 100, 159, 0.2) 0%,rgba(37, 100, 159, 0.5) 100%), url(./css/images/DreamyDraw/PiestewaPeak.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>Dreamy Draw Park</h3>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="featureblock">
+	<span class="featureblock" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(245, 229, 140,0.1) 0%,rgba(245, 229, 140,0.4) 100%), url(./css/images/McDowellMountains/IMG_8261.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>McDowell Mountains</h3>
@@ -60,7 +60,7 @@
 			</div>
 		</div>
 	</span>
-	<span class="featureblock focus">
+	<span class="featureblock focus" style="background: -webkit-radial-gradient(center, ellipse cover, rgba(79, 157, 137 ,0.4) 0%,rgba(79, 157, 137,0.7) 100%), url(./css/images/Sup2HDR.jpg); background-size: cover;">
 		<div>
 			<div class="thumbnail">
 				<h3>The Superstitions</h3>
