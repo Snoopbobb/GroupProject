@@ -138,7 +138,7 @@ INSERT INTO image (image_id, image_path) VALUES (22, '/css/images/SouthMountain/
 INSERT INTO image (image_id, image_path) VALUES (12, '/css/images/DreamyDraw/Summit.jpg');
 INSERT INTO image (image_id, image_path) VALUES (11, '/css/images/DreamyDraw/PiestewaCirc.jpg');
 INSERT INTO image (image_id, image_path) VALUES (16, '/css/images/DreamyDraw/MohaveConnector.jpg');
-INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Freedom.jpg');
+INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Freedom.JPG');
 INSERT INTO image (image_id, image_path) VALUES (18, '/css/images/DreamyDraw/CharlesC.jpg');
 INSERT INTO image (image_id, image_path) VALUES (19, '/css/images/DreamyDraw/Nature.jpg');
 INSERT INTO image (image_id, image_path) VALUES (23, '/css/images/LookoutMountain/circumference_and_summer_trail.jpg');
