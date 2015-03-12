@@ -789,6 +789,7 @@ Comments
 	background-color: rgb(240, 172, 66);
 	margin-top: 5px;
 	padding: 5px;
+	margin-right: 5px;
 }
 
 .comment-block.hidden {
