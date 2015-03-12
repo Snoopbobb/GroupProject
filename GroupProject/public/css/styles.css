@@ -317,10 +317,9 @@ Tagline and Search
 *****************************/
 
 .tagline {
-	background-color: blue;
 	text-align: center;
 	position: relative;
-	min-height: 100px;
+	min-height: 150px;
 }
 
 .tagline div {
@@ -339,6 +338,8 @@ Tagline and Search
 	font-weight: 300;
 	font-size: 35pt;
 	color: rgb(171, 104, 0);
+	display: block
+	padding: 12px;
 }
 
 .tagline > div span {
