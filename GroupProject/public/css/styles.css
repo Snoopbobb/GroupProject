@@ -166,7 +166,7 @@ footer {
 
 .logo-footer {
 	position: absolute;
-	left: 4px;
+	left: 50px;
 	bottom: 6px;
 	font-size: 28pt;
 	/*background-color: #777;*/
@@ -181,6 +181,7 @@ footer {
 .about {
 	position: absolute;
 	bottom: 30px;
+	margin-left: -20px;
 }
 
 .social-logos {
@@ -206,7 +207,7 @@ div.welcome-message {
 	text-align: center;
 	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .welcome {
@@ -297,7 +298,7 @@ Tagline and Search
 	background-color: blue;
 	text-align: center;
 	position: relative;
-	min-height: 80px;
+	min-height: 100px;
 }
 
 .tagline div {
@@ -308,6 +309,12 @@ Tagline and Search
 }
 .tagline h1 {
 	margin: 0 auto;
+}
+
+.tagline span.tag {
+	font-weight: 300;
+	font-size: 35pt;
+	color: rgb(240, 172, 66);
 }
 
 .tagline > div span {
@@ -565,7 +572,7 @@ Main Page Tiles
 	top: 20px;
 	left: 1090px;
 	height: 400px;
-	width: 332px;
+	width: 360px;
 }
 .tile_7 {
 	background-image: url('images/DreamyDraw/PiestewaPeak_tile.jpg');
@@ -574,7 +581,7 @@ Main Page Tiles
 	top: 430px;
 	left: 1090px;
 	height: 300px;
-	width: 332px;
+	width: 360px;
 }
 
 /*======================================================================================================================
@@ -853,8 +860,18 @@ Class name automatically added to element */
 
 .masonry, .masonry > div {
 	background: yellow;
-	width: 98%;
+	width: 95%;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1495px) {
+	.masonry {
+		width: 98%;
+	}
+
+	.tile_6, .tile_7 {
+		width: 332px;
+	}
 }
 
 @media screen and (max-width: 1440px) {
@@ -898,6 +915,7 @@ Class name automatically added to element */
 @media screen and (max-width: 1296px) {
 	.masonry {
 		width: 100%;
+		transform: scaleX(.7);
 	}
 
 	.tile_6, .tile_7 {

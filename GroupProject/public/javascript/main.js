@@ -80,12 +80,12 @@ $(document).ready(function() {
 	$('.featureblock').on('click', function(){
 		//regular getters
 		var mID = $(this).find('.info input').val();
-		var header = $(this).find('.info h1').html();
+		var header = $(this).find('.info h2').html();
 		var weather = $(this).find('.info .fweather').html();
 		var desc = $(this).find('.info p').text();
 		//focus getters
 		var fmID = $('.focus').find('.info input').val();
-		var fheader = $('.focus').find('.info h1').text();
+		var fheader = $('.focus').find('.info h2').text();
 		var fweather = $('.focus').find('.info .fweather').html();
 		var fdesc = $('.focus').find('.info p').text();
 
@@ -100,10 +100,10 @@ $(document).ready(function() {
 
 		//replace header
 		$(this).find('.thumbnail h3').replaceWith('<h3>' + fheader + '</h3>');
-		$(this).find('.info h1').replaceWith('<h1>' + fheader + '</h1>');
+		$(this).find('.info h2').replaceWith('<h2>' + fheader + '</h2>');
 		$(this).find('.info input').replaceWith('<input type="hidden" value="' + fmID + '">');
 		$('.focus .info input').replaceWith('<input type="hidden" value="' + mID + '">');
-		$('.focus .info h1').replaceWith('<h1>' + header + '</h1>');
+		$('.focus .info h2').replaceWith('<h2>' + header + '</h2>');
 
 		//replace weather
 		$(this).find('.info h3').replaceWith('<h3>' + fweather + '</h3>');
