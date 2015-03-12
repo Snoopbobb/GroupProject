@@ -20,11 +20,10 @@
 			<div class="info">
 				<h1><a href="/Mountains/2">Camelback Mountain</a></h1>
 				<div class="fweather">
-	{{-- 				{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!} --}}
+
 				</div>
-				<div>*some other random data</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque, aliquid numquam totam minima! Earum quae mollitia, repellendus fugit nostrum atque iste quidem, doloribus perferendis velit laudantium minima incidunt! Animi deserunt, deleniti quae adipisci veniam?</p>
+				<div><strong>Summit Elev.</strong> 2,706 ft.</div>
+				<p>A small but steep mountain in the heart of Scottsdale. It is very busy most weekend days, but offers some of the greatest and highest views of the greater Phoenix area.</p>
 				<input type="hidden" value="2">
 			</div>
 		</div>
@@ -37,11 +36,10 @@
 			<div class="info">
 				<h1><a href="/Mountains/3">Dreamy Draw Park</a></h1>
 				<div class="fweather">
-{{-- 					{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!} --}}
+
 				</div>
-				<div>*some other random data</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus assumenda sed earum iste expedita vero nobis natus numquam cum, delectus voluptatum unde nihil voluptate fuga dolore ipsum at laborum eius minima fugiat. Veniam, minima!</p>
+				<div><strong>Summit Elev.</strong> 2,612 ft.</div>
+				<p>A very large park with dozens of trails. Almost as many bikers as hikers, and one of the best views in all of Phoenix</p>
 				<input type="hidden" value="3">
 			</div>
 		</div>
@@ -54,11 +52,9 @@
 			<div class="info">
 				<h1><a href="/Mountains/5">McDowell Mountains</a></h1>
 				<div class="fweather">
-			{{-- 		{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!} --}}
 				</div>
-				<div>*some other random data</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eaque voluptas voluptates illum fugiat at cupiditate quae, odio alias suscipit nisi unde porro, iste, commodi quidem quos quisquam saepe possimus. Assumenda animi quibusdam alias consequuntur.</p>
+				<div><strong>Summit Elev.</strong> 4,057 ft.</div>
+				<p>A long range of mountains in Norht Scottsdale that has tons of long hikes, tons of steep hike, and both!</p>
 				<input type="hidden" value="5">
 			</div>
 		</div>
@@ -66,16 +62,14 @@
 	<span class="featureblock focus">
 		<div>
 			<div class="thumbnail">
-				<h3>Superstition Mountians</h3>
+				<h3>Superstition Mountains</h3>
 			</div>
 			<div class="info">
 				<h1><a href="/">Superstition Mountians</a></h1>
 				<div class="fweather">
-				{{-- 	{{ $weather['temperature'] }}&deg; 
-					{!! $weather['clouds'] !!} --}}
 				</div>
-				<div>*some other random data</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ullam quae odio, quam perspiciatis exercitationem, voluptatum ab. Voluptas inventore nobis explicabo optio.</p>
+				<div><strong>Summit Elev.</strong> 5,059 ft.</div>
+				<p>An old and gorgeous mountain range, full of mysteries and tales of hidden treasure, ghosts and spirits. Also home to some of the best hikes, and views in all the state.</p>
 				<input type="hidden" value="10">
 			</div>
 		</div>

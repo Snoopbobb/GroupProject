@@ -200,6 +200,11 @@ featured
 	border-bottom: 1px solid #bbb;
 }
 
+.info p {
+	padding: 20px 10px;
+	line-height: 130%;
+}
+
 .thumbnail {
 	position: absolute;
 	bottom: 50%;
