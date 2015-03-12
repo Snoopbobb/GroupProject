@@ -1,8 +1,13 @@
 @extends ('layout')
 
 @section ('main_content')
+
+@section('tagline')
+<div class="tagline">
+	<h1 class="main-tag tag">Frequently Asked Hiking Questions</h1>
+</div>
+@stop
 <div class="faq-wrapper">
-	<h2>Frequently Asked Hiking Questions</h2>
 	<h4>Q: How long will my hike take?</h4>
 
 	<p>A: Monitor the amount of time it takes you to get to any location; it can take twice that amount of time to cover the same distance going uphill. This "rule of thumb" seems to work well regardless of individual fitness, age and/or length of stride. Most hikers walk uphill at an average speed of one mile per hour. As a courtesy, give uphill hikers the right of way.</p>
