@@ -70,8 +70,8 @@
 			<a href="/">Hiking Trailz</a>
 		</span>
 		<span class="about">
-			<a href="/about">About Us</a> | 
-			<a href="/faq">FAQ</a>
+			<h4><a href="/about">About Us</a> | 
+			<a href="/faq">FAQ</a></h4>
 		</span>
 		<span class="social-logos">
 			<i class="fa fa-instagram fa-3x"></i>
