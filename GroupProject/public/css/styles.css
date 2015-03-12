@@ -331,16 +331,14 @@ Tagline and Search
 	color: rgb(169, 168, 171);
 	font-weight: 300;
 }
-.tagline h1 {
-	margin: 0 auto;
-}
 
-.tagline span.tag {
+.tagline h1.tag {
 	font-weight: 300;
 	font-size: 35pt;
 	color: rgb(171, 104, 0);
 	display: block;
 	padding: 20px;
+	margin: 0 auto;
 }
 
 .tagline > div span {
