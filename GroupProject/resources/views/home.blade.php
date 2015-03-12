@@ -2,9 +2,9 @@
 
 @section('title')
 		@if(Auth::guest())
-		<h1>Welcome!</h1>
+		<h1 class="welcome-message">Welcome <span class="welcome">Hikerz!</span></h1>
 		@else
-		<h1>Welcome {{Auth::user()->first_name}}!</h1>
+		<h1 class="welcome-message">Welcome <span class="welcome">{{Auth::user()->first_name}}!</span></h1>
 		@endif
 		<div>Check out our amazing Hiking Trails</div>	
 @stop
