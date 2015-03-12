@@ -11,7 +11,7 @@
 
 @section('tagline')
 <div class="tagline">
-	<h1>Length: {{ number_format($trail->length) }} ft. | Elevation Gain: {{ number_format($trail->elevation_gain) }} ft.</h1>
+	<h1 class="tag	main-tag">Length: {{ number_format($trail->length) }} ft. | Elevation Gain: {{ number_format($trail->elevation_gain) }} ft.</h1>
 </div>
 @stop
 
