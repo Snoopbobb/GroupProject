@@ -84,7 +84,7 @@
 
 @section('tagline')
 <div class="tagline">
-	<span class="tag">this is a random tag line woooooooooo</span>
+	<span class="tag">Explore the mountains</span>
 	<div>
 		<span class="selected">Browse</span>
 		<span>Search</span>
