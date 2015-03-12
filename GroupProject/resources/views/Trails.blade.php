@@ -38,13 +38,15 @@
 						<div class="user-name">{{$comm->username}}</div>
 						<div class="comment-content">{{$comm->comment_description}}</div>
 					</div>
-					@if(Auth::user()->user_id == $comm->user_id)
-						<div class="delete">
-							<form class="delete-comment">
-								<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
-								<button>Delete</button>
-							</form>
-						</div>
+					@if(!Auth::guest())
+						@if(Auth::user()->user_id == $comm->user_id)
+							<div class="delete">
+								<form class="delete-comment">
+									<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
+									<button>Delete</button>
+								</form>
+							</div>
+						@endif
 					@endif
 				</div>
 			@endforeach
