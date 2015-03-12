@@ -347,7 +347,7 @@ Tagline and Search
 	font-size: 35pt;
 }
 
-.tagline h1.mountain-tag {
+.tagline h1.min-tag {
 	font-size: 25pt;
 }
 .tagline > div span {
@@ -823,6 +823,7 @@ Comments
 	font-weight: 700;
 	text-align: left;
 	margin-left: 5px;
+	padding: 5px;
 }
 
 .comment > .comment-content{
@@ -833,14 +834,29 @@ Comments
 	padding-left: 5px;
 }
 
+.login-comment {
+	color: rgb(171, 104, 0);
+}
+
+a.login-comment {
+	font-weight: 700;
+} 
+
+h1.login-comment {
+	font-weight: 500;
+}
+
 div.new-comment {
 	color: rgb(171, 104, 0);
-	/*background-color: blue;*/
 	margin-top: 20px;
 }
 
+.new-comment > strong {
+	font-weight: 500;
+}
+
 .add-comment {
-	background-color: red;
+	background-color: rgb(240, 172, 66);
 	padding: 5px;
 	margin-top: 15px;
 }
@@ -1018,8 +1034,13 @@ Class name automatically added to element */
 
 /* CSS For Suggest A Trail Page */
 
+.suggest > h4 {
+	color: rgb(171, 104, 0);
+	font-weight: 500;
+}
+
 .suggest-wrapper {
-	margin-left: 200px;
+	margin: 0 auto;
 	width: 45%;
 	text-align: none;
 }
@@ -1028,7 +1049,7 @@ Class name automatically added to element */
 	float: none;
 	margin-right: 0em;
 	width: 0px;
-	margin-top:0;
+	margin-top: 0;
 }
 
 .suggest-input {
@@ -1116,7 +1137,7 @@ Class name automatically added to element */
 }
 
 .about-bio {
-	background-color: #fff;
+	background-color: rgba(0, 0, 0, .2);
 	margin-left: 100px;
 	padding-left: 10px;
 	min-height: 200px;

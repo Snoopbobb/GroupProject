@@ -55,7 +55,7 @@
 
 
 		@if(Auth::guest())
-			<h1><a href="/Trails/loginToComment/{{$mountain->mountain_id}}/{{$trail->trail_id}}">Login
+			<h1 class="login-comment"><a class="login-comment" href="/Trails/loginToComment/{{$mountain->mountain_id}}/{{$trail->trail_id}}">Login
 			</a>to add a comment!</h1>
 		@else
 			<div class="new-comment">
