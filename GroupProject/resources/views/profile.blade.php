@@ -50,7 +50,7 @@
 		<div class="profile-photo">
 			<div>
 				<div class="image">
-					Upload photo (coming soon!) 
+					<img src="/css/images/hiker_icon_small.png" alt=""> 
 				</div>
 			</div>
 		</div>
