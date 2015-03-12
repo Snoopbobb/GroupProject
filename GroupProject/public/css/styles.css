@@ -166,7 +166,7 @@ footer {
 
 .logo-footer {
 	position: absolute;
-	left: 4px;
+	left: 50px;
 	bottom: 6px;
 	font-size: 28pt;
 	/*background-color: #777;*/
@@ -181,6 +181,7 @@ footer {
 .about {
 	position: absolute;
 	bottom: 30px;
+	margin-left: -20px;
 }
 
 .social-logos {
