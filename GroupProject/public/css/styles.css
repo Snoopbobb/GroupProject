@@ -41,8 +41,8 @@ nav {
 header .logo {
 	font-family: 'Rock Salt';
 	position: absolute;
-	left: 4px;
-	/*top: 30px;*/
+	left: 50px;
+	top: 10px;
 	font-size: 25pt;
 	/*background-color: #777;*/
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
@@ -169,8 +169,13 @@ footer {
 	left: 4px;
 	bottom: 6px;
 	font-size: 28pt;
-	background-color: #777;
+	/*background-color: #777;*/
 	font-family: 'Rock Salt';
+}
+
+.logo-footer > a{
+	color: rgb(240, 172, 66);
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
 .about {
