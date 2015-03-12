@@ -38,13 +38,15 @@
 						<div class="user-name">{{$comm->username}}</div>
 						<div class="comment-content">{{$comm->comment_description}}</div>
 					</div>
-					@if(Auth::user()->user_id == $comm->user_id)
-						<div class="delete">
-							<form class="delete-comment">
-								<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
-								<button>Delete</button>
-							</form>
-						</div>
+					@if(!Auth::guest())
+						@if(Auth::user()->user_id == $comm->user_id)
+							<div class="delete">
+								<form class="delete-comment">
+									<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
+									<button>Delete</button>
+								</form>
+							</div>
+						@endif
 					@endif
 				</div>
 			@endforeach
@@ -72,7 +74,6 @@
 		<script id="template-comment" type="text/x-handlebars-template">
 			<div class="comment-block">
 				<div class="image">this is an image</div>
-				@include('partial/handlebar-templates/datetime')
 				<div class="comment">
 					<div class="date">@{{created_at}}</div>
 					<div class="user-name">{{Auth::user()->username}}</div>
