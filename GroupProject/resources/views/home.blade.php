@@ -18,7 +18,7 @@
 				<h3>Camelback Mountain</h3>
 			</div>
 			<div class="info">
-				<h1><a href="/Mountains/2">Camelback Mountain</a></h1>
+				<h2><a href="/Mountains/2">Camelback Mountain</a></h2>
 				<div class="fweather">
 
 				</div>
@@ -34,7 +34,7 @@
 				<h3>Dreamy Draw Park</h3>
 			</div>
 			<div class="info">
-				<h1><a href="/Mountains/3">Dreamy Draw Park</a></h1>
+				<h2><a href="/Mountains/3">Dreamy Draw Park</a></h2>
 				<div class="fweather">
 
 				</div>
@@ -50,7 +50,7 @@
 				<h3>McDowell Mountains</h3>
 			</div>
 			<div class="info">
-				<h1><a href="/Mountains/5">McDowell Mountains</a></h1>
+				<h2><a href="/Mountains/5">McDowell Mountains</a></h2>
 				<div class="fweather">
 				</div>
 				<div><strong>Summit Elev.</strong> 4,057 ft.</div>
@@ -65,7 +65,7 @@
 				<h3>Superstition Mountains</h3>
 			</div>
 			<div class="info">
-				<h1><a href="/">Superstition Mountians</a></h1>
+				<h2><a href="/">Superstition Mountains</a></h2>
 				<div class="fweather">
 				</div>
 				<div><strong>Summit Elev.</strong> 5,059 ft.</div>

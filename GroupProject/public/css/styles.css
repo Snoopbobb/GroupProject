@@ -2,7 +2,7 @@
 /*=========================================================== Main Foundation/ Reused CSS ==============================
 /*======================================================================================================================*/
 
-h3, h2 {
+h3, .tagline h2 {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding-top: 10px;
@@ -553,7 +553,7 @@ Main Page Tiles
 	top: 20px;
 	left: 1090px;
 	height: 400px;
-	width: 390px;
+	width: 332px;
 }
 .tile_7 {
 	background-image: url('images/DreamyDraw/PiestewaPeak_tile.jpg');
@@ -562,7 +562,7 @@ Main Page Tiles
 	top: 430px;
 	left: 1090px;
 	height: 300px;
-	width: 390px;
+	width: 332px;
 }
 
 /*======================================================================================================================
@@ -841,7 +841,7 @@ Class name automatically added to element */
 
 .masonry, .masonry > div {
 	background: yellow;
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 }
 
