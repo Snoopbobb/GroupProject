@@ -1,8 +1,14 @@
 @extends ('layout')
 
+@section('tagline')
+<div class="tagline">
+	<h1 class="main-tag tag">About us</h1>
+</div>
+@stop
+
 @section('main_content')
 <div class="about-page-wrapper">
-	<h2>About Us</h2>
+	<h2></h2>
 	<div class="about-wrapper">
 		<div class="about-pic">
 			<div>
