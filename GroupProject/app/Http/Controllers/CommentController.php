@@ -32,7 +32,7 @@ class CommentController extends Controller {
 	public function deleteComment() {
 		$comment_id = Request::input('comment_id');
 		Comment::deleteComment($comment_id);
-		return ['foo'];
+		return [$comment_id];
 
 	}
 

@@ -54,14 +54,6 @@ CREATE TABLE trail_image (
     trail_id INT,
     `primary` TINYINT DEFAULT 0
 );
-CREATE TABLE weather (
-    weather_id INT AUTO_INCREMENT PRIMARY KEY,
-    week_number INT,
-    _id INT,
-    weather_description VARCHAR(255) DEFAULT NULL,
-    avg_high INT,
-    avg_low INT
-);
 
 
 --
@@ -69,7 +61,7 @@ CREATE TABLE weather (
 --
 
 INSERT INTO user (first_name, last_name, username, password, email, gender)
-    VALUES ('Seth', 'Howell', 'Sk8rSeth', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 's@h.com', 'male');
+    VALUES ('Seth', 'Howell', 'Sk8rSeth', '$2y$10$/.N0EP1vKzW1WxXMvyqutOHnlmGiopecaI4NE/0xbJpKHnaw8BvGS', 's@h.com', 'male');
 INSERT INTO user (first_name, last_name, username, password, email, gender)
     VALUES ('Bob', 'Tabor', 'SnoopBobb', '$2y$10$Tb1t0Ut7nfGos4THRN/Fte.Bfgki4zoU.2ivM3jF.UvtXavIYy6qK', 'b@t.com', 'male');
 INSERT INTO user (first_name, last_name, username, password, email, gender)
