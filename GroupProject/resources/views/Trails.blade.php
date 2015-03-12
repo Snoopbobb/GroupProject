@@ -44,7 +44,7 @@
 							<div class="delete">
 								<form class="delete-comment">
 									<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
-									<button>Delete</button>
+									<i title="Delete Comment" class="fa fa-times"></i>
 								</form>
 							</div>
 						@endif
@@ -55,7 +55,7 @@
 
 
 		@if(Auth::guest())
-			<h1><a href="/Trails/loginToComment/{{$mountain->mountain_id}}/{{$trail->trail_id}}">Login
+			<h1 class="login-comment"><a class="login-comment" href="/Trails/loginToComment/{{$mountain->mountain_id}}/{{$trail->trail_id}}">Login
 			</a>to add a comment!</h1>
 		@else
 			<div class="new-comment">
@@ -76,7 +76,7 @@
 		@if(Auth::user())
 		<script id="template-comment" type="text/x-handlebars-template">
 			<div class="comment-block">
-				<div class="image">this is an image</div>
+				<div class="image"></div>
 				<div class="comment">
 					<div class="date">@{{created_at}}</div>
 					<div class="user-name">{{Auth::user()->username}}</div>
@@ -87,7 +87,7 @@
 					<div class="delete">
 						<form class="delete-comment">
 							<input class="comment-id" type="hidden" value="@{{comment_id}}">
-							<button>Delete</button>
+							<i title="Delete Comment" class="fa fa-times"></i>
 						</form>
 					</div>
 				</div>

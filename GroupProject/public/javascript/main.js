@@ -190,7 +190,7 @@ $(document).ready(function() {
 //================================================================
 // Delete Comment on Trail Page
 //================================================================
-	$(document).on('submit', 'form.delete-comment' , function(event) {
+	$(document).on('click', '.delete-comment .fa-times' , function(event) {
 		event.preventDefault();
 		var comment_id = $('.delete-comment .comment-id').val();
 		
@@ -200,6 +200,7 @@ $(document).ready(function() {
 		}
 		
 		$(this).parents('.comment-block').remove();
+		console.log(senddata);
 
 		$.get('/deleteComment', senddata, function (data){
 
