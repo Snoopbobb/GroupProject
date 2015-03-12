@@ -1019,7 +1019,7 @@ Class name automatically added to element */
 /* CSS For Suggest A Trail Page */
 
 .suggest-wrapper {
-	margin-left: 200px;
+	margin: 0 auto;
 	width: 45%;
 	text-align: none;
 }
@@ -1028,7 +1028,7 @@ Class name automatically added to element */
 	float: none;
 	margin-right: 0em;
 	width: 0px;
-	margin-top:0;
+	margin-top: 0;
 }
 
 .suggest-input {
