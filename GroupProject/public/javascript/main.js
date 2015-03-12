@@ -74,8 +74,6 @@ $(document).ready(function() {
 		// $('.fweather').text(data.temperature);
 		$('.fweather').html(data.temperature + '&deg; ' + data.clouds);
 	})
-	
-
 
 	$('.featureblock').on('click', function(){
 		//regular getters
