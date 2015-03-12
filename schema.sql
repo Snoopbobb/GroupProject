@@ -93,7 +93,7 @@ INSERT INTO mountain (name, description, image_id, crossroads, elevation, gps) V
 
 
 -- insert trails
-INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (2, 10, 'Echo Canyon Trail', 'One of the most traveled trails in the state, Echo Canyon trail is a solid hike with an even more solid view', '12144', '1300', 'EchoCanyonHTZ');
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (2, 10, 'Echo Canyon Trail', "One of the most traveled trails in the state, Echo Canyon trail is a solid hike with an even more solid view", '12144', '1300', 'EchoCanyonHTZ');
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 11, "Piestewa Peak Circumference Trail", "A pretty sort of famiy hike, with not a lot of elevation gain or change. Hike up about 300 ft to the trail split, and then around the mountain and back down.", "16268", "400", "PiestewaCircHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 12, "Piestewa Peak Summit Trail", "A steep and taxing hike, with over 1000 ft elevation gain in just a mile. One of the very best views of Phoenix", "5808", "1100", "PiestewaSummitHTZ");
@@ -106,7 +106,7 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 19, "Nature Trail", "A standard quick nature hike", "7920", "80", "PiestewaSummitHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 20, "Perl Charles Memorial Trail", "Another standard family hike that has a great view of the city", "13200", "220", "LVYatesHTZ");
 
-INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (4, 23, "Circumference and Summit Trail", "A mountain peak view for those who don't want to venture far from the city", "14256", "500", "LookoutMountainHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (4, 23, "Circumference and Summit Trail", "A mountain peak view for those who dont want to venture far from the city", "14256", "500", "LookoutMountainHTZ");
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (5, 21, "Tom's Thumb Trail", "A mid-length and steep hike that ends right at Tom's Thumb.", "33264", "1075", "TomsThumbHTZ");
 
@@ -114,7 +114,7 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (7, 22, "Pima Canyon National Trail", "A very long and pretty trail, that is most frequented by mountain bikers and trail runners.", "75504", "400", "PimaCanyonHTZ");
 
-INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (9, 25, "Shadow Mountain Big Loop #310", "Although there are quite a number of natural and semi-blazed trails in the Shadow Mountain complex, there are only two, numbered trails. 'Shadow Mountain Big Loop'is one of the numbered trails and is 'Trail 310.'' Trail 310 is a short, refreshing hikes for beginners.", "9081", "1500", "ShadowMountainHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (9, 25, "Shadow Mountain Big Loop #310", "Although there are quite a number of natural and semi-blazed trails in the Shadow Mountain complex, there are only two, numbered trails. 'Shadow Mountain Big Loop'is one of the numbered trails and is 'Trail 310.' Trail 310 is a short, refreshing hikes for beginners.", "9081", "1500", "ShadowMountainHTZ");
 
 
 
@@ -128,7 +128,7 @@ INSERT INTO image (image_id, image_path) VALUES (6, '/css/images/NorthMountain/N
 INSERT INTO image (image_id, image_path) VALUES (7, '/css/images/SouthMountain/sunset.jpg');
 INSERT INTO image (image_id, image_path) VALUES (8, '/css/images/ShawButte/');
 INSERT INTO image (image_id, image_path) VALUES (9, '/css/images/ShadowMountain/ShadowMTN.jpg');
-INSERT INTO image (image_id, image_path) VALUES (99, '/css/images/Sup2HDR.jpg');
+INSERT INTO image (image_id, image_path) VALUES (99,'/css/images/Sup2HDR.jpg');
 
 -- trail images
 INSERT INTO image (image_id, image_path) VALUES (10, '/css/images/Camelback/EchoCanyon1.jpg');
@@ -140,6 +140,7 @@ INSERT INTO image (image_id, image_path) VALUES (16, '/css/images/DreamyDraw/Moh
 INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Freedom.jpg');
 INSERT INTO image (image_id, image_path) VALUES (18, '/css/images/DreamyDraw/CharlesC.jpg');
 INSERT INTO image (image_id, image_path) VALUES (19, '/css/images/DreamyDraw/Nature.jpg');
+INSERT INTO image (image_id, image_path) VALUES (23, '/css/images/LookoutMountain/circumference_and_summer_trail.jpg');
 
 -- comments
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
