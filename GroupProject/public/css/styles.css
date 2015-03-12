@@ -767,16 +767,8 @@ Comments
 	overflow-Y: scroll;
 }
 
-.trail-comment > .more-comments {
-	height: 60px;
-	background-color: gray;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-
 .comment-block {
-	background-color: red;
+	background-color: rgb(240, 172, 66);
 	margin-top: 5px;
 	padding: 5px;
 }
@@ -804,23 +796,28 @@ Comments
 
 .comment .date{
 	text-align: right;
+	color: #fff;
 }
 
 .comment-block .user-name {
-	background-color: purple;
+	color: rgb(171, 104, 0);
+	background-color: #fff;
+	font-weight: 700;
 	text-align: left;
 	margin-left: 5px;
 }
 
 .comment > .comment-content{
-	background-color: orange;
+	border-left: 2px solid #fff;
 	margin-left: 5px;
 	text-align: justify;
 	margin-top: 5px;
+	padding-left: 5px;
 }
 
 div.new-comment {
-	background-color: blue;
+	color: rgb(171, 104, 0);
+	/*background-color: blue;*/
 	margin-top: 20px;
 }
 
