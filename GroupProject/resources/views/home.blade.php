@@ -4,9 +4,10 @@
 		@if(Auth::guest())
 		<h1 class="welcome-message">Welcome <span class="welcome">Hikerz!</span></h1>
 		@else
-		<h1 class="welcome-message">Welcome <span class="welcome">{{Auth::user()->first_name}}!</span></h1>
+		<h1 class="welcome-message">Welcome <span class="welcome">{{Auth::user()->first_name}}!</span>
+		</h1>
 		@endif
-		<div>Check out our amazing Hiking Trails</div>	
+		<div class="welcome-message">Check out our amazing Hiking Trails</div>	
 @stop
 
 
@@ -62,10 +63,10 @@
 	<span class="featureblock focus">
 		<div>
 			<div class="thumbnail">
-				<h3>Superstition Mountains</h3>
+				<h3>The Superstitions</h3>
 			</div>
 			<div class="info">
-				<h2><a href="/">Superstition Mountains</a></h2>
+				<h2><a href="/">The Superstitions</a></h2>
 				<div class="fweather">
 				</div>
 				<div><strong>Summit Elev.</strong> 5,059 ft.</div>
