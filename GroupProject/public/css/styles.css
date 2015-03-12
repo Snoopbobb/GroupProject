@@ -806,6 +806,7 @@ Comments
 	font-weight: 700;
 	text-align: left;
 	margin-left: 5px;
+	padding: 5px;
 }
 
 .comment > .comment-content{
@@ -818,12 +819,15 @@ Comments
 
 div.new-comment {
 	color: rgb(171, 104, 0);
-	/*background-color: blue;*/
 	margin-top: 20px;
 }
 
+.new-comment > strong {
+	font-weight: 500;
+}
+
 .add-comment {
-	background-color: red;
+	background-color: rgb(240, 172, 66);
 	padding: 5px;
 	margin-top: 15px;
 }
