@@ -830,6 +830,18 @@ Comments
 	padding-left: 5px;
 }
 
+.login-comment {
+	color: rgb(171, 104, 0);
+}
+
+a.login-comment {
+	font-weight: 700;
+} 
+
+h1.login-comment {
+	font-weight: 500;
+}
+
 div.new-comment {
 	color: rgb(171, 104, 0);
 	margin-top: 20px;
@@ -1017,6 +1029,11 @@ Class name automatically added to element */
 
 
 /* CSS For Suggest A Trail Page */
+
+.suggest > h4 {
+	color: rgb(171, 104, 0);
+	font-weight: 500;
+}
 
 .suggest-wrapper {
 	margin-left: 200px;

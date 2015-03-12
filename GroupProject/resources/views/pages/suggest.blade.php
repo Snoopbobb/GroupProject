@@ -2,7 +2,7 @@
 
 	@section('tagline')
 
-	<div class="tagline">
+	<div class="tagline suggest">
 	<h1 class="tag min-tag">Don't see a trail you love?</h1>
 	<h4>Suggest it to us. We'll do some research, and get it on our website as soon as possible.</h4>
 	</div>
