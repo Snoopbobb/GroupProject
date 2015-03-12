@@ -98,12 +98,12 @@
 		</span>
 	</div>
 	<div class="tiles masonry">
-		<a href="/Mountains/2"><div class="scale tile_1">CamelBack</div></a>
-		<a href="/Mountains/5"><div class="scale tile_2">McDowell Mountains</div></a>
-		<a href="/Mountains/7"><div class="scale tile_3">South Moutain</div></a>
-		<a href="/Mountains/6"><div class="scale tile_4">North Mountain</div></a>
-		<a href="/Mountains/4"><div class="scale tile_5">Lookout Mountain</div></a>
-		<a href="/Mountains/9"><div class="scale tile_6">Shadow Mountain</div></a>
-		<a href="/Mountains/3"><div class="scale tile_7">Dreamy Draw / Piestewa Peak</div></a>
+		<a href="/Mountains/2"><div class="scale tile_1 tile-name">CamelBack</div></a>
+		<a href="/Mountains/5"><div class="scale tile_2 tile-name">McDowell Mountains</div></a>
+		<a href="/Mountains/7"><div class="scale tile_3 tile-name">South Moutain</div></a>
+		<a href="/Mountains/6"><div class="scale tile_4 tile-name">North Mountain</div></a>
+		<a href="/Mountains/4"><div class="scale tile_5 tile-name">Lookout Mountain</div></a>
+		<a href="/Mountains/9"><div class="scale tile_6 tile-name">Shadow Mountain</div></a>
+		<a href="/Mountains/3"><div class="scale tile_7 tile-name">Dreamy Draw / Piestewa Peak</div></a>
 	</div>
 @stop
