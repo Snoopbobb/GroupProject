@@ -334,13 +334,19 @@ Tagline and Search
 
 .tagline h1.tag {
 	font-weight: 300;
-	font-size: 35pt;
 	color: rgb(171, 104, 0);
 	display: block;
 	padding: 20px;
 	margin: 0 auto;
 }
 
+.tagline h1.main-tag {
+	font-size: 35pt;
+}
+
+.tagline h1.mountain-tag {
+	font-size: 25pt;
+}
 .tagline > div span {
 	margin: 10px;
 }
