@@ -104,7 +104,7 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 17, "Freedom Trail", "Another long but classic hike that runs through the whole of the park", "19536", "720", "FreedomTrailHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 18, "Charles M. Christiansen Memorial Trail", "one of the longest trails in Dreamy Draw", "56496", "790", "ChristiansenMemorialHTZ");
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 19, "Nature Trail", "A standard quick nature hike", "7920", "80", "PiestewaSummitHTZ");
-INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 20, "Perl Charles Memorial Trail", "Another standard family hike that has a great view of the city", "13200", "220", "LVYatesHTZ");
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (3, 20, "LV Yates", "Another standard family hike that has a great view of the city", "13200", "220", "LVYatesHTZ");
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (4, 23, "Circumference and Summit Trail", "A mountain peak view for those who dont want to venture far from the city", "14256", "500", "LookoutMountainHTZ");
 
@@ -138,7 +138,7 @@ INSERT INTO image (image_id, image_path) VALUES (22, '/css/images/SouthMountain/
 INSERT INTO image (image_id, image_path) VALUES (12, '/css/images/DreamyDraw/Summit.jpg');
 INSERT INTO image (image_id, image_path) VALUES (11, '/css/images/DreamyDraw/PiestewaCirc.jpg');
 INSERT INTO image (image_id, image_path) VALUES (16, '/css/images/DreamyDraw/MohaveConnector.jpg');
-INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Freedom.jpg');
+INSERT INTO image (image_id, image_path) VALUES (17, '/css/images/DreamyDraw/Freedom.JPG');
 INSERT INTO image (image_id, image_path) VALUES (18, '/css/images/DreamyDraw/CharlesC.jpg');
 INSERT INTO image (image_id, image_path) VALUES (19, '/css/images/DreamyDraw/Nature.jpg');
 INSERT INTO image (image_id, image_path) VALUES (23, '/css/images/LookoutMountain/circumference_and_summer_trail.jpg');
