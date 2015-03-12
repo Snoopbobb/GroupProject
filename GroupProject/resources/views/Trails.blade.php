@@ -72,7 +72,6 @@
 		<script id="template-comment" type="text/x-handlebars-template">
 			<div class="comment-block">
 				<div class="image">this is an image</div>
-				@include('partial/handlebar-templates/datetime')
 				<div class="comment">
 					<div class="date">@{{created_at}}</div>
 					<div class="user-name">{{Auth::user()->username}}</div>
