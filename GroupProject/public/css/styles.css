@@ -306,6 +306,8 @@ Tagline and Search
 	bottom: 0;
 	left: 0;
 	right: 0;
+	color: #ccc;
+	font-weight: 300;
 }
 .tagline h1 {
 	margin: 0 auto;
@@ -322,8 +324,9 @@ Tagline and Search
 }
 
 .selected {
-	color: orange;
-	border-bottom: 3px solid orange;
+	color: rgb(240, 172, 66);
+	border-bottom: 3px solid rgb(240, 172, 66);
+	font-weight: 500;
 }
 
 /*.search {
