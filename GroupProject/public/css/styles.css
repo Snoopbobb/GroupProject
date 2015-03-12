@@ -311,6 +311,12 @@ Tagline and Search
 	margin: 0 auto;
 }
 
+.tagline span.tag {
+	font-weight: 300;
+	font-size: 35pt;
+	color: rgb(240, 172, 66);
+}
+
 .tagline > div span {
 	margin: 10px;
 }
