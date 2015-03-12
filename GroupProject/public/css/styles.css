@@ -1,10 +1,7 @@
 /*======================================================================================================================
 /*=========================================================== Main Foundation/ Reused CSS ==============================
 /*======================================================================================================================*/
-header .logo {
-	font-family: 'Rock Salt';
-	font-size: 40px;
-}
+
 h3, h2 {
 	margin-bottom: 0;
 	margin-top: 0;
@@ -27,6 +24,7 @@ a {
 body {
 	background-color: #ddd;
 	margin: 0;
+	font-family: 'Open Sans';
 }
 
 /***************************************
@@ -40,15 +38,19 @@ nav {
 	position: relative;
 }
 
-.logo {
+header .logo {
+	font-family: 'Rock Salt';
 	position: absolute;
-	left: 30px;
+	left: 4px;
 	/*top: 30px;*/
-	font-size: 36pt;
-	background-color: #777;
+	font-size: 25pt;
+	/*background-color: #777;*/
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
 }
+
 .logo > a:hover {
 	background-color: rgba(255,255,255,.5);
+	text-decoration: none;
 }
 
 .options  {
@@ -85,6 +87,7 @@ nav {
 
 .user-options {
 	font-size: 26pt;
+	text-transform: uppercase;
 	position: absolute;
 	right: 50px;
 	top: 30px;
@@ -150,14 +153,17 @@ footer {
 	height: 100px;
 	text-align: center;	
 	position: relative;
+	overflow: hidden;
 }
+
 
 .logo-footer {
 	position: absolute;
-	left: 10px;
-	bottom: 30px;
-	font-size: 36pt;
+	left: 4px;
+	bottom: 6px;
+	font-size: 28pt;
 	background-color: #777;
+	font-family: 'Rock Salt';
 }
 
 .about {
