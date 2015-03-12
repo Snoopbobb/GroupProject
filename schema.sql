@@ -116,6 +116,7 @@ INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_g
 
 INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (9, 25, "Shadow Mountain Big Loop #310", "Although there are quite a number of natural and semi-blazed trails in the Shadow Mountain complex, there are only two, numbered trails. 'Shadow Mountain Big Loop'is one of the numbered trails and is 'Trail 310.' Trail 310 is a short, refreshing hikes for beginners.", "9081", "1500", "ShadowMountainHTZ");
 
+INSERT INTO trail (mountain_id, image_id, name, description, length, elevation_gain, hashtag) VALUES (2, 26, "Cholla Trail", "If you're looking for a great workout with beautiful views, the Cholla Trail is for you. Cholla gains 1,300 feet over 1.6 miles and is easier to navigate because it's less crowded.", "14256", "1275", "ChollaHTZ");
 
 
 -- mountain images
@@ -142,8 +143,9 @@ INSERT INTO image (image_id, image_path) VALUES (18, '/css/images/DreamyDraw/Cha
 INSERT INTO image (image_id, image_path) VALUES (19, '/css/images/DreamyDraw/Nature.jpg');
 INSERT INTO image (image_id, image_path) VALUES (23, '/css/images/LookoutMountain/circumference_and_summer_trail.jpg');
 INSERT INTO image (image_id, image_path) VALUES (24, '/css/images/NorthMountain/northMountainNationalTrail.jpg');
-INSERT INTO image (image_id, image_path) VALUES (20, '/css/images/DreamyDraw/perlCharlesMemorialTrail.jpg');
 INSERT INTO image (image_id, image_path) VALUES (25, '/css/images/ShadowMountain/big-loop.jpg');
+INSERT INTO image (image_id, image_path) VALUES (13, '/css/images/DreamyDraw/perlCharlesMemorialTrail.jpg');
+INSERT INTO image (image_id, image_path) VALUES (26, '/css/images/Camelback/chollaTrail.jpg');
 
 -- comments
 INSERT INTO comment(trail_id, user_id, comment_description) VALUES (1, 4, "this trail was ok. I have seen better.");
