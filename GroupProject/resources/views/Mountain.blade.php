@@ -9,7 +9,7 @@
 
 @section('tagline')
 <div class="tagline">
-	<h2>{{ $mountain->description }}</h2>
+	<h1 class="tag">{{ $mountain->description }}</h1>
 	<div>
 		<span class="selected">Top 10</span>
 		<span>See All</span>
