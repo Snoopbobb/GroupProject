@@ -84,7 +84,7 @@
 
 @section('tagline')
 <div class="tagline">
-	<span class="tag">Explore the mountains</span>
+	<h1 class="tag">Explore the mountains</h1>
 	<div>
 		<span class="selected">Browse</span>
 		<span>Search</span>
