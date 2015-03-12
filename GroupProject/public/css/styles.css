@@ -155,8 +155,8 @@ Footer CSS
 *****************************/
 
 footer {
-	background-color: orange;
-	height: 100px;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.38) 0%, rgba(255,255,255,0.6) 40%, rgba(221,221,221,1) 100%), url('images/footertexture.jpg');
+	height: 150px;
 	text-align: center;	
 	position: relative;
 	overflow: hidden;
@@ -166,7 +166,7 @@ footer {
 .logo-footer {
 	position: absolute;
 	left: 50px;
-	bottom: 6px;
+	bottom: 30px;
 	font-size: 28pt;
 	/*background-color: #777;*/
 	font-family: 'Rock Salt';
@@ -180,20 +180,21 @@ footer {
 
 .about {
 	position: absolute;
-	bottom: 30px;
-	margin-left: -20px;
+	bottom: 50px;
+	margin-left: -50px;
 	color: rgb(171, 104, 0);
 }
 
 .about  a{
 	color: rgb(171, 104, 0);
 	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.8);
 }
 
 .social-logos {
 	position: absolute;
 	right: 50px;
-	bottom: 30px;
+	bottom: 50px;
 }
 
 
