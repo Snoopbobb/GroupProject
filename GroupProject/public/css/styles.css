@@ -478,7 +478,7 @@ Main Page Tiles
 
 @media screen and (max-width: 1580px) {
 	.tiles {
-		transform: scale(.9, .9);
+		transform: scaleX(.9);
 	}
 }
 @media screen and (max-width: 1480px) {
