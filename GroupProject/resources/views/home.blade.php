@@ -63,10 +63,10 @@
 	<span class="featureblock focus">
 		<div>
 			<div class="thumbnail">
-				<h3>Superstition Mountains</h3>
+				<h3>The Superstitions</h3>
 			</div>
 			<div class="info">
-				<h2><a href="/">Superstition Mountains</a></h2>
+				<h2><a href="/">The Superstitions</a></h2>
 				<div class="fweather">
 				</div>
 				<div><strong>Summit Elev.</strong> 5,059 ft.</div>
