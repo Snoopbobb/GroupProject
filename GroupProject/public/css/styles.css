@@ -43,8 +43,9 @@ header .logo {
 	position: absolute;
 	left: 4px;
 	/*top: 30px;*/
-	font-size: 36pt;
-	background-color: #777;
+	font-size: 25pt;
+	/*background-color: #777;*/
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
 }
 
 .logo > a:hover {
