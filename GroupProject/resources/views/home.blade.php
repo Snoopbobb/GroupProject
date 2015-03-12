@@ -98,12 +98,12 @@
 		</span>
 	</div>
 	<div class="tiles masonry">
-		<a href="/Mountains/2"><div class="scale tile_1">CamelBack</div></a>
-		<a href="/Mountains/5"><div class="scale tile_2">McDowell Mountains</div></a>
-		<a href="/Mountains/7"><div class="scale tile_3">South Moutain</div></a>
-		<a href="/Mountains/6"><div class="scale tile_4">North Mountain</div></a>
-		<a href="/Mountains/4"><div class="scale tile_5">Lookout Mountain</div></a>
-		<a href="/Mountains/9"><div class="scale tile_6">Shadow Mountain</div></a>
-		<a href="/Mountains/3"><div class="scale tile_7">Dreamy Draw / Piestewa Peak</div></a>
+		<a href="/Mountains/2"><div class="scale tile_1" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>Camelback Mountain</h3></div></a>
+		<a href="/Mountains/5"><div class="scale tile_2" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>McDowell Mountains</h3></div></a>
+		<a href="/Mountains/7"><div class="scale tile_3" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>South Mountain</h3></div></a>
+		<a href="/Mountains/6"><div class="scale tile_4" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>North Mountain</h3></div></a>
+		<a href="/Mountains/4"><div class="scale tile_5" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>Lookout Mountain</h3></div></a>
+		<a href="/Mountains/9"><div class="scale tile_6" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>Shadow Mountain</h3></div></a>
+		<a href="/Mountains/3"><div class="scale tile_7" style="color: #fff; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9)"><h3>Dreamy Draw / Piestewa Peak</h3></div></a>
 	</div>
 @stop
