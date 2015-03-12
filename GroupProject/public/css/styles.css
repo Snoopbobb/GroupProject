@@ -43,8 +43,7 @@ nav {
 .logo {
 	position: absolute;
 	left: 30px;
-	top: 30px;
-	left: 0;
+	/*top: 30px;*/
 	font-size: 36pt;
 	background-color: #777;
 }
