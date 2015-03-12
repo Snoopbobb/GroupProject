@@ -320,6 +320,7 @@ Tagline and Search
 	text-align: center;
 	position: relative;
 	min-height: 150px;
+	background-color: white;
 }
 
 .tagline div {
