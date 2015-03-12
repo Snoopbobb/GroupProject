@@ -4,9 +4,10 @@
 		@if(Auth::guest())
 		<h1 class="welcome-message">Welcome <span class="welcome">Hikerz!</span></h1>
 		@else
-		<h1 class="welcome-message">Welcome <span class="welcome">{{Auth::user()->first_name}}!</span></h1>
+		<h1 class="welcome-message">Welcome <span class="welcome">{{Auth::user()->first_name}}!</span>
+		</h1>
 		@endif
-		<div>Check out our amazing Hiking Trails</div>	
+		<div class="welcome-message">Check out our amazing Hiking Trails</div>	
 @stop
 
 
