@@ -420,7 +420,7 @@ main {
 profile page
 *****************************/
 .main-content {
-	background-color: red;
+	background-color: rgba(50,50,50,0.9);
 	min-height: 500px;
 	padding: 5px;
 	text-align: center;
@@ -444,7 +444,7 @@ profile page
 }
 
 .main-content .inputs {
-	background-color: purple;
+	background-color: #ddd;
 	height: 60px;
 	width: 300px;
 	margin: 0 auto;
@@ -453,6 +453,7 @@ profile page
 }
 
 label {
+	color: rgb(171, 104, 0);
 	float: left;
 	text-align: right;
 	margin-right: 0.5em;
@@ -468,6 +469,7 @@ label {
 	width: 300px;
 	margin: 0 auto;
 	margin-top: 10px;
+	text-decoration: none;
 }
 
 .save-button {
@@ -510,7 +512,6 @@ label {
 Signup Page
 *****************************/
 .main-content form > div:first-child {
-	background-color: yellow;
 	float: left;
 	width: 600px;
 	min-height: 400px
