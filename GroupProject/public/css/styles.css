@@ -768,6 +768,10 @@ Main Page Tiles
 Comments
 ****************************/
 
+.delete-comment .fa-times:hover {
+	cursor: pointer;
+}
+
 .trail-comment {
 	float: left;
 	width: 32%;

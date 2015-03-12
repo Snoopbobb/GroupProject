@@ -44,7 +44,7 @@
 							<div class="delete">
 								<form class="delete-comment">
 									<input class="comment-id" type="hidden" value="{{$comm->comment_id}}">
-									<button>Delete</button>
+									<i class="fa fa-times"></i>
 								</form>
 							</div>
 						@endif

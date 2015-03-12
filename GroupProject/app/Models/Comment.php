@@ -1,6 +1,6 @@
 <?php 
 namespace App\Models;
-
+use DB;
 
 class Comment extends Model {
 	protected static $table = 'comment';
