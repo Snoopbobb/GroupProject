@@ -420,7 +420,7 @@ main {
 profile page
 *****************************/
 .main-content {
-	background-color: rgba(50,50,50,0.9);
+	background-color: rgba(70,70,70,0.9);
 	min-height: 500px;
 	padding: 5px;
 	text-align: center;
@@ -492,7 +492,6 @@ label {
 }
 
 .profile-photo {
-	background-color: white;
 	width: 700px;
 	min-height: 400px;
 	margin-left: 600px;
@@ -500,7 +499,7 @@ label {
 }
 
 .profile-photo > div{
-	background-color: green;
+	background-color: #ddd;
 	width: 90px;
 	height: 100px;
 	margin: 0 auto;
@@ -518,15 +517,14 @@ Signup Page
 }
 
 .signup-button {
-	background-color: white;
 	width: 700px;
-	min-height: 420px;
+	min-height: 400px;
 	margin-left: 600px;
 	margin-top: 40px
 }
 
 .signup-button button {
-	background-color: green;
+	background-color: #ddd;
 	width: 90px;
 	height: 100px;
 	/*margin-left: 50% ;*/
