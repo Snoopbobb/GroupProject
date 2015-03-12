@@ -338,8 +338,8 @@ Tagline and Search
 	font-weight: 300;
 	font-size: 35pt;
 	color: rgb(171, 104, 0);
-	display: block
-	padding: 12px;
+	display: block;
+	padding: 20px;
 }
 
 .tagline > div span {
