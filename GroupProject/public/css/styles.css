@@ -976,7 +976,6 @@ Class name automatically added to element */
 /*masonry*/
 
 .masonry, .masonry > div {
-	/*background: yellow;*/
 	width: 95%;
 	margin: 0 auto;
 }
