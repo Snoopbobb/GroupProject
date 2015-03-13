@@ -662,6 +662,7 @@ Main Page Tiles
 	top: 20px;
 	height: 300px;
 	width: 250px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_2 {
@@ -671,6 +672,7 @@ Main Page Tiles
 	top: 340px;
 	height: 250px;
 	width: 250px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_3 {
@@ -680,6 +682,7 @@ Main Page Tiles
 	top: 20px;
 	height: 200px;
 	width: 250px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_4 {
@@ -689,6 +692,7 @@ Main Page Tiles
 	top: 240px;
 	height: 350px;
 	width: 250px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_5 {
@@ -698,6 +702,7 @@ Main Page Tiles
 	top: 20px;
 	height: 300px;
 	width: 200px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_6 {
@@ -707,6 +712,7 @@ Main Page Tiles
 	top: 340px;
 	height: 250px;
 	width: 200px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_7 {
@@ -716,6 +722,7 @@ Main Page Tiles
 	top: 20px;
 	height: 200px;
 	width: 420px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_8 {
@@ -725,6 +732,7 @@ Main Page Tiles
 	top: 240px;
 	height: 350px;
 	width: 200px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_9 {
@@ -734,6 +742,7 @@ Main Page Tiles
 	top: 240px;
 	height: 165px;
 	width: 200px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 .trail_tile_10 {
@@ -743,6 +752,7 @@ Main Page Tiles
 	top: 425px;
 	height: 165px;
 	width: 200px;
+	box-shadow: 1px 2px 1px 1px rgba(0,0,0,.4);
 }
 
 /*======================================================================================================================
