@@ -2,7 +2,7 @@
 
 @section('title')
 <h1>View / Edit Profile</h1>
-<div>Here is your {{ $user->username}} profile info!</div>
+	<div class="welcome-message">Here is your {{ $user->username}} profile info!</div>
 @stop
 
 <div>
