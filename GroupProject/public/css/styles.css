@@ -807,7 +807,7 @@ Main Page Tiles
 Comments
 ****************************/
 
-.delete-comment .fa-times:hover, .options:hover, .featureblock:not(.focus):hover  {
+.delete-comment .fa-times:hover, .options:hover, .featureblock:not(.focus):hover, .social-logos .fa:hover {
 	cursor: pointer;
 }
 
