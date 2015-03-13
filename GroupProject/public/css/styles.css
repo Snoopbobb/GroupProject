@@ -1120,6 +1120,10 @@ Class name automatically added to element */
 	padding: 100px 0;
 }
 
+.confirmation-page h3 {
+	font-weight: 500;
+}
+
 .back-home-button {
 	position: absolute;
 	left: 45%;
