@@ -456,7 +456,7 @@ profile page
 label {
 	color: rgb(171, 104, 0);
 	float: left;
-	text-align: right;
+	text-align: left;
 	margin-right: 0.5em;
 	width: 90px;
 	margin-top:inherit;
