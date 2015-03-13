@@ -297,6 +297,12 @@ div.welcome-message {
 	height: 50%;
 }
 
+.feature-buttons div i {
+	font-size: 30px;
+	margin-top: 4px;
+	color: #ccc
+}
+
 .feature-buttons div:hover {
 	background-color: rgba(255,255,255,.1);
 }
@@ -453,6 +459,11 @@ profile page
 	margin-top: 10px;
 }
 
+.password-forgotten {
+	text-decoration: none;
+	color: rgb(171, 104, 0 );
+}
+
 label {
 	color: rgb(171, 104, 0);
 	float: left;
@@ -486,6 +497,11 @@ label {
 .non-label-text {
 	font-weight: bold;
 	margin-top: inherit;
+}
+
+.non-label-text > a {
+	color: rgb(171, 104, 0);
+	text-decoration: none;
 }
 
 .main-content .inputs:last-child {
@@ -536,11 +552,13 @@ Signup Page
 }
 
 .head-error {
-	background-color: yellow;
+	color: rgb(171, 104, 0);
+	font-weight: 300;
+	font-size: 30pt;
 }
 
 .main-error {
-	background-color: orange;
+	color: rgb(171, 104, 0);
 }
 
 /******************************
@@ -549,7 +567,7 @@ Login Page
 
 
 .inputs .error {
-	background-color: pink;
+	background-color: rgb(234, 190, 121);
 	margin-top: 5px;
 	text-align: right;
 }
@@ -651,11 +669,11 @@ Main Page Tiles
 /*================================================ Mountains and Trails  ===============================================
 /*======================================================================================================================*/
 
-/*.trail_tiles > div:first-child {
+.trail_tiles > div{
 	text-align: center;
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
-}*/
+}
 
 .trail_tile_1 {
 	background-color: teal;
@@ -809,6 +827,7 @@ Comments
 	margin-top: 5px;
 	padding: 5px;
 	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .comment-block.hidden {
@@ -957,8 +976,7 @@ Class name automatically added to element */
 
 /*masonry*/
 
-.masonry, .masonry > div {
-	/*background: yellow;*/
+.masonry{
 	width: 95%;
 	margin: 0 auto;
 }

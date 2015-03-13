@@ -25,19 +25,17 @@ class MountainController extends Controller {
 			$image = $mountain->image_id;
 			$img = new Image($image);
 			$imageURL = $img->image_path;
-
-
 			$tileImageURL = [];
 
 			foreach($trails->getArray() as $trail) {
 				$trailNames[] = $trail->name;
 				$trailIds[] = $trail->trail_id;
-				foreach ($trailIds as $trail_id) {
-					$trailimage = new Trail($trail_id);
-					$timg = new Image($trailimage->image_id);
-					$tileImageURL[] = $timg->image_path;
-				}
+			}
 
+			foreach ($trailIds as $trail_id) {
+				$trailimage = new Trail($trail_id);
+				$timg = new Image($trailimage->image_id);
+				$tileImageURL[] = $timg->image_path;
 			}
 
 			$template = '';

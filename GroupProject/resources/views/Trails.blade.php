@@ -22,7 +22,7 @@
 		<h3>Trail Description</h3>
 		<p>{{ $trail->description }}</p>
 		<div class="rating">
-			<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+			<h4><span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> 4/5 </h4>
 		</div>
 		<div><strong>Elevation Gain: </strong>{{ number_format($trail->elevation_gain) }} ft.</div>
 		<div><strong>Trail Length: </strong>{{ number_format($trail->length) }} ft.</div>
