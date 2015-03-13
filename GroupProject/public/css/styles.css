@@ -669,11 +669,11 @@ Main Page Tiles
 /*================================================ Mountains and Trails  ===============================================
 /*======================================================================================================================*/
 
-/*.trail_tiles > div:first-child {
+.trail_tiles > div{
 	text-align: center;
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
-}*/
+}
 
 .trail_tile_1 {
 	background-color: teal;
@@ -976,9 +976,8 @@ Class name automatically added to element */
 
 /*masonry*/
 
-.masonry, .masonry > div {
-	/*background: yellow;*/
-	width: 85%;
+.masonry{
+	width: 95%;
 	margin: 0 auto;
 }
 
