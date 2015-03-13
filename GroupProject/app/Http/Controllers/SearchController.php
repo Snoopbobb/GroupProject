@@ -13,8 +13,8 @@ class SearchController extends Controller {
 	public function getSearch() {
 		$message = Request::input('message');
 		$search = Search::getSearch($message);
+		// print_r($search);
 		return $search;
-		print_r($search);
 
 	}
 

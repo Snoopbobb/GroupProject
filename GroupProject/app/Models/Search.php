@@ -14,6 +14,7 @@ class Search extends Model{
 		 
 				$sql = "
 						SELECT trail_id, 
+						mountain_id,
 						name, 
 						elevation_gain,
 						hashtag,
@@ -28,6 +29,7 @@ class Search extends Model{
 						LIKE '%" . $message . "%'
 					";
 				$search = DB::select($sql, ['message' => $message]);
+				// print_r($search);
 
 				return $search;
 	}

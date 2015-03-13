@@ -48,7 +48,7 @@ Route::get('/Trails/loginToComment/{mountain_id}/{trail_id}', ['middleware' => '
 
 
 //search
-Route::post('/search' , 'SearchController@getSearch');
+Route::get('/search' , 'SearchController@getSearch');
 
 //Add a Comment
 Route::get('/addComment', 'CommentController@addComment');
