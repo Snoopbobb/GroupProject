@@ -94,7 +94,11 @@
 @section('main_content')
 	<div>
 		<span class="search displayNone">
-			<input type="text" placeholder="Search...">
+			<form action="/search" method="POST">
+				<input type="hidden" name="_token" value="{{ csrf_token() }}">
+				<input type="text" name="message" placeholder="Search...">
+				<button>Search</button>
+			</form>
 		</span>
 	</div>
 	<div class="tiles masonry">
