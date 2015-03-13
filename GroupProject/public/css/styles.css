@@ -147,7 +147,7 @@ header .logo {
 
 .hashtag, .hash {
 	color: #ddd;
-	font-size: 28pt;
+	font-size: 25pt;
 	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 }
 
@@ -437,7 +437,7 @@ profile page
 }
 
 .main-content > div:first-child {
-	background-color: yellow;
+	background-color: #ccc;
 	float: left;
 	width: 600px;
 	margin-top: 40px;
@@ -451,6 +451,11 @@ profile page
 	margin: 0 auto;
 	text-align: left;
 	margin-top: 10px;
+}
+
+.password-forgotten {
+	text-decoration: none;
+	color: rgb(171, 104, 0 );
 }
 
 label {
@@ -488,6 +493,11 @@ label {
 	margin-top: inherit;
 }
 
+.non-label-text > a {
+	color: rgb(171, 104, 0);
+	text-decoration: none;
+}
+
 .main-content .inputs:last-child {
 	margin-bottom: 10px;
 }
@@ -514,7 +524,10 @@ Signup Page
 .main-content form > div:first-child {
 	float: left;
 	width: 600px;
-	min-height: 400px
+	min-height: 400px;
+	background-color: #ddd;
+	margin-bottom: 30px;
+	margin-left: 30px;
 }
 
 .signup-button {
@@ -525,7 +538,6 @@ Signup Page
 }
 
 .signup-button button {
-	background-color: #ddd;
 	width: 90px;
 	height: 100px;
 	/*margin-left: 50% ;*/
@@ -534,11 +546,13 @@ Signup Page
 }
 
 .head-error {
-	background-color: yellow;
+	color: rgb(171, 104, 0);
+	font-weight: 300;
+	font-size: 30pt;
 }
 
 .main-error {
-	background-color: orange;
+	color: rgb(171, 104, 0);
 }
 
 /******************************
@@ -547,7 +561,7 @@ Login Page
 
 
 .inputs .error {
-	background-color: pink;
+	background-color: rgb(234, 190, 121);
 	margin-top: 5px;
 	text-align: right;
 }
@@ -807,6 +821,7 @@ Comments
 	margin-top: 5px;
 	padding: 5px;
 	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .comment-block.hidden {
@@ -1118,6 +1133,10 @@ Class name automatically added to element */
 	color: rgb(171, 104, 0);
 	position: relative;
 	padding: 100px 0;
+}
+
+.confirmation-page h3 {
+	font-weight: 500;
 }
 
 .back-home-button {
