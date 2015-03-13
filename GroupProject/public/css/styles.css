@@ -181,7 +181,7 @@ footer {
 
 .about {
 	position: absolute;
-	bottom: 50px;
+	bottom: 30px;
 	margin-left: -50px;
 	color: rgb(171, 104, 0);
 }
@@ -195,7 +195,12 @@ footer {
 .social-logos {
 	position: absolute;
 	right: 50px;
-	bottom: 50px;
+	bottom: 40px;
+}
+
+.social-logos > a {
+	text-decoration: none;
+	color: black
 }
 
 
@@ -912,6 +917,13 @@ div.new-comment {
 	margin-top: 2px;
 }
 
+/****************************
+Rating
+****************************/
+
+.rating  span {
+	color: rgb(240, 172, 66);
+}
 
 /*======================================================================================================================
 /*================================================  Instafeed  ===============================================

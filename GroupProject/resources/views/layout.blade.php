@@ -74,9 +74,9 @@
 			<a href="/faq">FAQ</a></h2>
 		</span>
 		<span class="social-logos">
-			<i class="fa fa-instagram fa-3x"></i>
-			<i class="fa fa-facebook-official fa-3x"></i>
-			<i class="fa fa-twitter fa-3x"></i>
+			<a href="https://instagram.com/"><i class="fa fa-instagram fa-3x"></i></a>
+			<a href="https://www.facebook.com/"><i class="fa fa-facebook-official fa-3x"></i></a>
+			<a href="https://twitter.com/"><i class="fa fa-twitter fa-3x"></i></a>
 		</span>
 	</footer>
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
