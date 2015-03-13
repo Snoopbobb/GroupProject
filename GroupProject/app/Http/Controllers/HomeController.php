@@ -32,34 +32,46 @@ class HomeController extends Controller {
 		// $json = file_get_contents('http://api.openweathermap.org/data/2.5/weather?q=Seattle');
 
 
-		$URL = "http://api.openweathermap.org/data/2.5/weather?q=Phoenix";
-		$Context = stream_context_create(array(
-				'http' => array(
-    				'method' => 'GET',
-    				'timeout' => 30,
-					)
-		));
-		$json = file_get_contents($URL, false, $Context);
+		// =====================
+		// bring me back!!!!
+		// =====================
 
-		$data = json_decode($json);
+		// $URL = "http://api.openweathermap.org/data/2.5/weather?q=Phoenix";
+		// $Context = stream_context_create(array(
+		// 		'http' => array(
+  //   				'method' => 'GET',
+  //   				'timeout' => 30,
+		// 			)
+		// ));
+		// $json = file_get_contents($URL, false, $Context);
 
-		// get temperature in farenheit, round to whole degree  
-		$temperature = round((($data->main->temp)- 273.15) * 1.8 + 32);
+		// $data = json_decode($json);
+
+		// // get temperature in farenheit, round to whole degree  
+		// $temperature = round((($data->main->temp)- 273.15) * 1.8 + 32);
 		
-		$code = $data->weather[0]->id;
+		// $code = $data->weather[0]->id;
 		// echo $code;
-		// $code = 802;
+
+		// =====================
+		// bring me back!!!!
+		// =====================
+
+
+		$clouds = '';
+		$code = 802;
+		$temperature = 79;
 
 		switch ($code) {
 
 			//clear skies
 			case '800':
-				$clouds = '<i class="wi wi-day-sunny" title = "' . $data->weather[0]->description . '"></i>';
+				$clouds = '<i class="wi wi-day-sunny" title = "' . 'its sunny yo' . '"></i>';
 				break;
 
 			//overcast in any way
 			case ($code > '800' && $code < '805'):
-				$clouds = '<i class="wi wi-day-cloudy" title = "' . $data->weather[0]->description . '"></i>';
+				$clouds = '<i class="wi wi-day-cloudy" title = "' . 'its sorta cloudy' . '"></i>';
 				break;	
 
 			//thunderstorms	

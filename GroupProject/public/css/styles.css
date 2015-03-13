@@ -181,7 +181,7 @@ footer {
 
 .about {
 	position: absolute;
-	bottom: 50px;
+	bottom: 30px;
 	margin-left: -50px;
 	color: rgb(171, 104, 0);
 }
@@ -195,7 +195,7 @@ footer {
 .social-logos {
 	position: absolute;
 	right: 50px;
-	bottom: 50px;
+	bottom: 40px;
 }
 
 .social-logos > a {
@@ -244,6 +244,8 @@ div.welcome-message {
 	text-align: center;
 	position: relative;
 }
+
+
 
 .info {
 	display: none;
@@ -810,7 +812,7 @@ Main Page Tiles
 Comments
 ****************************/
 
-.delete-comment .fa-times:hover {
+.delete-comment .fa-times:hover, .options:hover, .featureblock:not(.focus):hover, .social-logos .fa:hover {
 	cursor: pointer;
 }
 
@@ -964,8 +966,6 @@ Class name automatically added to element */
 	border: none;
 	display: block;
 }
-
-/* Custom class modifications - adds to / overrides above
 
 /* Container DIV */
 .simply-scroll { 
