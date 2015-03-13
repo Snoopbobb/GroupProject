@@ -76,8 +76,8 @@
 		</div>
 	</span>
 	<span class="feature-buttons">
-		<div>Next -></div>
-		<div><- Previous</div>
+		<div><i class="fa fa-chevron-right"></i></div>
+		<div><i class="fa fa-chevron-left"></i></div>
 	</span>
 </div>
 @stop
