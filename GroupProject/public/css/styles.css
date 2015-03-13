@@ -300,6 +300,7 @@ div.welcome-message {
 .feature-buttons div i {
 	font-size: 30px;
 	margin-top: 4px;
+	color: #ccc
 }
 
 .feature-buttons div:hover {
