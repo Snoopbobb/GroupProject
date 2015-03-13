@@ -94,8 +94,13 @@
 @section('main_content')
 	<div>
 		<span class="search displayNone">
-			<input type="text" placeholder="Search...">
+			<form action="" method="get">
+				{{-- <input type="hidden" name="_token" value="{{ csrf_token() }}"> --}}
+				<input type="text" name="message" placeholder="Search...">
+				<button>Search</button>
+			</form>
 		</span>
+		<div class="results"></div>
 	</div>
 	<div class="tiles masonry">
 		<a href="/Mountains/2"><div class="scale tile_1 tile-name"><h3>Camelback Mountain</h3></div></a>

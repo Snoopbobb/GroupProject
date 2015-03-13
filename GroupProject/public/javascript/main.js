@@ -209,5 +209,23 @@ $(document).ready(function() {
 	});
 
 
+//================================================================
+// Search
+//================================================================
+
+	$('.search form').on('submit', function(e){
+		e.preventDefault();
+		var sendMessage = { 
+			message: $('.search input').val()
+
+		}
+		$.get('/search', sendMessage, function(data){
+			console.log(data);
+			for (var i = 0; i < data.length; i++) {
+				var tmplt = '<div><a href="/Trails/' + data[i].mountain_id + '/' + data[i].trail_id + '">' + (i+1) + '- ' + data[i].name + '</a></div>';
+				$('.results').append(tmplt);
+			};
+		})
+	})
 
 });
