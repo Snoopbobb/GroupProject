@@ -437,7 +437,7 @@ profile page
 }
 
 .main-content > div:first-child {
-	background-color: yellow;
+	background-color: #ccc;
 	float: left;
 	width: 600px;
 	margin-top: 40px;
@@ -514,7 +514,10 @@ Signup Page
 .main-content form > div:first-child {
 	float: left;
 	width: 600px;
-	min-height: 400px
+	min-height: 400px;
+	background-color: #ddd;
+	margin-bottom: 30px;
+	margin-left: 30px;
 }
 
 .signup-button {
@@ -525,7 +528,6 @@ Signup Page
 }
 
 .signup-button button {
-	background-color: #ddd;
 	width: 90px;
 	height: 100px;
 	/*margin-left: 50% ;*/
