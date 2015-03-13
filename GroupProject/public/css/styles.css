@@ -240,6 +240,8 @@ div.welcome-message {
 	position: relative;
 }
 
+
+
 .info {
 	display: none;
 	color: #eee;
@@ -805,7 +807,7 @@ Main Page Tiles
 Comments
 ****************************/
 
-.delete-comment .fa-times:hover {
+.delete-comment .fa-times:hover, .options:hover, .featureblock:not(.focus):hover  {
 	cursor: pointer;
 }
 
