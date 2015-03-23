@@ -11,18 +11,18 @@
 </head>
 <body>
 	<div class="hero">
-		<div class="photo" style="background-image: url(<?php if (isset($imageURL)) { echo $imageURL;} else { echo '/css/images/Sup2HDR.jpg';} ?>)">
+		<div class="photo" style="background-image: url(<?php if (isset($imageURL)) { echo "/groupproject/$imageURL";} else { echo '/groupproject/css/images/Sup2HDR.jpg';} ?>)">
 			<header>
 				<nav>
 					<span class="logo">
-						<a href="/">Hiking Trailz</a>
+						<a href="{{ url('/') }}">Hiking Trailz</a>
 					</span>
 					<div>
 						<div class="options browse">
 							<div>Browse All</div>
 							<div>See All The Mountains</div>
 						</div>
-						<a href="/suggest"><div class="options suggest">
+						<a href="{{ url('/suggest') }}"><div class="options suggest">
 							<div>Suggest A Trail</div>
 							<div>Send Us What You Wanna See</div>
 						</div></a>
@@ -33,11 +33,11 @@
 					</div>
 					<span class="user-options">
 						@if(Auth::guest())
-						<a href="/auth/register" title="Signup"><i class="fa fa-user-plus scale"></i></a>
-						<a href="/auth/login" title="Login"><i class="fa fa-sign-in scale"></i></a>
+						<a href="/groupproject/auth/register" title="Signup"><i class="fa fa-user-plus scale"></i></a>
+						<a href="/groupproject/auth/login" title="Login"><i class="fa fa-sign-in scale"></i></a>
 						@else
-						<a href="/profile" title="Edit Profile"><i class="fa fa-cogs scale"> </i></a>
-						<a href="{{ url('/auth/logout') }}" title="Logout"><i class="fa fa-external-link scale"></i></a>
+						<a href="/groupproject/profile" title="Edit Profile"><i class="fa fa-cogs scale"> </i></a>
+						<a href="{{ url('/groupproject/auth/logout') }}" title="Logout"><i class="fa fa-external-link scale"></i></a>
 						@endif
 					</span>
 				</nav>
@@ -67,11 +67,11 @@
 
 	<footer>
 		<span class="logo-footer">
-			<a href="/">Hiking Trailz</a>
+			<a href="/groupproject/">Hiking Trailz</a>
 		</span>
 		<span class="about">
-			<h2><a href="/about">About Us</a> | 
-			<a href="/faq">FAQ</a></h2>
+			<h2><a href="/groupproject/about">About Us</a> | 
+			<a href="/groupproject/faq">FAQ</a></h2>
 		</span>
 		<span class="social-logos">
 			<a href="https://instagram.com/"><i class="fa fa-instagram fa-3x"></i></a>

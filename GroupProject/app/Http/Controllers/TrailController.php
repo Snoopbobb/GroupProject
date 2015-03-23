@@ -33,7 +33,7 @@ class TrailController extends Controller {
 	public function randomTrail ($trail_id) {
 		$trail = new Trail($trail_id);
 		$mountain_id = $trail->mountain_id;
-		return redirect('/Trails/' . $mountain_id . '/' . $trail_id);
+		return redirect('Trails/' . $mountain_id . '/' . $trail_id);
 	}
 
 	// public function addComment() {

@@ -11,9 +11,9 @@ class HomeController extends Controller {
 	public function index()
 	{	
 		// call weather function
-		// $weather = Controller::getWeather();
+		$weather = Controller::getWeather();
 		
-		return view('home');
+		return view('home')->with($weather);
 	}
 
 	public function getImage() {
@@ -36,21 +36,22 @@ class HomeController extends Controller {
 		// bring me back!!!!
 		// =====================
 
-		// $URL = "http://api.openweathermap.org/data/2.5/weather?q=Phoenix";
-		// $Context = stream_context_create(array(
-		// 		'http' => array(
-  //   				'method' => 'GET',
-  //   				'timeout' => 30,
-		// 			)
-		// ));
-		// $json = file_get_contents($URL, false, $Context);
-
-		// $data = json_decode($json);
-
-		// // get temperature in farenheit, round to whole degree  
-		// $temperature = round((($data->main->temp)- 273.15) * 1.8 + 32);
+		$URL = "http://api.openweathermap.org/data/2.5/weather?q=Phoenix";
+		$Context = stream_context_create(array(
+				'http' => array(
+    				'method' => 'GET',
+    				'timeout' => 30,
+					)
+		));
 		
-		// $code = $data->weather[0]->id;
+		$json = file_get_contents($URL, false, $Context);
+
+		$data = json_decode($json);
+
+		// get temperature in farenheit, round to whole degree  
+		$temperature = round((($data->main->temp)- 273.15) * 1.8 + 32);
+		
+		$code = $data->weather[0]->id;
 		// echo $code;
 
 		// =====================
@@ -58,9 +59,9 @@ class HomeController extends Controller {
 		// =====================
 
 
-		$clouds = '';
-		$code = 802;
-		$temperature = 79;
+		// $clouds = '';
+		// $code = 802;
+		// $temperature = 79;
 
 		switch ($code) {
 

@@ -19,7 +19,7 @@
 				<h3>Camelback Mountain</h3>
 			</div>
 			<div class="info">
-				<h2><a href="/Mountains/2">Camelback Mountain</a></h2>
+				<h2><a href="/groupproject/Mountains/2">Camelback Mountain</a></h2>
 				<div class="fweather">
 
 				</div>
@@ -35,9 +35,9 @@
 				<h3>Dreamy Draw Park</h3>
 			</div>
 			<div class="info">
-				<h2><a href="/Mountains/3">Dreamy Draw Park</a></h2>
+				<h2><a href="/groupproject/Mountains/3">Dreamy Draw Park</a></h2>
 				<div class="fweather">
-
+					
 				</div>
 				<div><strong>Summit Elev.</strong> 2,612 ft.</div>
 				<p>A very large park with dozens of trails. Almost as many bikers as hikers, and one of the best views in all of Phoenix</p>
@@ -51,7 +51,7 @@
 				<h3>McDowell Mountains</h3>
 			</div>
 			<div class="info">
-				<h2><a href="/Mountains/5">McDowell Mountains</a></h2>
+				<h2><a href="/groupproject/Mountains/5">McDowell Mountains</a></h2>
 				<div class="fweather">
 				</div>
 				<div><strong>Summit Elev.</strong> 4,057 ft.</div>
@@ -66,7 +66,7 @@
 				<h3>The Superstitions</h3>
 			</div>
 			<div class="info">
-				<h2><a href="/">The Superstitions</a></h2>
+				<h2><a href="/groupproject/">The Superstitions</a></h2>
 				<div class="fweather">
 				</div>
 				<div><strong>Summit Elev.</strong> 5,059 ft.</div>
@@ -103,12 +103,12 @@
 		<div class="results"></div>
 	</div>
 	<div class="tiles masonry">
-		<a href="/Mountains/2"><div class="scale tile_1 tile-name"><h3>Camelback Mountain</h3></div></a>
-		<a href="/Mountains/5"><div class="scale tile_2 tile-name"><h3>McDowell Mountains</h3></div></a>
-		<a href="/Mountains/7"><div class="scale tile_3 tile-name"><h3>South Mountain</h3></div></a>
-		<a href="/Mountains/6"><div class="scale tile_4 tile-name"><h3>North Mountain</h3></div></a>
-		<a href="/Mountains/4"><div class="scale tile_5 tile-name"><h3>Lookout Mountain</h3></div></a>
-		<a href="/Mountains/9"><div class="scale tile_6 tile-name"><h3>Shadow Mountain</h3></div></a>
-		<a href="/Mountains/3"><div class="scale tile_7 tile-name"><h3>Dreamy Draw / Piestewa Peak</h3></div></a>
+		<a href="/groupproject/Mountains/2"><div class="scale tile_1 tile-name"><h3>Camelback Mountain</h3></div></a>
+		<a href="/groupproject/Mountains/5"><div class="scale tile_2 tile-name"><h3>McDowell Mountains</h3></div></a>
+		<a href="/groupproject/Mountains/7"><div class="scale tile_3 tile-name"><h3>South Mountain</h3></div></a>
+		<a href="/groupproject/Mountains/6"><div class="scale tile_4 tile-name"><h3>North Mountain</h3></div></a>
+		<a href="/groupproject/Mountains/4"><div class="scale tile_5 tile-name"><h3>Lookout Mountain</h3></div></a>
+		<a href="/groupproject/Mountains/9"><div class="scale tile_6 tile-name"><h3>Shadow Mountain</h3></div></a>
+		<a href="/groupproject/Mountains/3"><div class="scale tile_7 tile-name"><h3>Dreamy Draw / Piestewa Peak</h3></div></a>
 	</div>
 @stop
